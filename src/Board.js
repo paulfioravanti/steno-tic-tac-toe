@@ -1,11 +1,13 @@
 import { Square } from "./Square";
+import { Status } from "./Status";
 
-export function Board({ squares, handleMove }) {
+export function Board({ squares, handleMove, xIsNext }) {
   const rows = [...chunks([...Array(9).keys()], 3)];
-  const handleClick = updateBoard.bind(null, squares, handleMove);
+  const handleClick = updateBoard.bind(null, squares, handleMove, xIsNext);
 
   return (
     <div className="game-board">
+      <Status xIsNext={xIsNext} />
       {rows.map(row =>
         <div className="board-row">
           {row.map(squareNumber =>
@@ -20,14 +22,19 @@ export function Board({ squares, handleMove }) {
   );
 }
 
-function updateBoard(squares, handleMove, squareNumber) {
+function updateBoard(squares, handleMove, xIsNext, squareNumber) {
   return function () {
     if (squares[squareNumber]) {
       return;
     }
 
     const nextSquares = squares.slice();
-    nextSquares[squareNumber] = "X";
+    if (xIsNext) {
+      nextSquares[squareNumber] = "X";
+    } else {
+      nextSquares[squareNumber] = "O";
+    }
+
     handleMove(nextSquares);
   };
 }
