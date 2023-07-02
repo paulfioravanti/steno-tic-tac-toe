@@ -1,5 +1,11 @@
-export function Status({ xIsNext }) {
-  const status = `Next player: ${xIsNext ? "X" : "O"}`;
+export function Status({ xIsNext, winner }) {
+  let status;
+
+  if (winner) {
+    status = `Winner: ${winner}`;
+  } else {
+    status = `Next player: ${xIsNext ? "X" : "O"}`;
+  }
 
   return (
     <div className="status">

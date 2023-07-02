@@ -1,13 +1,14 @@
 import { Square } from "./Square";
 import { Status } from "./Status";
 
-export function Board({ squares, handleMove, xIsNext }) {
+export function Board({ squares, handleMove, xIsNext, winner }) {
   const rows = [...chunks([...Array(9).keys()], 3)];
-  const handleClick = updateBoard.bind(null, squares, handleMove, xIsNext);
+  const handleClick =
+    updateBoard.bind(null, squares, handleMove, xIsNext, winner);
 
   return (
     <div className="game-board">
-      <Status xIsNext={xIsNext} />
+      <Status xIsNext={xIsNext} winner={winner} />
       {rows.map(row =>
         <div className="board-row">
           {row.map(squareNumber =>
@@ -22,9 +23,9 @@ export function Board({ squares, handleMove, xIsNext }) {
   );
 }
 
-function updateBoard(squares, handleMove, xIsNext, squareNumber) {
+function updateBoard(squares, handleMove, xIsNext, winner, squareNumber) {
   return function () {
-    if (squares[squareNumber]) {
+    if (winner || squares[squareNumber]) {
       return;
     }
 
