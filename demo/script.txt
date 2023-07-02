@@ -1,0 +1,490 @@
+0-----Set up
+
+- New tmux session with two windows
+- cd into JS directory
+
+```sh
+cp -r steno-tic-tac-toe-starter steno-tic-tac-toe
+cd steno-tic-tac-toe
+npm install
+vim       # window 1
+npm start # window 2
+```
+
+- Ensure hot corners for putting display to sleep are turned off
+- change NERDTree width to be width of the filename HistoricalMove.js (steno-tic-t)
+- Chrome tabs:
+  - https://react.dev/learn/tutorial-tic-tac-toe (zoom 150%)
+  - file:///Users/paul/Desktop/1.jpg (zoom 100%)
+  - http://localhost:3000/ (zoom 300%)
+- Have Tapey Tape open at bottom of the screen showing 6 lines of output
+- Clear Tape before starting
+- Clear Terminal before starting
+
+-----------------------------------------------------------------
+
+- Let's do some steno coding with JavaScript and React.
+- We're going to recreate the tic-tac-toe application from the
+  React tutorial, and I'm going to be coding using Plover
+  stenography and vim snippets.
+
+- show the game in action on the tutorial page
+- go through the screenshots to show planned components
+- I've used create react app to generate a fresh new
+  react application, and have removed files we won't be using
+
+
+1-------------------- Litmus Test
+src/App.js
+
+import "./App.css";
+
+export default function App() {
+  return <button className="square">X</button>;
+}
+
+git commit --all --message="Initial code commit"
+
+2-------------------- Create Initial Components
+src/index.js    S*UB/W*T
+
+import React from 'react';
+import ReactDOM from 'react-dom/client';
+import './index.css';
+import Game from "./Game"; // 1
+
+const root = ReactDOM.createRoot(document.getElementById('root'));
+root.render(
+  <React.StrictMode>
+    <Game />               // 2 -- END
+  </React.StrictMode>
+);
+
+
+src/Game.js
+
+import { Board } from "./Board";  // 3 -- END
+import "./App.css";
+
+export default function Game() {  // 1
+  return (
+    <div className="game">
+      <Board />                   // 2
+    </div>
+  );
+}
+
+src/Board.js
+
+import { Square } from "./Square"; // 2 -- END
+
+export function Board() {          // 1
+  return (
+    <div className="game-board">
+      <Square value="X" />
+    </div>
+  );
+}
+<REFRESH>
+
+src/Square.js
+
+export function Square({ value }) {
+  return (
+    <button className="square">
+      {value}
+    </button>
+  );
+}
+<REFRESH>
+
+git add .
+git commit --message="Create initial components"
+
+3-------------------- Create rows
+src/Board.js
+
+export function Board() {
+  const rows = [...chunks([...Array(9).keys()], 3)];   // 1 & 2
+
+  return (
+    <div className="game-board">
+      {rows.map(row =>                                 // 4 -- END
+        <div className="board-row">
+          {row.map(squareNumber =>
+            <Square value={squareNumber} />
+          )}
+        </div>
+      )}
+    </div>
+  );
+}
+
+function* chunks(array, chunkSize) {                   // 3
+  for (let i = 0; i < array.length; i += chunkSize ) {
+    yield array.slice(i, i + chunkSize);
+  }
+}
+
+src/App.css
+
+body {
+  margin: 5px;
+}
+
+.square {
+  background: #fff;
+  border: 1px solid #999;
+  float: left;
+  font-size: 24px;
+  font-weight: bold;
+  height: 34px;
+  line-height: 34px;
+  margin-right: -1px;
+  margin-top: -1px;
+  padding: 0;
+  text-align: center;
+  width: 34px;
+}
+
+.game {
+  display: flex;
+  flex-direction: row;
+}
+
+git commit --all --message="Create rows and styles"
+
+4-------------------- Get X moves on the board and hold square selection state
+src/Game.js
+
+import { useState } from "react";                              // 3
+import { Board } from "./Board";
+
+export default function Game() {
+  const [squares, setSquares] = useState(Array(9).fill(null)); // 1 & 2
+  const handleMove = updateGame(setSquares);                   // 5
+
+  return (
+    <div className="game">
+      <Board squares={squares} handleMove={handleMove} />      // 4 & 7 -- END
+    </div>
+  );
+}
+
+function updateGame(setSquares) {                              // 6
+  return function (nextSquares) {
+    setSquares(nextSquares);
+  };
+}
+
+src/Board.js
+
+export function Board({ squares, handleMove }) {                   // 1
+  const rows = [...chunks([...Array(9).keys()], 3)];
+  const handleClick = updateBoard.bind(null, squares, handleMove); // 3
+
+  return (
+    <div className="game-board">
+      {rows.map(row =>                                             
+        <div className="board-row">
+          {row.map(squareNumber =>
+            <Square
+              value={squares[squareNumber]}                        // 2
+              handleClick={handleClick(squareNumber)}              // 4
+            />
+          )}
+        </div>
+      )}
+    </div>
+  );
+}
+
+function updateBoard(squares, handleMove, squareNumber) {          // 5 -- END  
+  return function () {
+    if (squares[squareNumber]) {
+      return;
+    }
+
+    const nextSquares = squares.slice();
+    nextSquares[squareNumber] = "X";
+    handleMove(nextSquares);
+  };
+}
+
+// ...
+
+src/Square.js
+
+export function Square({ value, handleClick }) {                   // 1
+  return (
+    <button className="square" onClick={handleClick}>              // 2 -- END
+      {value}
+    </button>
+  );
+}
+
+git commit --all --message="Add square selection"
+
+4-------------------- Taking turns
+src/Game.js
+
+export default function Game() {
+  const [squares, setSquares] = useState(Array(9).fill(null));
+  const [currentMove, setCurrentMove] = useState(0);                      // 1
+  const xIsNext = currentMove % 2 === 0;                                  // 5
+  const handleMove = updateGame(setSquares, currentMove, setCurrentMove); // 2
+
+  return (
+    <div className="game">
+      <Board
+        squares={squares}
+        handleMove={handleMove}
+        xIsNext={xIsNext}                                                 // 6 -- END
+      />
+    </div>
+  );
+}
+
+function updateGame(setSquares, currentMove, setCurrentMove) {            // 3
+  return function (nextSquares) {
+    setSquares(nextSquares);
+    setCurrentMove(currentMove + 1);                                      // 4
+  };
+}
+
+src/Board.js
+
+import { Square } from "./Square";
+import { Status } from "./Status";                                          // 6 -- END
+
+export function Board({ squares, handleMove, xIsNext }) {                   // 1
+  const rows = [...chunks([...Array(9).keys()], 3)];
+  const handleClick = updateBoard.bind(null, squares, handleMove, xIsNext); // 2
+  
+  return (
+    <div className="game-board">
+      <Status xIsNext={xIsNext} />                                          // 5
+    // ...
+  );
+}
+
+function updateBoard(squares, handleMove, xIsNext, squareNumber) {          // 3
+  return function () {
+    if (squares[squareNumber]) {
+      return;
+    }
+
+    const nextSquares = squares.slice();
+    if (xIsNext) {                                                          // 4 -- DEMO
+      nextSquares[squareNumber] = "X";
+    } else {
+      nextSquares[squareNumber] = "O";
+    }
+
+    handleMove(nextSquares);
+  };
+}
+
+// ...
+
+src/Status.js
+
+export function Status({ xIsNext }) {                    // 1
+  const status = `Next player: ${xIsNext ? "X" : "O"}`;  // 3 -- END
+
+  return (                                               // 2
+    <div className="status">
+      {status}
+    </div>
+  );
+}
+<REFRESH>
+
+src/App.css
+
+.status {
+  margin-bottom: 10px;
+}
+
+git add .
+git commit --all --message="Add turn taking"
+
+5-------------------- Calculating winner
+
+src/rules.js
+
+const WINNING_POSITIONS = [                                          // 1
+  [0, 1, 2],                                                         // 2
+  [3, 4, 5],
+  [6, 7, 8],
+  [0, 3, 6],
+  [1, 4, 7],
+  [2, 5, 8],
+  [0, 4, 8],
+  [2, 4, 6]
+];
+
+export function calculateWinner(squares) {                           // 3 -- END
+  for (let i = 0; i < WINNING_POSITIONS.length; i++) {
+    const [a, b, c] = WINNING_POSITIONS[i];
+    const player = squares[a];
+    if (player && player === squares[b] && player === squares[c]) {
+      return player;
+    }
+  }
+
+  return null;
+}
+
+src/Game.js
+
+import { calculateWinner } from "./rules";                                // 1
+
+export default function Game() {
+  // ...
+  const winner = calculateWinner(squares);                                // 2
+  const handleMove = updateGame(setSquares, currentMove, setCurrentMove);
+
+  return (
+    <div className="game">
+      <Board
+        squares={squares}
+        handleMove={handleMove}
+        xIsNext={xIsNext}
+        winner={winner}                                                   // 3 -- END
+      />
+    </div>
+  );
+}
+
+src/Board.js
+
+export function Board({ squares, handleMove, xIsNext, winner}) {           // 1
+  // ...
+  const handleClick =
+    updateBoard.bind(null, squares, handleMove, xIsNext, winner);          // 2
+
+  return (
+    <div className="game-board">
+      <Status xIsNext={xIsNext} winner={winner} />                         // 4 -- END
+      // ...
+    </div>
+  );
+}
+
+function updateBoard(squares, handleMove, xIsNext, winner, squareNumber) { // 3
+  return function () {
+    if (winner || squares[squareNumber]) {
+      return;
+    }
+    // ...
+  };
+}
+
+src/Status.js
+
+export function Status({ xIsNext, winner }) {        // 1
+  let status;                                        // 2 -- END
+
+  if (winner) {
+    status = `Winner: ${winner}`;
+  } else {
+    status = `Next player: ${xIsNext ? "X" : "O"}`;
+  }
+
+  return (
+    <div className="status">
+      {status}
+    </div>
+  );
+}
+
+git add .
+git commit --message="Add winner calculation"
+
+6-------------------- Add history
+src/Game.js
+
+import { History } from "./History";                               // 11 -- END
+
+export default function Game() {
+  const [history, setHistory] = useState([Array(9).fill(null)]);   // 1
+  // ...
+  const currentSquares = history[currentMove];                     // 2
+  const winner = calculateWinner(currentSquares);                  // 3
+  const handleMove =
+    updateGame(history, setHistory, currentMove, setCurrentMove);  // 4
+
+  return (
+    <div className="game">
+      <Board
+        squares={currentSquares}                                   // 9 -- DEMO
+        handleMove={handleMove}
+        xIsNext={xIsNext}
+        winner={winner}
+      />
+      <History                                                     // 10
+        history={history}
+        setCurrentMove={setCurrentMove}
+      />
+    </div>
+  );
+}
+
+function updateGame(history, setHistory, currentMove, setCurrentMove) {     // 5
+  return function (nextSquares) {
+    const nextHistory = [...history.slice(0, currentMove + 1), nextSquares];// 6
+    setHistory(nextHistory);                                                // 7
+    setCurrentMove(nextHistory.length - 1);                                 // 8
+  };
+}
+
+src/History.js
+
+import { HistoricalMove } from "./HistoricalMove";         // 2 -- END
+
+export function History({ history, setCurrentMove }) {     // 1
+  return (
+    <div className="game-history">
+      <ol>
+        {history.map((_move, moveIndex) =>
+          <HistoricalMove
+            moveIndex={moveIndex}
+            handleClick={() => setCurrentMove(moveIndex)}
+          />
+        )}
+      </ol>
+    </div>
+  );
+}
+<REFRESH>
+
+src/HistoricalMove.js
+
+export function HistoricalMove({ moveIndex, handleClick }) { // 1
+  let description;                                           // 3 -- END
+
+  if (moveIndex > 0) {
+    description = `Go to move #${moveIndex}`;
+  } else {
+    description = "Go to game start";
+  }
+
+  return (                                                   // 2
+    <li key={moveIndex}>
+      <button onClick={handleClick}>
+        {description}
+      </button>
+    </li>
+  );
+}
+<REFRESH>
+
+src/App.css
+
+.game-history {
+  margin-left: 20px;
+}
+
+git add .
+git commit --all --message="Add history"

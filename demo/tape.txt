@@ -1,0 +1,2705 @@
++++++ | ST P H   *   R        | STPH*R -> {:COMMAND:SHELL:bash -ci 'osascript $STENO_DICTIONARIES/src/command/actions/page-down.scpt'}
++++++ | ST P H   *   R        | STPH*R -> {:COMMAND:SHELL:bash -ci 'osascript $STENO_DICTIONARIES/src/command/actions/page-down.scpt'}
++++++ | ST P H   *   R        | STPH*R -> {:COMMAND:SHELL:bash -ci 'osascript $STENO_DICTIONARIES/src/command/actions/page-down.scpt'}
++++++ | ST P H   *   R        | STPH*R -> {:COMMAND:SHELL:bash -ci 'osascript $STENO_DICTIONARIES/src/command/actions/page-down.scpt'}
++++++ | S   W             T   | SW-T -> {#SHIFT(SUPER(BRACKETRIGHT))}
++++++ |  T P   AO*   R      D | TPAO*RD -> {:COMMAND:SHELL:bash -ci 'osascript $STENO_DICTIONARIES/src/command/actions/forward.scpt'}
++++++ |  T P   AO*   R      D | TPAO*RD -> {:COMMAND:SHELL:bash -ci 'osascript $STENO_DICTIONARIES/src/command/actions/forward.scpt'}
++++++ |  T P   AO*   R      D | TPAO*RD -> {:COMMAND:SHELL:bash -ci 'osascript $STENO_DICTIONARIES/src/command/actions/forward.scpt'}
++++++ |  T P   AO*   R      D | TPAO*RD -> {:COMMAND:SHELL:bash -ci 'osascript $STENO_DICTIONARIES/src/command/actions/forward.scpt'}
++++++ |  T P   AO*   R      D | TPAO*RD -> {:COMMAND:SHELL:bash -ci 'osascript $STENO_DICTIONARIES/src/command/actions/forward.scpt'}
++++++ |  T P   AO*   R      D | TPAO*RD -> {:COMMAND:SHELL:bash -ci 'osascript $STENO_DICTIONARIES/src/command/actions/forward.scpt'}
++++++ | S   W             T   | SW-T -> {#SHIFT(SUPER(BRACKETRIGHT))}
++++++ |  T           RP L     | T-RPL -> {:COMMAND:SHELL:bash -ci 'osascript $STENO_DICTIONARIES/src/command/application/activate-application.scpt iTerm'}
++++++ | S   W               D | SW-D -> {#SUPER(ASCIITILDE)}
++++++ |          *EU          | *EU -> {>}{&i}
++++++ | S             P       | S-P -> {^ ^}
+      | S             P       | S-P -> {^ ^}
++++++ |       R    U RPB      | RURPB -> return
++++++ |    PW    *    PB      | PW*PB -> button
+  +++ |  T     A *     B      | TA*B -> {#TAB}{^^}
++++++ |# T                    | 2 -> /
+   ++ |  T     A *     B      | TA*B -> {#TAB}{^^}
++++++ |  T                TS  | T-TS -> {#CONTROL(J)}{^^}
++++++ |  TK             L     | TK-L -> {#DELETE}
+ ++++ |  T                TS  | T-TS -> {#CONTROL(J)}{^^}
++++++ |  T                TS  | T-TS -> {#CONTROL(J)}{^^}
++++++ |  T                TS  | T-TS -> {#CONTROL(J)}{^^}
+ ++++ |   K W  A  EU R        | KWAEUR -> /
+ ++++ |          *            | * -> *
+  +++ | S K W  A  EU R        | SKWAEUR -> square
+ ++++ |  T                TS  | T-TS -> {#CONTROL(J)}{^^}
+ ++++ |  T                TS  | T-TS -> {#CONTROL(J)}{^^}
+   ++ |   KP     *    P       | KP*P -> {&X}
+ ++++ |  T                TS  | T-TS -> {#CONTROL(J)}{^^}
++++++ | ST P H   *  F P L T   | STPH*FPLT -> {;}
++++++ | S        *  F         | S*F -> {:COMMAND:SHELL:bash -ci 'osascript $STENO_DICTIONARIES/src/command/actions/save.scpt'}{^^}
++++++ |   K  HR     F P       | KHR-FP -> {#ESCAPE SHIFT(COLON)}{^nohlsearch^}{#RETURN SHIFT(COLON)}{^call clearmatches()^}{#RETURN}
++++++ |   K   R       P L     | KR-PL -> {:COMMAND:SHELL:bash -ci 'osascript $STENO_DICTIONARIES/src/command/application/activate-application.scpt "Google Chrome"'}
++++++ |  T           RP L     | T-RPL -> {:COMMAND:SHELL:bash -ci 'osascript $STENO_DICTIONARIES/src/command/application/activate-application.scpt iTerm'}
+   ++ | S K             L     | SK-L -> {#CONTROL(Z)}
++++++ |  TKPW    *EU      TS  | TKPW*EUTS -> {^git status --short}
+ ++++ |       R      R        | R-R -> {^~|\n^}{MODE:RESET}
++++++ |  TKPW     EU  P L T D | TKPWEUPLTD -> {^git commit --all --message=""^}{#LEFT}{-|}
++++++ |  T P H    EU R BL     | TPHEURBL -> initial
+ ++++ |   K     O E         D | KOED -> code
++++++ |   KP H    EU      T   | KPHEUT -> commit
+  +++ |       R      R        | R-R -> {^~|\n^}{MODE:RESET}
+ ++++ |  TKP     *       G    | TKP*G -> gonna
+ ++++ |          *            | * -> *
+      |  T P     *       G    | TP*G -> {^fg^}{#RETURN}
++++++ |   K  HR  *            | KHR* -> {#CONTROL(H)}
+ ++++ |# T                    | 2 -> /
+    + | ST P H       R        | STPH-R -> {#DOWN}{^^}
+   ++ |       R      R        | R-R -> {^~|\n^}{MODE:RESET}
++++++ | S        * U   B      | S*UB -> {#ESCAPE SHIFT(COLON)}{^%s/^}
++++++ |   KP   A *            | KPA* -> {^}{-|}
+    + |        A      P       | AP -> app
++++++ |     W    *        T   | W*T -> {^//g^}{#LEFT LEFT}
++++++ |   KP   A *            | KPA* -> {^}{-|}
+ ++++ |  TKPW  A  EU  P L     | TKPWAEUPL -> game
+  +++ |       R      R        | R-R -> {^~|\n^}{MODE:RESET}
++++++ | S        *  F         | S*F -> {:COMMAND:SHELL:bash -ci 'osascript $STENO_DICTIONARIES/src/command/actions/save.scpt'}{^^}
++++++ |   K  HR     F P       | KHR-FP -> {#ESCAPE SHIFT(COLON)}{^nohlsearch^}{#RETURN SHIFT(COLON)}{^call clearmatches()^}{#RETURN}
++++++ |   K  HR  *            | KHR* -> {#CONTROL(H)}
++++++ |# T                    | 2 -> /
+    + | ST P H         B      | STPH-B -> {#UP}{^^}
+  +++ |    P H   *            | PH* -> {>}{&m}
++++++ |    P H   *            | PH* -> {>}{&m}
+ ++++ | ST P H   *            | STPH* -> {#LEFT}{^^}
+      | ST P H   *            | STPH* -> {#LEFT}{^^}
+      | ST P H   *            | STPH* -> {#LEFT}{^^}
+    + |    PW       F P       | PW-FP -> {#BACKSPACE}
+      |    PW       F P       | PW-FP -> {#BACKSPACE}
+      |    PW       F P       | PW-FP -> {#BACKSPACE}
+   ++ |   KP   A *            | KPA* -> {^}{-|}
++++++ |  TKPW  A  EU  P L     | TKPWAEUPL -> game  3>TKPWA*EUPL
+   ++ |       R      R        | R-R -> {^~|\n^}{MODE:RESET}
++++++ |   K W R  *            | KWR* -> {>}{&y}
++++++ |       R      R        | R-R -> {^~|\n^}{MODE:RESET}
++++++ | ST P H   *            | STPH* -> {#LEFT}{^^}
+      | ST P H   *            | STPH* -> {#LEFT}{^^}
+      | ST P H   *            | STPH* -> {#LEFT}{^^}
++++++ |    PW    *            | PW* -> {>}{&b}
+  +++ |   K   R  *            | KR* -> {>}{&c}
+    + |     W    *            | W* -> {>}{&w}
+   ++ |   KP   A *            | KPA* -> {^}{-|}
+ ++++ |  TKPW  A  EU  P L     | TKPWAEUPL -> game
++++++ | S        *  F         | S*F -> {:COMMAND:SHELL:bash -ci 'osascript $STENO_DICTIONARIES/src/command/actions/save.scpt'}{^^}
++++++ | ST P H       R        | STPH-R -> {#DOWN}{^^}
+ ++++ |    PW    *            | PW* -> {>}{&b}
+      |    PW    *            | PW* -> {>}{&b}
+      |    PW    *            | PW* -> {>}{&b}
+      |    PW    *            | PW* -> {>}{&b}
+  +++ | ST P H   *            | STPH* -> {#LEFT}{^^}
++++++ |  TK      *            | TK* -> {>}{&d}
+ ++++ |  TK      *            | TK* -> {>}{&d}
++++++ | S K W R               | SKWR -> {:COMMAND:SHELL:bash -ci 'osascript $STENO_DICTIONARIES/src/command/actions/undo.scpt'}
++++++ |     W    *            | W* -> {>}{&w}
+  +++ | ST P H   *            | STPH* -> {#LEFT}{^^}
+   ++ |  TK      *    P       | TK*P -> {&D}
+   ++ |        A *            | A* -> {>}{&a}
+   ++ |  T     A *     B      | TA*B -> {#TAB}{^^}
++++++ |  TK      *EUF         | TK*EUF -> div
++++++ |    P          P       | P-P -> {^.^}
++++++ |  TKPW  A  EU  P L     | TKPWAEUPL -> game
+  +++ |  T     A *     B      | TA*B -> {#TAB}{^^}
++++++ |#S                     | 1 -> /
+    + |  T     A *     B      | TA*B -> {#TAB}{^^}
+ ++++ |  T                TS  | T-TS -> {#CONTROL(J)}{^^}
+  +++ |  T                TS  | T-TS -> {#CONTROL(J)}{^^}
++++++ |   KP    O E   PB  T   | KPOEPBT -> component
+  +++ |  T     A *     B      | TA*B -> {#TAB}{^^}
+  +++ |#S                     | 1 -> /
+   ++ |  T     A *     B      | TA*B -> {#TAB}{^^}
++++++ |   KP   A *            | KPA* -> {^}{-|}
+ ++++ |    PW  AO    R      D | PWAORD -> board
+ ++++ |  T                TS  | T-TS -> {#CONTROL(J)}{^^}
+ ++++ |  TK             L     | TK-L -> {#DELETE}  3>PWAORD PAORD
+ ++++ |  T                TS  | T-TS -> {#CONTROL(J)}{^^}
+   ++ |  T                TS  | T-TS -> {#CONTROL(J)}{^^}
+  +++ |  TK             L     | TK-L -> {#DELETE}  6>PWAORD PAORD
+  +++ |  T                TS  | T-TS -> {#CONTROL(J)}{^^}
++++++ | S        *  F         | S*F -> {:COMMAND:SHELL:bash -ci 'osascript $STENO_DICTIONARIES/src/command/actions/save.scpt'}{^^}
++++++ |  TKPW    *            | TKPW* -> {>}{&g}
+      |  TKPW    *            | TKPW* -> {>}{&g}  >TKPW-PBLG
+  +++ | S K W R O*            | SKWRO* -> {^o^}
++++++ |    P  R O*   R    T   | PRO*RT -> import
+  +++ |  T     A *     B      | TA*B -> {#TAB}{^^}
++++++ |  T                TS  | T-TS -> {#CONTROL(J)}{^^}
++++++ |   KP   A *            | KPA* -> {^}{-|}
+ ++++ |    PW  AO    R      D | PWAORD -> board
+  +++ |  T                TS  | T-TS -> {#CONTROL(J)}{^^}
+   ++ |  TK             L     | TK-L -> {#DELETE}  3>PWAORD PAORD
++++++ | S        *  F         | S*F -> {:COMMAND:SHELL:bash -ci 'osascript $STENO_DICTIONARIES/src/command/actions/save.scpt'}{^^}
++++++ |  T P H     UF   L     | TPHUFL -> {#ESCAPE SHIFT(COLON)}{^edit ^}
++++++ | S            R B G    | S-RBG -> src
+  +++ |         O EU          | OEU -> {^/^}
+    + |   KP   A *            | KPA* -> {^}{-|}
+ ++++ |    PW  AO    R      D | PWAORD -> board
+   ++ |    P          P       | P-P -> {^.^}
+   ++ | S K W R            S  | SKWR-S -> *{^.^}js
+   ++ |       R      R        | R-R -> {^~|\n^}{MODE:RESET}
++++++ |       R  *E  R B      | R*ERB -> {:COMMAND:SHELL:bash -ci 'osascript $STENO_DICTIONARIES/src/command/actions/refresh.scpt'}{^^}
++++++ |          *EU          | *EU -> {>}{&i}
++++++ |   KP    O     PB  T   | KPOPBT -> /
+ ++++ |          *            | * -> *
+ ++++ |  TK             L  S  | TK-LS -> {^^}
++++++ |   KP    O E   PB  T   | KPOEPBT -> component
+  +++ |  T     A *     B      | TA*B -> {#TAB}{^^}
+ ++++ |# T                    | 2 -> /
+    + |  T     A *     B      | TA*B -> {#TAB}{^^}
++++++ |  T                TS  | T-TS -> {#CONTROL(J)}{^^}
+  +++ |  TK             L     | TK-L -> {#DELETE}
+  +++ |  T                TS  | T-TS -> {#CONTROL(J)}{^^}
++++++ |  T                TS  | T-TS -> {#CONTROL(J)}{^^}
++++++ |  TK             L     | TK-L -> {#DELETE}
++++++ |  T                TS  | T-TS -> {#CONTROL(J)}{^^}
+  +++ |  T                TS  | T-TS -> {#CONTROL(J)}{^^}
++++++ |  TK      *EUF         | TK*EUF -> div
+  +++ |  T     A *     B      | TA*B -> {#TAB}{^^}
++++++ | S K W R               | SKWR -> {:COMMAND:SHELL:bash -ci 'osascript $STENO_DICTIONARIES/src/command/actions/undo.scpt'}  3>TK*EUF
+  +++ |        A *            | A* -> {>}{&a}  4>TKAOE/SRA TKEUF/KWRA TKEU/SRA TKAOEF/KWRA TKEUF/SRA
+    + |    P          P       | P-P -> {^.^}
++++++ |  TKPW  A  EU  P L     | TKPWAEUPL -> game
+  +++ |      H        PB      | H-PB -> {^-^}
++++++ |    PW  AO    R      D | PWAORD -> board
+  +++ |  T     A *     B      | TA*B -> {#TAB}{^^}
++++++ |#S                     | 1 -> /
+    + |  T     A *     B      | TA*B -> {#TAB}{^^}
+ ++++ |  T                TS  | T-TS -> {#CONTROL(J)}{^^}
+  +++ |  T                TS  | T-TS -> {#CONTROL(J)}{^^}
++++++ |   KP    O E   PB  T   | KPOEPBT -> component
+ ++++ |  T     A *     B      | TA*B -> {#TAB}{^^}
++++++ |#S                     | 1 -> /
+   ++ |  T     A *     B      | TA*B -> {#TAB}{^^}
++++++ |   KP   A *            | KPA* -> {^}{-|}
++++++ | S K W  A  EU R        | SKWAEUR -> square
++++++ |  T                TS  | T-TS -> {#CONTROL(J)}{^^}
++++++ |  T                TS  | T-TS -> {#CONTROL(J)}{^^}
+ ++++ |  T     A *     B      | TA*B -> {#TAB}{^^}
++++++ | S     RAO  U    L     | SRAOUL -> value
+ ++++ |  T                TS  | T-TS -> {#CONTROL(J)}{^^}
++++++ |   K W            G S  | KW-GS -> {"^}
++++++ |  T                TS  | T-TS -> {#CONTROL(J)}{^^}
+ ++++ |   KP     *    P       | KP*P -> {&X}
++++++ |  T                TS  | T-TS -> {#CONTROL(J)}{^^}
++++++ |  T                TS  | T-TS -> {#CONTROL(J)}{^^}
+  +++ |  TK             L     | TK-L -> {#DELETE}  3>10R
++++++ |  T                TS  | T-TS -> {#CONTROL(J)}{^^}
++++++ | S        *  F         | S*F -> {:COMMAND:SHELL:bash -ci 'osascript $STENO_DICTIONARIES/src/command/actions/save.scpt'}{^^}
++++++ |  TKPW    *            | TKPW* -> {>}{&g}
+      |  TKPW    *            | TKPW* -> {>}{&g}
++++++ | S K W R O*    P       | SKWRO*P -> {#SHIFT(O)}{^^}
++++++ |    P  R O*   R    T   | PRO*RT -> import
+  +++ |  T     A *     B      | TA*B -> {#TAB}{^^}
++++++ |  T                TS  | T-TS -> {#CONTROL(J)}{^^}
+  +++ |   KP   A *            | KPA* -> {^}{-|}
+  +++ | S K W  A  EU R        | SKWAEUR -> square
+   ++ |  T                TS  | T-TS -> {#CONTROL(J)}{^^}
+    + |  TK             L     | TK-L -> {#DELETE}  3>SKWAEUR
++++++ | S        *  F         | S*F -> {:COMMAND:SHELL:bash -ci 'osascript $STENO_DICTIONARIES/src/command/actions/save.scpt'}{^^}
+   ++ | S K W R O*            | SKWRO* -> {^o^}
+ ++++ | S        *  F         | S*F -> {:COMMAND:SHELL:bash -ci 'osascript $STENO_DICTIONARIES/src/command/actions/save.scpt'}{^^}
++++++ |  T P H     UF   L     | TPHUFL -> {#ESCAPE SHIFT(COLON)}{^edit ^}
++++++ | S            R B G    | S-RBG -> src
+  +++ |         O EU          | OEU -> {^/^}
+  +++ |   KP   A *            | KPA* -> {^}{-|}
+  +++ | S K W  A  EU R        | SKWAEUR -> square
+  +++ |    P          P       | P-P -> {^.^}
+   ++ | S K W R            S  | SKWR-S -> *{^.^}js
+    + |       R      R        | R-R -> {^~|\n^}{MODE:RESET}
+ ++++ |          *EU          | *EU -> {>}{&i}
+ ++++ |   KP   A *            | KPA* -> {^}{-|}
++++++ |   KP    O E   PB  T   | KPOEPBT -> component
++++++ |          *            | * -> *
+   ++ |  TK             L  S  | TK-LS -> {^^}  2>TK-LS
+ ++++ |   KP    O E   PB  T   | KPOEPBT -> component
+  +++ |  T     A *     B      | TA*B -> {#TAB}{^^}
++++++ |# T                    | 2 -> /
+   ++ |  T     A *     B      | TA*B -> {#TAB}{^^}
++++++ |  T                TS  | T-TS -> {#CONTROL(J)}{^^}
+   ++ |  TK             L     | TK-L -> {#DELETE}
+   ++ |  T                TS  | T-TS -> {#CONTROL(J)}{^^}
+  +++ |  T                TS  | T-TS -> {#CONTROL(J)}{^^}
++++++ |  T                TS  | T-TS -> {#CONTROL(J)}{^^}
+   ++ |  T     A *     B      | TA*B -> {#TAB}{^^}
++++++ | S     RAO  U    L     | SRAOUL -> value
+ ++++ |  T                TS  | T-TS -> {#CONTROL(J)}{^^}
+   ++ |  T                TS  | T-TS -> {#CONTROL(J)}{^^}
++++++ |    PW    *    PB      | PW*PB -> button
++++++ |    P          P       | P-P -> {^.^}
++++++ | S K W  A  EU R        | SKWAEUR -> square
+  +++ |  T     A *     B      | TA*B -> {#TAB}{^^}
++++++ |#S                     | 1 -> /
+   ++ |  T     A *     B      | TA*B -> {#TAB}{^^}
++++++ |  T                TS  | T-TS -> {#CONTROL(J)}{^^}
+  +++ |  T                TS  | T-TS -> {#CONTROL(J)}{^^}
++++++ |       R   E  RPB    D | RERPBD -> render
+  +++ |  T     A *     B      | TA*B -> {#TAB}{^^}
++++++ |  T                TS  | T-TS -> {#CONTROL(J)}{^^}
++++++ | S        *  F         | S*F -> {:COMMAND:SHELL:bash -ci 'osascript $STENO_DICTIONARIES/src/command/actions/save.scpt'}{^^}
++++++ |       R  *E  R B      | R*ERB -> {:COMMAND:SHELL:bash -ci 'osascript $STENO_DICTIONARIES/src/command/actions/refresh.scpt'}{^^}
++++++ |   K   R       P L     | KR-PL -> {:COMMAND:SHELL:bash -ci 'osascript $STENO_DICTIONARIES/src/command/application/activate-application.scpt "Google Chrome"'}  6>RERPBD REPB/TKER REPBD/*ER REPBD/ER
++++++ |  T           RP L     | T-RPL -> {:COMMAND:SHELL:bash -ci 'osascript $STENO_DICTIONARIES/src/command/application/activate-application.scpt iTerm'}  7>RERPBD REPB/TKER REPBD/*ER REPBD/ER
++++++ | S K             L     | SK-L -> {#CONTROL(Z)}  8>RERPBD REPB/TKER REPBD/*ER REPBD/ER
++++++ |  TKPW    *EU      TS  | TKPW*EUTS -> {^git status --short}
+   ++ |       R      R        | R-R -> {^~|\n^}{MODE:RESET}
++++++ |  TKPW    *EU      T D | TKPW*EUTD -> {^git add .}
+   ++ |       R      R        | R-R -> {^~|\n^}{MODE:RESET}
++++++ |  TKPW     EU  P L T   | TKPWEUPLT -> {^git commit --message=""^}{#LEFT}{-|}
++++++ |   K   RA  E       T   | KRAET -> create
++++++ |  T P H    EU R BL     | TPHEURBL -> initial
++++++ |   KP    O E   PB  TS  | KPOEPBTS -> components
+  +++ |       R      R        | R-R -> {^~|\n^}{MODE:RESET}
+ ++++ |  T P     *       G    | TP*G -> {^fg^}{#RETURN}
++++++ |  T P                 Z| TP-Z -> {:COMMAND:SHELL:bash -ci 'osascript $STENO_DICTIONARIES/src/command/actions/fuzzy-find.scpt'}{^^}
++++++ |    PW  AO    R      D | PWAORD -> board
+  +++ |       R      R        | R-R -> {^~|\n^}{MODE:RESET}
++++++ | ST P H       R        | STPH-R -> {#DOWN}{^^}
+   ++ | S K W R O*            | SKWRO* -> {^o^}
++++++ |   K     O     PB  TS  | KOPBTS -> const
++++++ |  T     A *     B      | TA*B -> {#TAB}{^^}
++++++ |       R O E        S  | ROES -> rows
+ ++++ |  T                TS  | T-TS -> {#CONTROL(J)}{^^}
++++++ |   KP   A *            | KPA* -> {^}{-|}
++++++ |        A              | A -> {a^}
+ ++++ |       RA  EU          | RAEU -> *array
++++++ |  T     A *     B      | TA*B -> {#TAB}{^^}
++++++ |#                  T   | -9 -> /
+ ++++ |  T                TS  | T-TS -> {#CONTROL(J)}{^^}
++++++ |    P          P       | P-P -> {^.^}
++++++ |   K    AO E        S  | KAOES -> keys
+ ++++ |  T     A *     B      | TA*B -> {#TAB}{^^}
++++++ | S K           P       | SK-P -> {#ESCAPE}{MODE:RESET}
++++++ | S     R  *            | SR* -> {>}{&v}
++++++ |    PW    *            | PW* -> {>}{&b}
+    + |    PW    *            | PW* -> {>}{&b}
+    + |    PW    *            | PW* -> {>}{&b}
+    + |    PW    *            | PW* -> {>}{&b}
+   ++ |    PW    *            | PW* -> {>}{&b}
+   ++ |    PW    *            | PW* -> {>}{&b}
+ ++++ |  T     A *     B      | TA*B -> {#TAB}{^^}
+  +++ |      HR  *EU       S  | HR*EUS -> list
+   ++ |  T     A *     B      | TA*B -> {#TAB}{^^}
+  +++ |  T                TS  | T-TS -> {#CONTROL(J)}{^^}
+   ++ |  T                TS  | T-TS -> {#CONTROL(J)}{^^}
++++++ |  T                TS  | T-TS -> {#CONTROL(J)}{^^}
++++++ | S        *  F         | S*F -> {:COMMAND:SHELL:bash -ci 'osascript $STENO_DICTIONARIES/src/command/actions/save.scpt'}{^^}
++++++ | S     R  *            | SR* -> {>}{&v}
+  +++ |    PW    *            | PW* -> {>}{&b}
+      |    PW    *            | PW* -> {>}{&b}
+    + |    PW    *            | PW* -> {>}{&b}
+    + |    PW    *            | PW* -> {>}{&b}
+    + |    PW    *            | PW* -> {>}{&b}
+    + |    PW    *            | PW* -> {>}{&b}
+    + |    PW    *            | PW* -> {>}{&b}
++++++ |  T     A *     B      | TA*B -> {#TAB}{^^}
++++++ |   K  H   * U  PB G    | KH*UPBG -> chunk
+ ++++ |                    S  | -S -> {^s}
+   ++ |  T     A *     B      | TA*B -> {#TAB}{^^}
++++++ |    PW       F P       | PW-FP -> {#BACKSPACE}  3>-S *S -SZ -Z -GS 4>KHUPB/-BGS
+ ++++ |    P  R       PB   S  | PR-PBS -> {^()^}
+   ++ |  T     A *     B      | TA*B -> {#TAB}{^^}
++++++ |  T                TS  | T-TS -> {#CONTROL(J)}{^^}
++++++ |              R B G S  | -RBGS -> {,}
++++++ |#   P                  | 3 -> /
++++++ | S K           P       | SK-P -> {#ESCAPE}{MODE:RESET}
++++++ | ST P H           G    | STPH-G -> {#RIGHT}{^^}
++++++ | S     R  *            | SR* -> {>}{&v}
++++++ |    PW    *            | PW* -> {>}{&b}
+      |    PW    *            | PW* -> {>}{&b}
+      |    PW    *            | PW* -> {>}{&b}
+      |    PW    *            | PW* -> {>}{&b}
+      |    PW    *            | PW* -> {>}{&b}
+      |    PW    *            | PW* -> {>}{&b}
+    + |    PW    *            | PW* -> {>}{&b}
+      |    PW    *            | PW* -> {>}{&b}
+      |    PW    *            | PW* -> {>}{&b}
++++++ |  T     A *     B      | TA*B -> {#TAB}{^^}
+ ++++ |      HR  *EU       S  | HR*EUS -> list
+  +++ |  T     A *     B      | TA*B -> {#TAB}{^^}
+ ++++ |  T                TS  | T-TS -> {#CONTROL(J)}{^^}
+   ++ |  T                TS  | T-TS -> {#CONTROL(J)}{^^}
+  +++ |  T                TS  | T-TS -> {#CONTROL(J)}{^^}
+ ++++ | S K           P       | SK-P -> {#ESCAPE}{MODE:RESET}
+  +++ | S K W R O*            | SKWRO* -> {^o^}
++++++ | S        *  F         | S*F -> {:COMMAND:SHELL:bash -ci 'osascript $STENO_DICTIONARIES/src/command/actions/save.scpt'}{^^}
++++++ |#            F         | -6 -> /
+   ++ | ST P H       R        | STPH-R -> {#DOWN}{^^}
+  +++ | S K W R O*            | SKWRO* -> {^o^}
+    + |       R      R        | R-R -> {^~|\n^}{MODE:RESET}
+  +++ |  T P       U   B G S  | TPUBGS -> function
+  +++ |  T     A *     B      | TA*B -> {#TAB}{^^}
++++++ |  TK             L     | TK-L -> {#DELETE}  3>TPUPBGS TPUPGS TPUBGS
+ ++++ |  T                TS  | T-TS -> {#CONTROL(J)}{^^}
++++++ |  T                TS  | T-TS -> {#CONTROL(J)}{^^}
++++++ |   K  H   * U  PB G S  | KH*UPBGS -> chunk {^s}
++++++ |  T                TS  | T-TS -> {#CONTROL(J)}{^^}
++++++ |        A              | A -> {a^}
+   ++ |       RA  EU          | RAEU -> *array
+ ++++ |              R B G S  | -RBGS -> {,}
++++++ |   K  H   *E   PB G    | KH*EPBG -> Cheng
+  +++ |          *            | * -> *
+ ++++ |   K  H   * U  PB G    | KH*UPBG -> chunk
+   ++ |   KP   A *            | KPA* -> {^}{-|}
+ ++++ | S      AO EU         Z| SAOEUZ -> size
+  +++ |  T                TS  | T-TS -> {#CONTROL(J)}{^^}
++++++ |  T P         R        | TP-R -> for
+  +++ |  T     A *     B      | TA*B -> {#TAB}{^^}
++++++ |  T                TS  | T-TS -> {#CONTROL(J)}{^^}
+  +++ |  T                TS  | T-TS -> {#CONTROL(J)}{^^}
+   ++ |  T                TS  | T-TS -> {#CONTROL(J)}{^^}
+   ++ |  T                TS  | T-TS -> {#CONTROL(J)}{^^}
++++++ |        A              | A -> {a^}
+    + |       RA  EU          | RAEU -> *array
+   ++ |    P          P       | P-P -> {^.^}
+ ++++ |      HR   E   PB G    | HREPBG -> length
++++++ |  T                TS  | T-TS -> {#CONTROL(J)}{^^}
++++++ | S             P       | S-P -> {^ ^}
++++++ | S K W    *            | SKW* -> {>}{&i}
++++++ |    P HRAO E    BLG    | PHRAOEBLG -> plus equal
++++++ |  T     A *     B      | TA*B -> {#TAB}{^^}
++++++ |   K  H   * U  PB G    | KH*UPBG -> chunk
+   ++ |   KP   A *            | KPA* -> {^}{-|}
+  +++ | S      AO EU         Z| SAOEUZ -> size
+ ++++ |  T                TS  | T-TS -> {#CONTROL(J)}{^^}
++++++ |   K W RAO E     L   D | KWRAOELD -> yield
+  +++ |  T     A *     B      | TA*B -> {#TAB}{^^}
++++++ |  TK             L     | TK-L -> {#DELETE}  3>KPWRAOELD KWRAOELD
+   ++ |  T                TS  | T-TS -> {#CONTROL(J)}{^^}
++++++ |        A              | A -> {a^}
+    + |       RA  EU          | RAEU -> *array
+  +++ |    P          P       | P-P -> {^.^}
++++++ | S    HRAO EU       S  | SHRAOEUS -> slice
+  +++ |  T     A *     B      | TA*B -> {#TAB}{^^}
++++++ |  T                TS  | T-TS -> {#CONTROL(J)}{^^}
++++++ | S K W    *            | SKW* -> {>}{&i}
+ ++++ |  T                TS  | T-TS -> {#CONTROL(J)}{^^}
+  +++ |  T                TS  | T-TS -> {#CONTROL(J)}{^^}
+  +++ | S K W    *            | SKW* -> {>}{&i}
++++++ |    P HR    U       S  | PHRUS -> plus
+   ++ |  T     A *     B      | TA*B -> {#TAB}{^^}
++++++ |   K  H   * U  PB G    | KH*UPBG -> chunk
+   ++ |   KP   A *            | KPA* -> {^}{-|}
+  +++ | S      AO EU         Z| SAOEUZ -> size
+  +++ |  T                TS  | T-TS -> {#CONTROL(J)}{^^}
++++++ | ST P H   *  F P L T   | STPH*FPLT -> {;}
+ ++++ | S        *  F         | S*F -> {:COMMAND:SHELL:bash -ci 'osascript $STENO_DICTIONARIES/src/command/actions/save.scpt'}{^^}
++++++ |#                L     | -8 -> /
+   ++ | ST P H         B      | STPH-B -> {#UP}{^^}
++++++ | S K W R O*            | SKWRO* -> {^o^}
+  +++ | S             P       | S-P -> {^ ^}
+      | S             P       | S-P -> {^ ^}
++++++ |       R   E  RPB    D | RERPBD -> render
+ ++++ |  T     A *     B      | TA*B -> {#TAB}{^^}
++++++ |       R O E        S  | ROES -> rows
++++++ |    P          P       | P-P -> {^.^}
+ ++++ |    P H A      P       | PHAP -> map
+  +++ |  T     A *     B      | TA*B -> {#TAB}{^^}
++++++ |  TK             L     | TK-L -> {#DELETE}  3>PHAP
++++++ |  T                TS  | T-TS -> {#CONTROL(J)}{^^}
++++++ |  T                TS  | T-TS -> {#CONTROL(J)}{^^}
+  +++ |  TK             L     | TK-L -> {#DELETE}  6>PHAP
+  +++ |  T                TS  | T-TS -> {#CONTROL(J)}{^^}
++++++ |       R O E           | ROE -> row
++++++ |  T                TS  | T-TS -> {#CONTROL(J)}{^^}
+ ++++ |  TK             L     | TK-L -> {#DELETE}  3>ROU ROE
++++++ |    PW       F P       | PW-FP -> {#BACKSPACE}  4>ROU ROE
+   ++ |       R      R        | R-R -> {^~|\n^}{MODE:RESET}
+   ++ |    PW       F P       | PW-FP -> {#BACKSPACE}
+      |    PW       F P       | PW-FP -> {#BACKSPACE}
+   ++ |    PW       F P       | PW-FP -> {#BACKSPACE}
+   ++ | S K           P       | SK-P -> {#ESCAPE}{MODE:RESET}
+  +++ | S K W R O*    P       | SKWRO*P -> {#SHIFT(O)}{^^}
++++++ |  TK      *EUF         | TK*EUF -> div
++++++ |    P          P       | P-P -> {^.^}
++++++ |      HRAO    R      D | HRAORD -> loader
+ ++++ |          *            | * -> *
++++++ |    PW  AO    R      D | PWAORD -> board
+   ++ |      H        PB      | H-PB -> {^-^}
+   ++ |       R O E           | ROE -> row
+   ++ |  T     A *     B      | TA*B -> {#TAB}{^^}
++++++ |#S                     | 1 -> /
+  +++ |  T     A *     B      | TA*B -> {#TAB}{^^}
+  +++ |  T                TS  | T-TS -> {#CONTROL(J)}{^^}
+   ++ |  T                TS  | T-TS -> {#CONTROL(J)}{^^}
++++++ |       R   E  RPB    D | RERPBD -> render
+ ++++ |  T     A *     B      | TA*B -> {#TAB}{^^}
++++++ |       R O E           | ROE -> row
+   ++ |    P          P       | P-P -> {^.^}
+   ++ |    P H A      P       | PHAP -> map
++++++ |  T     A *     B      | TA*B -> {#TAB}{^^}
+  +++ |  TK             L     | TK-L -> {#DELETE}  3>PHAP
+  +++ |  T                TS  | T-TS -> {#CONTROL(J)}{^^}
++++++ |  T                TS  | T-TS -> {#CONTROL(J)}{^^}
+ ++++ |  TK             L     | TK-L -> {#DELETE}  6>PHAP
+   ++ |  T                TS  | T-TS -> {#CONTROL(J)}{^^}
++++++ | S K W RA  EU R        | SKWRAEUR -> /
+ ++++ |          *            | * -> *
+  +++ | S K W  A  EU R        | SKWAEUR -> square
+   ++ |   KP   A *            | KPA* -> {^}{-|}
+  +++ |  T P H     U  P L     | TPHUPL -> number
+ ++++ |  T                TS  | T-TS -> {#CONTROL(J)}{^^}
++++++ |  TK             L     | TK-L -> {#DELETE}  3>TPHURPL TPHUPL TPHUPL/PWER TPHUPL/ER
++++++ |    PW       F P       | PW-FP -> {#BACKSPACE}  4>TPHURPL TPHUPL TPHUPL/PWER TPHUPL/ER
+   ++ |       R      R        | R-R -> {^~|\n^}{MODE:RESET}
+  +++ |    PW       F P       | PW-FP -> {#BACKSPACE}
+      |    PW       F P       | PW-FP -> {#BACKSPACE}
+      |    PW       F P       | PW-FP -> {#BACKSPACE}
+      |    PW       F P       | PW-FP -> {#BACKSPACE}
+      |    PW       F P       | PW-FP -> {#BACKSPACE}
+   ++ | S K           P       | SK-P -> {#ESCAPE}{MODE:RESET}
++++++ | ST P H       R        | STPH-R -> {#DOWN}{^^}
+      | ST P H       R        | STPH-R -> {#DOWN}{^^}
+      | ST P H       R        | STPH-R -> {#DOWN}{^^}
+  +++ |  TK      *            | TK* -> {>}{&d}
+      |  TK      *            | TK* -> {>}{&d}
+ ++++ |#     H                | 4 -> /
+    + | ST P H         B      | STPH-B -> {#UP}{^^}
+  +++ |    P     *            | P* -> {>}{&p}
+  +++ |          *EU          | *EU -> {>}{&i}
+      | S             P       | S-P -> {^ ^}
+      | S             P       | S-P -> {^ ^}
+      | S             P       | S-P -> {^ ^}
+      | S             P       | S-P -> {^ ^}
+   ++ | S             P       | S-P -> {^ ^}
+   ++ | S             P       | S-P -> {^ ^}
+ ++++ | S K           P       | SK-P -> {#ESCAPE}{MODE:RESET}
++++++ |     W    *            | W* -> {>}{&w}
+    + |     W    *            | W* -> {>}{&w}
+      |     W    *            | W* -> {>}{&w}
+      |     W    *            | W* -> {>}{&w}
+      |     W    *            | W* -> {>}{&w}
+      |     W    *            | W* -> {>}{&w}
+ ++++ | ST P H   *            | STPH* -> {#LEFT}{^^}
+      | ST P H   *            | STPH* -> {#LEFT}{^^}
++++++ |   KP     *            | KP* -> {>}{&x}
+   ++ |   KP     *            | KP* -> {>}{&x}
+      |   KP     *            | KP* -> {>}{&x}
+   ++ |          *EU          | *EU -> {>}{&i}
++++++ |  T P  R  *     B G S  | TPR*BGS -> {^\{\}^}{#LEFT}
++++++ | S K W     EU R        | SKWEUR -> /
+ ++++ |          *            | * -> *
+    + | S K W  A  EU R        | SKWAEUR -> square
++++++ |   KP   A *            | KPA* -> {^}{-|}
+   ++ |  T P H     U  P L     | TPHUPL -> number
++++++ | S        *  F         | S*F -> {:COMMAND:SHELL:bash -ci 'osascript $STENO_DICTIONARIES/src/command/actions/save.scpt'}{^^}
++++++ |  T P                 Z| TP-Z -> {:COMMAND:SHELL:bash -ci 'osascript $STENO_DICTIONARIES/src/command/actions/fuzzy-find.scpt'}{^^}
+ ++++ | ST P H         B      | STPH-B -> {#UP}{^^}
+    + |       R      R        | R-R -> {^~|\n^}{MODE:RESET}
++++++ |          *EU          | *EU -> {>}{&i}
++++++ |  TK             L  S  | TK-LS -> {^^}
+   ++ |  T     A         G    | TAG -> tag
+   ++ |  T     A *     B      | TA*B -> {#TAB}{^^}
++++++ |    PW   O*E         D | PWO*ED -> body
+ ++++ |  T                TS  | T-TS -> {#CONTROL(J)}{^^}
++++++ |    P H A     RPB      | PHARPB -> margin
++++++ |  T     A *     B      | TA*B -> {#TAB}{^^}
++++++ |#S                     | 1 -> /
+    + |  T     A *     B      | TA*B -> {#TAB}{^^}
++++++ |#       A              | 5 -> /
+   ++ |  T                TS  | T-TS -> {#CONTROL(J)}{^^}
+    + |#S                     | 1 -> /
+   ++ |  T                TS  | T-TS -> {#CONTROL(J)}{^^}
+  +++ |  T                TS  | T-TS -> {#CONTROL(J)}{^^}
++++++ |  TK             L     | TK-L -> {#DELETE}
++++++ | S        *  F         | S*F -> {:COMMAND:SHELL:bash -ci 'osascript $STENO_DICTIONARIES/src/command/actions/save.scpt'}{^^}
+  +++ | ST P H       R        | STPH-R -> {#DOWN}{^^}
+   ++ | S K W R O*            | SKWRO* -> {^o^}
+    + |       R      R        | R-R -> {^~|\n^}{MODE:RESET}
++++++ |   K  HRA           S  | KHRAS -> class
+   ++ |  T     A *     B      | TA*B -> {#TAB}{^^}
++++++ | S K W  A  EU R        | SKWAEUR -> square
+  +++ |  T                TS  | T-TS -> {#CONTROL(J)}{^^}
++++++ |    PW  A       B G  D | PWABGD -> backed
+ ++++ |          *            | * -> *
+ ++++ |    PW  A *     B G  D | PWA*BGD -> {:COMMAND:SHELL:bash -ci 'osascript $STENO_DICTIONARIES/src/command/actions/back.scpt'} {^ed}
++++++ | S K W R               | SKWR -> {:COMMAND:SHELL:bash -ci 'osascript $STENO_DICTIONARIES/src/command/actions/undo.scpt'}
++++++ | ST P H         B      | STPH-B -> {#UP}{^^}
+    + | ST P H           G    | STPH-G -> {#RIGHT}{^^}
+      | ST P H           G    | STPH-G -> {#RIGHT}{^^}
+    + |        A *            | A* -> {>}{&a}
++++++ |    PW    *       G  D | PW*GD -> background
++++++ |    PW    *  F P       | PW*FP -> {>}{&a}{^~|^}background
+ ++++ |  T     A *   R B      | TA*RB -> {#TAB}{^^}
++++++ |#S                     | 1 -> /
+   ++ |  T     A *   R B      | TA*RB -> {#TAB}{^^}
+  +++ |#S                     | 1 -> /
+   ++ |  T     A *     B      | TA*B -> {#TAB}{^^}
++++++ |  T P     *            | TP* -> {>}{&f}
+      |  T P     *            | TP* -> {>}{&f}
+    + |  T P     *            | TP* -> {>}{&f}
+ ++++ |  T                TS  | T-TS -> {#CONTROL(J)}{^^}
++++++ | S        *  F         | S*F -> {:COMMAND:SHELL:bash -ci 'osascript $STENO_DICTIONARIES/src/command/actions/save.scpt'}{^^}
+ ++++ | S K W R O*            | SKWRO* -> {^o^}
++++++ |    PW   O    R      D | PWORD -> bored
+   ++ |          *E  R        | *ER -> *border  >PWRORD PWRO*RD
+  +++ |  T     A *     B      | TA*B -> {#TAB}{^^}
++++++ |# T                    | 2 -> /
+   ++ |  T     A *     B      | TA*B -> {#TAB}{^^}
++++++ |#S                     | 1 -> /
+  +++ |  T                TS  | T-TS -> {#CONTROL(J)}{^^}
+   ++ |#S                     | 1 -> /
+   ++ |  T                TS  | T-TS -> {#CONTROL(J)}{^^}
+ ++++ |  T                TS  | T-TS -> {#CONTROL(J)}{^^}
+  +++ |  T                TS  | T-TS -> {#CONTROL(J)}{^^}
++++++ |#S                     | 1 -> /
++++++ |  T     A *     B      | TA*B -> {#TAB}{^^}
++++++ |#   P                  | 3 -> /
+  +++ |  T                TS  | T-TS -> {#CONTROL(J)}{^^}
+  +++ |  T                TS  | T-TS -> {#CONTROL(J)}{^^}
+   ++ |  T                TS  | T-TS -> {#CONTROL(J)}{^^}
+  +++ |  T     A *     B      | TA*B -> {#TAB}{^^}
+ ++++ |#S                     | 1 -> /
++++++ |  T     A *     B      | TA*B -> {#TAB}{^^}
++++++ |#                  T   | -9 -> /
+      |#                  T   | -9 -> /
+      |#                  T   | -9 -> /
++++++ | S        *  F         | S*F -> {:COMMAND:SHELL:bash -ci 'osascript $STENO_DICTIONARIES/src/command/actions/save.scpt'}{^^}
++++++ | S K W R O*            | SKWRO* -> {^o^}
++++++ |  T P HR O*E       T   | TPHRO*ET -> /
+  +++ |          *            | * -> *
+  +++ |  T   HR O E       T   | THROET -> throat
+   ++ |  T     A *     B      | TA*B -> {#TAB}{^^}
++++++ |          *            | * -> *
+   ++ |    PW       F P       | PW-FP -> {#BACKSPACE}  2>KWRO STPO SKWRO
++++++ |  T P HR O E       T   | TPHROET -> float
+   ++ |  T     A *   R B      | TA*RB -> {#TAB}{^^}
+ ++++ |#S                     | 1 -> /
+  +++ |  T                TS  | T-TS -> {#CONTROL(J)}{^^}
++++++ | S        *  F         | S*F -> {:COMMAND:SHELL:bash -ci 'osascript $STENO_DICTIONARIES/src/command/actions/save.scpt'}{^^}
+   ++ | S K W R O*            | SKWRO* -> {^o^}
++++++ |  T P    O     PB  T   | TPOPBT -> font
+ ++++ | S      AO EU         Z| SAOEUZ -> size
+   ++ |  T     A *     B      | TA*B -> {#TAB}{^^}
++++++ |#   P                  | 3 -> /
+   ++ |  T     A *     B      | TA*B -> {#TAB}{^^}
++++++ |# T   H                | 24 -> /
+ ++++ |  T                TS  | T-TS -> {#CONTROL(J)}{^^}
+    + |#S                     | 1 -> /
+   ++ |  T                TS  | T-TS -> {#CONTROL(J)}{^^}
+   ++ |  T                TS  | T-TS -> {#CONTROL(J)}{^^}
+ ++++ | S        *  F         | S*F -> {:COMMAND:SHELL:bash -ci 'osascript $STENO_DICTIONARIES/src/command/actions/save.scpt'}{^^}
+  +++ | S K W R O*            | SKWRO* -> {^o^}
++++++ |  T P    O E   PB  T   | TPOEPBT -> /
+  +++ |          *            | * -> *
+  +++ |  T P    O     PB  T   | TPOPBT -> font
+  +++ |     W  A  E       T   | WAET -> weight
+  +++ |  T     A *     B      | TA*B -> {#TAB}{^^}
++++++ |#S                     | 1 -> /
+   ++ |  T     A *     B      | TA*B -> {#TAB}{^^}
+ ++++ |#S                     | 1 -> /
+  +++ |  T                TS  | T-TS -> {#CONTROL(J)}{^^}
+  +++ |  T                TS  | T-TS -> {#CONTROL(J)}{^^}
+ ++++ | S        *  F         | S*F -> {:COMMAND:SHELL:bash -ci 'osascript $STENO_DICTIONARIES/src/command/actions/save.scpt'}{^^}
+  +++ | S K W R O*            | SKWRO* -> {^o^}
++++++ |      H AO EU      T   | HAOEUT -> height
+  +++ |  T     A *     B      | TA*B -> {#TAB}{^^}
++++++ |#S                     | 1 -> /
+   ++ |  T     A *     B      | TA*B -> {#TAB}{^^}
++++++ |#   P H                | 34 -> /
+  +++ |  T                TS  | T-TS -> {#CONTROL(J)}{^^}
+    + |#S                     | 1 -> /
+   ++ |  T                TS  | T-TS -> {#CONTROL(J)}{^^}
+   ++ |  T                TS  | T-TS -> {#CONTROL(J)}{^^}
+ ++++ | S        *  F         | S*F -> {:COMMAND:SHELL:bash -ci 'osascript $STENO_DICTIONARIES/src/command/actions/save.scpt'}{^^}
+  +++ | S K W R O*            | SKWRO* -> {^o^}
++++++ |      HRAO EU  PB      | HRAOEUPB -> line
++++++ |      H AO EU      T   | HAOEUT -> height
+  +++ |  T     A *     B      | TA*B -> {#TAB}{^^}
++++++ |# T                    | 2 -> /
+   ++ |  T     A *     B      | TA*B -> {#TAB}{^^}
++++++ |#   P H                | 34 -> /
+  +++ |  T                TS  | T-TS -> {#CONTROL(J)}{^^}
+   ++ |#S                     | 1 -> /
+    + |  T                TS  | T-TS -> {#CONTROL(J)}{^^}
+   ++ |  T                TS  | T-TS -> {#CONTROL(J)}{^^}
++++++ | S        *  F         | S*F -> {:COMMAND:SHELL:bash -ci 'osascript $STENO_DICTIONARIES/src/command/actions/save.scpt'}{^^}
+   ++ | S K W R O*            | SKWRO* -> {^o^}
++++++ |    P H A     RPB      | PHARPB -> margin
++++++ |       RAO EU      T   | RAOEUT -> right
+   ++ |  T     A *     B      | TA*B -> {#TAB}{^^}
++++++ |#S                     | 1 -> /
+   ++ |  T     A *     B      | TA*B -> {#TAB}{^^}
++++++ |      H        PB      | H-PB -> {^-^}
+    + |#S                     | 1 -> /
+ ++++ |  T                TS  | T-TS -> {#CONTROL(J)}{^^}
+ ++++ |#S                     | 1 -> /
+ ++++ |  T                TS  | T-TS -> {#CONTROL(J)}{^^}
+  +++ |  T                TS  | T-TS -> {#CONTROL(J)}{^^}
+ ++++ | S        *  F         | S*F -> {:COMMAND:SHELL:bash -ci 'osascript $STENO_DICTIONARIES/src/command/actions/save.scpt'}{^^}
+  +++ | S K W R O*            | SKWRO* -> {^o^}
+ ++++ |    P H A     RPB      | PHARPB -> margin
++++++ |  T      O     P       | TOP -> top
+  +++ |  T     A *     B      | TA*B -> {#TAB}{^^}
++++++ |#S                     | 1 -> /
+ ++++ |  T     A *     B      | TA*B -> {#TAB}{^^}
++++++ |      H   *    PB      | H*PB -> -
+  +++ |#S                     | 1 -> /
+   ++ |  T                TS  | T-TS -> {#CONTROL(J)}{^^}
+   ++ |#S                     | 1 -> /
+   ++ |  T                TS  | T-TS -> {#CONTROL(J)}{^^}
+   ++ |  T                TS  | T-TS -> {#CONTROL(J)}{^^}
++++++ | S        *  F         | S*F -> {:COMMAND:SHELL:bash -ci 'osascript $STENO_DICTIONARIES/src/command/actions/save.scpt'}{^^}
+  +++ | S K W R O*            | SKWRO* -> {^o^}
++++++ |    P   A         G  D | PAGD -> pad {^ing}
+  +++ |  T     A *     B      | TA*B -> {#TAB}{^^}
++++++ |#S                     | 1 -> /
+    + |  T     A *     B      | TA*B -> {#TAB}{^^}
++++++ |#        O             | 0 -> /
+  +++ |  T                TS  | T-TS -> {#CONTROL(J)}{^^}
+   ++ |#S                     | 1 -> /
+    + |  T                TS  | T-TS -> {#CONTROL(J)}{^^}
++++++ |  T                TS  | T-TS -> {#CONTROL(J)}{^^}
+ ++++ |  TK             L     | TK-L -> {#DELETE}
+ ++++ |  T                TS  | T-TS -> {#CONTROL(J)}{^^}
++++++ | S        *  F         | S*F -> {:COMMAND:SHELL:bash -ci 'osascript $STENO_DICTIONARIES/src/command/actions/save.scpt'}{^^}
++++++ | S K W R O*            | SKWRO* -> {^o^}
+ ++++ |  T        E      GT   | TEGT -> text
++++++ |        A              | A -> {a^}
+  +++ |      HRAO EU  PB      | HRAOEUPB -> *align
+   ++ |  T     A *     B      | TA*B -> {#TAB}{^^}
++++++ |#       A              | 5 -> /
++++++ | S        *  F         | S*F -> {:COMMAND:SHELL:bash -ci 'osascript $STENO_DICTIONARIES/src/command/actions/save.scpt'}{^^}
+   ++ | S K W R O*            | SKWRO* -> {^o^}
++++++ |     W    *EU      T D | W*EUTD -> width
+   ++ |  T     A *     B      | TA*B -> {#TAB}{^^}
++++++ |#S                     | 1 -> /
+   ++ |  T     A *     B      | TA*B -> {#TAB}{^^}
++++++ |#   P H                | 34 -> /
+  +++ |  T                TS  | T-TS -> {#CONTROL(J)}{^^}
+   ++ |#S                     | 1 -> /
+   ++ |  T                TS  | T-TS -> {#CONTROL(J)}{^^}
+   ++ |  T                TS  | T-TS -> {#CONTROL(J)}{^^}
+ ++++ | S        *  F         | S*F -> {:COMMAND:SHELL:bash -ci 'osascript $STENO_DICTIONARIES/src/command/actions/save.scpt'}{^^}
++++++ | ST P H       R        | STPH-R -> {#DOWN}{^^}
+   ++ | S K W R O*            | SKWRO* -> {^o^}
+    + |       R      R        | R-R -> {^~|\n^}{MODE:RESET}
++++++ |   K  HRA           S  | KHRAS -> class
+   ++ |  T     A *     B      | TA*B -> {#TAB}{^^}
++++++ |  TKPW  A  EU  P L     | TKPWAEUPL -> game
+   ++ |  T                TS  | T-TS -> {#CONTROL(J)}{^^}
++++++ | STKP HRA  EU          | STKPHRAEU -> display
++++++ |  T     A *     B      | TA*B -> {#TAB}{^^}
++++++ |#     H                | 4 -> /
+ ++++ |  T                TS  | T-TS -> {#CONTROL(J)}{^^}
+  +++ |       R      R        | R-R -> {^~|\n^}{MODE:RESET}
++++++ | STKP HRA  EU          | STKPHRAEU -> display
++++++ |  TK   R   E    B G S  | TKREBGS -> direction
+  +++ |  T     A *     B      | TA*B -> {#TAB}{^^}
++++++ |          *            | * -> *
+      |          *            | * -> *
+  +++ |    PW       F P       | PW-FP -> {#BACKSPACE}
++++++ |  T P HR   E    B G    | TPHREBG -> fleck
+  +++ |          *            | * -> *
+ ++++ |  T P HR   E    B G S  | TPHREBGS -> flex
++++++ |    PW R   E    B G S  | PWREBGS -> brex
+  +++ |          *            | * -> *
+  +++ |  TK   R   E    B G S  | TKREBGS -> direction
+  +++ |  T     A *     B      | TA*B -> {#TAB}{^^}
+ ++++ |#S                     | 1 -> /
++++++ |  T                TS  | T-TS -> {#CONTROL(J)}{^^}
++++++ | S        *  F         | S*F -> {:COMMAND:SHELL:bash -ci 'osascript $STENO_DICTIONARIES/src/command/actions/save.scpt'}{^^}
++++++ |#                L     | -8 -> /
+    + | ST P H         B      | STPH-B -> {#UP}{^^}
++++++ | ST P H   *            | STPH* -> {#LEFT}{^^}
+      | ST P H   *            | STPH* -> {#LEFT}{^^}
+      | ST P H   *            | STPH* -> {#LEFT}{^^}
+    + |          *EU          | *EU -> {>}{&i}
+    + |    PW       F P       | PW-FP -> {#BACKSPACE}
+  +++ | S        *  F         | S*F -> {:COMMAND:SHELL:bash -ci 'osascript $STENO_DICTIONARIES/src/command/actions/save.scpt'}{^^}
++++++ |  TKPW    *    P       | TKPW*P -> {&G}
++++++ | S K             L     | SK-L -> {#CONTROL(Z)}
++++++ |  TKPW    *EU      TS  | TKPW*EUTS -> {^git status --short}
+   ++ |       R      R        | R-R -> {^~|\n^}{MODE:RESET}
++++++ |  TKPW     EU  P L T D | TKPWEUPLTD -> {^git commit --all --message=""^}{#LEFT}{-|}
++++++ |   K   RA  E       T   | KRAET -> create
+  +++ |       R O E        S  | ROES -> rows
++++++ | S KP                  | SKP -> and
++++++ | ST     AO EU    L  S  | STAOEULS -> styles
+ ++++ |       R      R        | R-R -> {^~|\n^}{MODE:RESET}
++++++ |  T P     *       G    | TP*G -> {^fg^}{#RETURN}
++++++ |  T P                 Z| TP-Z -> {:COMMAND:SHELL:bash -ci 'osascript $STENO_DICTIONARIES/src/command/actions/fuzzy-find.scpt'}{^^}
+  +++ |  TKPW  A  EU  P L     | TKPWAEUPL -> game
+  +++ |       R      R        | R-R -> {^~|\n^}{MODE:RESET}
++++++ | ST P H       R        | STPH-R -> {#DOWN}{^^}
+      | ST P H       R        | STPH-R -> {#DOWN}{^^}
++++++ | S K W R O*            | SKWRO* -> {^o^}
++++++ |   KP   A *            | KPA* -> {^}{-|}
+  +++ |        A              | A -> {a^}
+    + |       RA  EU          | RAEU -> *array
++++++ |  T     A *     B      | TA*B -> {#TAB}{^^}
+  +++ |#                  T   | -9 -> /
+ ++++ |  T                TS  | T-TS -> {#CONTROL(J)}{^^}
++++++ |    P          P       | P-P -> {^.^}
++++++ |  T P      EU    L     | TPEUL -> fill
+  +++ |  T     A *     B      | TA*B -> {#TAB}{^^}
++++++ |  T P H     U    L     | TPHUL -> null
+  +++ |  T                TS  | T-TS -> {#CONTROL(J)}{^^}
+ ++++ |  TK             L     | TK-L -> {#DELETE}  3>TPHUL
+  +++ |  T                TS  | T-TS -> {#CONTROL(J)}{^^}
++++++ | S        *  F         | S*F -> {:COMMAND:SHELL:bash -ci 'osascript $STENO_DICTIONARIES/src/command/actions/save.scpt'}{^^}
++++++ | S     R  *            | SR* -> {>}{&v}
+  +++ |    PW    *            | PW* -> {>}{&b}
+      |    PW    *            | PW* -> {>}{&b}
+      |    PW    *            | PW* -> {>}{&b}
+    + |    PW    *            | PW* -> {>}{&b}
+    + |    PW    *            | PW* -> {>}{&b}
+   ++ |    PW    *            | PW* -> {>}{&b}
+   ++ |    PW    *            | PW* -> {>}{&b}
+ ++++ |  T     A *     B      | TA*B -> {#TAB}{^^}
++++++ | S      AO  U       S  | SAOUS -> sues
+ ++++ |          *            | * -> *
+ ++++ |        AO  U       S  | AOUS -> use
++++++ | ST     A  EU      T   | STAEUT -> state
+   ++ |  T     A *     B      | TA*B -> {#TAB}{^^}
++++++ | S K W RA  EU R     S  | SKWRAEURS -> squares
++++++ |  T                TS  | T-TS -> {#CONTROL(J)}{^^}
++++++ |  T                TS  | T-TS -> {#CONTROL(J)}{^^}
+    + |  T                TS  | T-TS -> {#CONTROL(J)}{^^}
++++++ | S        *  F         | S*F -> {:COMMAND:SHELL:bash -ci 'osascript $STENO_DICTIONARIES/src/command/actions/save.scpt'}{^^}
++++++ |  TKPW    *            | TKPW* -> {>}{&g}
+      |  TKPW    *            | TKPW* -> {>}{&g}
++++++ | S K W R O*    P       | SKWRO*P -> {#SHIFT(O)}{^^}
++++++ |    P  R O*   R    T   | PRO*RT -> import
++++++ |        AO  U       S  | AOUS -> use
+   ++ | ST     A  EU      T   | STAEUT -> state
+  +++ |  T     A *     B      | TA*B -> {#TAB}{^^}
++++++ | S        *  F         | S*F -> {:COMMAND:SHELL:bash -ci 'osascript $STENO_DICTIONARIES/src/command/actions/save.scpt'}{^^}
++++++ |#       A              | 5 -> /
+    + | ST P H       R        | STPH-R -> {#DOWN}{^^}
+  +++ | S K W R O*            | SKWRO* -> {^o^}
++++++ | S        *  F         | S*F -> {:COMMAND:SHELL:bash -ci 'osascript $STENO_DICTIONARIES/src/command/actions/save.scpt'}{^^}
++++++ |#   P                  | 3 -> /
+    + | ST P H       R        | STPH-R -> {#DOWN}{^^}
+  +++ |     W    *            | W* -> {>}{&w}
+      |     W    *            | W* -> {>}{&w}
+  +++ |     W    *            | W* -> {>}{&w}
++++++ | ST P H   *            | STPH* -> {#LEFT}{^^}
+   ++ |          *EU          | *EU -> {>}{&i}
+   ++ | S             P       | S-P -> {^ ^}
+ ++++ |    P  R O     P       | PROP -> prop
++++++ |  T     A *     B      | TA*B -> {#TAB}{^^}
++++++ | S K W  A  EU R     S  | SKWAEURS -> squares
++++++ | S        *  F         | S*F -> {:COMMAND:SHELL:bash -ci 'osascript $STENO_DICTIONARIES/src/command/actions/save.scpt'}{^^}
++++++ | ST P H         B      | STPH-B -> {#UP}{^^}
+      | ST P H         B      | STPH-B -> {#UP}{^^}
+      | ST P H         B      | STPH-B -> {#UP}{^^}
+      | ST P H         B      | STPH-B -> {#UP}{^^}
+  +++ | S K W R O*            | SKWRO* -> {^o^}
++++++ |  TK     O E   PB  T   | TKOEPBT -> don't
+  +++ |          *            | * -> *
+  +++ |   K     O     PB  TS  | KOPBTS -> const
+  +++ |  T     A *     B      | TA*B -> {#TAB}{^^}
++++++ |      H A      PBL     | HAPBL -> handle
+   ++ |   KP   A *            | KPA* -> {^}{-|}
+ ++++ |    P H  O   F         | PHOF -> move
++++++ |  T                TS  | T-TS -> {#CONTROL(J)}{^^}
++++++ |        A   U  P   T D | AUPTD -> update
+ ++++ |   KP   A *            | KPA* -> {^}{-|}
+ ++++ |  TKPW  A  EU  P L     | TKPWAEUPL -> game
++++++ |    P HR       PB   S  | PHR-PBS -> Parkinson's
+ ++++ |          *            | * -> *
++++++ |    P  R       PB   S  | PR-PBS -> {^()^}
+ ++++ |  T     A *     B      | TA*B -> {#TAB}{^^}
++++++ | S         E       T   | SET -> set
+    + |   KP   A *            | KPA* -> {^}{-|}
++++++ | S K W  A  EU R     S  | SKWAEURS -> squares
++++++ |  T                TS  | T-TS -> {#CONTROL(J)}{^^}
+  +++ |  T                TS  | T-TS -> {#CONTROL(J)}{^^}
++++++ | S        *  F         | S*F -> {:COMMAND:SHELL:bash -ci 'osascript $STENO_DICTIONARIES/src/command/actions/save.scpt'}{^^}
++++++ |#              P       | -7 -> /
+    + | ST P H       R        | STPH-R -> {#DOWN}{^^}
+   ++ | S K W R O*            | SKWRO* -> {^o^}
+    + |       R      R        | R-R -> {^~|\n^}{MODE:RESET}
+  +++ |  T P       U   B G S  | TPUBGS -> function
+  +++ |  T     A *     B      | TA*B -> {#TAB}{^^}
++++++ |  TK             L     | TK-L -> {#DELETE}  3>TPUPBGS TPUPGS TPUBGS
+  +++ |  T                TS  | T-TS -> {#CONTROL(J)}{^^}
+   ++ |  TK             L     | TK-L -> {#DELETE}  5>TPUPBGS TPUPGS TPUBGS
+    + |  T                TS  | T-TS -> {#CONTROL(J)}{^^}
++++++ |               P       | -P -> {.}
+      |        A   U  P   T D | AUPTD -> update
+  +++ |          *            | * -> *
+      |          *            | * -> *
++++++ |        A   U  P   T D | AUPTD -> update
+    + |   KP   A *            | KPA* -> {^}{-|}
+  +++ |  TKPW  A  EU  P L     | TKPWAEUPL -> game
+  +++ |  T                TS  | T-TS -> {#CONTROL(J)}{^^}
++++++ | S         E       T   | SET -> set
+   ++ |   KP   A *            | KPA* -> {^}{-|}
+   ++ | S K W  A  EU R     S  | SKWAEURS -> squares
++++++ |  T                TS  | T-TS -> {#CONTROL(J)}{^^}
++++++ |       R    U RPB      | RURPB -> return
+  +++ |  T P       U   B G S  | TPUBGS -> function
+ ++++ |  T     A *     B      | TA*B -> {#TAB}{^^}
++++++ |#   P                  | 3 -> /
+   ++ |  T     A *   R B      | TA*RB -> {#TAB}{^^}
++++++ |  TK             L     | TK-L -> {#DELETE}
+   ++ |  T                TS  | T-TS -> {#CONTROL(J)}{^^}
++++++ |  T P H    E      GT   | TPHEGT -> next
+  +++ |   KP   A *            | KPA* -> {^}{-|}
+  +++ | S K W  A  EU R     S  | SKWAEURS -> squares
++++++ |  T                TS  | T-TS -> {#CONTROL(J)}{^^}
++++++ | S         E       T   | SET -> set
+  +++ |   KP   A *            | KPA* -> {^}{-|}
+   ++ | S K W  A  EU R     S  | SKWAEURS -> squares
++++++ |    P  R       PB   S  | PR-PBS -> {^()^}
+   ++ |  T     A *     B      | TA*B -> {#TAB}{^^}
++++++ |  T P H    E      GT   | TPHEGT -> next
+ ++++ |   KP   A *            | KPA* -> {^}{-|}
+   ++ | S K W  A  EU R     S  | SKWAEURS -> squares
+  +++ |  T                TS  | T-TS -> {#CONTROL(J)}{^^}
+  +++ |  T                TS  | T-TS -> {#CONTROL(J)}{^^}
+ ++++ | ST P H   *  F P L T   | STPH*FPLT -> {;}
+  +++ | S        *  F         | S*F -> {:COMMAND:SHELL:bash -ci 'osascript $STENO_DICTIONARIES/src/command/actions/save.scpt'}{^^}
++++++ |#              P       | -7 -> /
+   ++ | ST P H         B      | STPH-B -> {#UP}{^^}
++++++ |     W    *            | W* -> {>}{&w}
+  +++ | ST P H           G    | STPH-G -> {#RIGHT}{^^}
+   ++ |          *EU          | *EU -> {>}{&i}
+    + | S             P       | S-P -> {^ ^}
+  +++ |    P  R O     P       | PROP -> prop
+  +++ |  T     A *     B      | TA*B -> {#TAB}{^^}
++++++ |      H A      PBL     | HAPBL -> handle
+   ++ |   KP   A *            | KPA* -> {^}{-|}
+   ++ |    P H  O   F         | PHOF -> move
++++++ |  T                TS  | T-TS -> {#CONTROL(J)}{^^}
++++++ | S        *  F         | S*F -> {:COMMAND:SHELL:bash -ci 'osascript $STENO_DICTIONARIES/src/command/actions/save.scpt'}{^^}
++++++ |  T P                 Z| TP-Z -> {:COMMAND:SHELL:bash -ci 'osascript $STENO_DICTIONARIES/src/command/actions/fuzzy-find.scpt'}{^^}
+ ++++ |    PW  AO    R      D | PWAORD -> board
+   ++ |       R      R        | R-R -> {^~|\n^}{MODE:RESET}
++++++ |#                L     | -8 -> /
+    + | ST P H         B      | STPH-B -> {#UP}{^^}
+  +++ |     W    *            | W* -> {>}{&w}
+      |     W    *            | W* -> {>}{&w}
+      |     W    *            | W* -> {>}{&w}
+  +++ | ST P H           G    | STPH-G -> {#RIGHT}{^^}
+    + |          *EU          | *EU -> {>}{&i}
+ ++++ |    P  R O     P    S  | PROPS -> props
++++++ |    PW    *  F P       | PW*FP -> {>}{&i}{^~|^}props
+   ++ |  T     A *     B      | TA*B -> {#TAB}{^^}
++++++ | S K W RA  EU R        | SKWRAEUR -> /
+ ++++ |          *            | * -> *
+   ++ | S K W  A  EU R     S  | SKWAEURS -> squares
+ ++++ |              R B G S  | -RBGS -> {,}
++++++ |      H A      PB      | HAPB -> Han
+  +++ |          *            | * -> *
+   ++ |      H A      PBL     | HAPBL -> handle
+  +++ |   KP   A *            | KPA* -> {^}{-|}
+   ++ |    P H  O   F         | PHOF -> move
++++++ | S        *  F         | S*F -> {:COMMAND:SHELL:bash -ci 'osascript $STENO_DICTIONARIES/src/command/actions/save.scpt'}{^^}
++++++ |#                L     | -8 -> /
+   ++ | ST P H       R        | STPH-R -> {#DOWN}{^^}
++++++ |     W    *            | W* -> {>}{&w}
+ ++++ | ST P H         B      | STPH-B -> {#UP}{^^}
+  +++ |     W    *            | W* -> {>}{&w}
+   ++ |     W    *            | W* -> {>}{&w}
+      |     W    *            | W* -> {>}{&w}
+   ++ |     W    *            | W* -> {>}{&w}
+    + |     W    *            | W* -> {>}{&w}
++++++ | S     R  *            | SR* -> {>}{&v}
+   ++ | S K      *            | SK* -> {>}{&e}
+  +++ |  T     A *     B      | TA*B -> {#TAB}{^^}
++++++ | S K W  A  EU R     S  | SKWAEURS -> squares
++++++ |    PW R        B G S  | PWR-BGS -> {^[]^}
+  +++ |  T     A *     B      | TA*B -> {#TAB}{^^}
++++++ |  TK             L     | TK-L -> {#DELETE}
+  +++ |  T                TS  | T-TS -> {#CONTROL(J)}{^^}
++++++ | S        *  F         | S*F -> {:COMMAND:SHELL:bash -ci 'osascript $STENO_DICTIONARIES/src/command/actions/save.scpt'}{^^}
++++++ |#              P       | -7 -> /
+   ++ | ST P H         B      | STPH-B -> {#UP}{^^}
++++++ | S K W R O*            | SKWRO* -> {^o^}
++++++ |  TK     O     PB  TS  | TKOPBTS -> don't
+  +++ |          *            | * -> *
+  +++ |   K     O     PB  TS  | KOPBTS -> const
+ ++++ |  T     A *     B      | TA*B -> {#TAB}{^^}
++++++ |      H A      PBL     | HAPBL -> handle
+    + |   KP   A *            | KPA* -> {^}{-|}
++++++ |   K  HR   EU   B G    | KHREUBG -> click
++++++ |  T                TS  | T-TS -> {#CONTROL(J)}{^^}
++++++ |        A   U  P   T D | AUPTD -> update
+  +++ |   KP   A *            | KPA* -> {^}{-|}
+  +++ |    PW  AO    R      D | PWAORD -> board
++++++ | S K           P       | SK-P -> {#ESCAPE}{MODE:RESET}
++++++ |#            F         | -6 -> /
+   ++ | ST P H       R        | STPH-R -> {#DOWN}{^^}
+  +++ | S     R  *    P       | SR*P -> {&V}
+    + | S     R  *    P       | SR*P -> {&V}
++++++ | ST P H       R        | STPH-R -> {#DOWN}{^^}
+   ++ | S     R  *    P       | SR*P -> {&V}
+    + | S     R  *    P       | SR*P -> {&V}
++++++ |#              P       | -7 -> /
+    + | ST P H         B      | STPH-B -> {#UP}{^^}
+  +++ |          *EU          | *EU -> {>}{&i}
++++++ |    P          P       | P-P -> {^.^}
++++++ |      HRA  EU  PB    D | HRAEUPBD -> lain {^ed}
+  +++ |          *            | * -> *
++++++ |  TK       EU  PB    D | TKEUPBD -> din {^ed}
+  +++ |          *            | * -> *
+  +++ |    PW     EU  PB    D | PWEUPBD -> bind
++++++ |  T     A *     B      | TA*B -> {#TAB}{^^}
++++++ |  T P H     U    L     | TPHUL -> null
+  +++ |  T                TS  | T-TS -> {#CONTROL(J)}{^^}
+ ++++ |  T                TS  | T-TS -> {#CONTROL(J)}{^^}
++++++ | S K W  A  EU R     S  | SKWAEURS -> squares
++++++ |              R B G S  | -RBGS -> {,}
+ ++++ |      H A      PBL     | HAPBL -> handle
+   ++ |   KP   A *            | KPA* -> {^}{-|}
+   ++ |    P H  O   F         | PHOF -> move
++++++ | S        *  F         | S*F -> {:COMMAND:SHELL:bash -ci 'osascript $STENO_DICTIONARIES/src/command/actions/save.scpt'}{^^}
++++++ |#              P       | -7 -> /
+   ++ | ST P H       R        | STPH-R -> {#DOWN}{^^}
++++++ |     W    *            | W* -> {>}{&w}
++++++ | ST P H         B      | STPH-B -> {#UP}{^^}
+    + |     W    *            | W* -> {>}{&w}
+      |     W    *            | W* -> {>}{&w}
+      |     W    *            | W* -> {>}{&w}
+      |     W    *            | W* -> {>}{&w}
+      |     W    *            | W* -> {>}{&w}
+      |     W    *            | W* -> {>}{&w}
+    + |     W    *            | W* -> {>}{&w}
+ ++++ |     W    *            | W* -> {>}{&w}
+      |     W    *            | W* -> {>}{&w}
+   ++ | ST P H   *            | STPH* -> {#LEFT}{^^}
+    + |          *EU          | *EU -> {>}{&i}
+    + | S             P       | S-P -> {^ ^}
+  +++ |    P  R O     P       | PROP -> prop
+ ++++ |  T     A *     B      | TA*B -> {#TAB}{^^}
++++++ |      H A      PBL     | HAPBL -> handle
+   ++ |   KP   A *            | KPA* -> {^}{-|}
+  +++ |   K  HR   EU   B G    | KHREUBG -> click
++++++ |  T                TS  | T-TS -> {#CONTROL(J)}{^^}
+  +++ |  T                TS  | T-TS -> {#CONTROL(J)}{^^}
++++++ | S K           P       | SK-P -> {#ESCAPE}{MODE:RESET}
++++++ |        A *            | A* -> {>}{&a}
++++++ |    P  R       PB   S  | PR-PBS -> {^()^}
++++++ |  T     A *     B      | TA*B -> {#TAB}{^^}
++++++ | S K W R               | SKWR -> {:COMMAND:SHELL:bash -ci 'osascript $STENO_DICTIONARIES/src/command/actions/undo.scpt'}  3>PR*EPBS
++++++ | ST P H   *            | STPH* -> {#LEFT}{^^}
+   ++ |          *EU          | *EU -> {>}{&i}
++++++ | S K W  A  EU R        | SKWAEUR -> square
+ ++++ |          *            | * -> *
+ ++++ |  TK             L  S  | TK-LS -> {^^}
+   ++ | S K W  A  EU R        | SKWAEUR -> square
+  +++ |   KP   A *            | KPA* -> {^}{-|}
+  +++ |  T P H     U  P L     | TPHUPL -> number
++++++ | S K           P       | SK-P -> {#ESCAPE}{MODE:RESET}
++++++ | S    HRAO*EU  PB      | SHRAO*EUPB -> {:COMMAND:SHELL:bash -ci 'osascript $STENO_DICTIONARIES/src/command/text/select-editable-line.scpt'}
++++++ |  T     A *     B      | TA*B -> {#TAB}{^^}
++++++ |  T P    O    RP L T   | TPORPLT -> format
+  +++ |  T     A *     B      | TA*B -> {#TAB}{^^}
++++++ | S        *  F         | S*F -> {:COMMAND:SHELL:bash -ci 'osascript $STENO_DICTIONARIES/src/command/actions/save.scpt'}{^^}
++++++ | ST P H         B      | STPH-B -> {#UP}{^^}
++++++ |#                L     | -8 -> /
+    + | ST P H       R        | STPH-R -> {#DOWN}{^^}
+  +++ | ST P H         B      | STPH-B -> {#UP}{^^}
+   ++ | S K W R O*            | SKWRO* -> {^o^}
+    + |       R      R        | R-R -> {^~|\n^}{MODE:RESET}
+  +++ |  T P       U   B G S  | TPUBGS -> function
++++++ |  T     A *     B      | TA*B -> {#TAB}{^^}
++++++ |  TK             L     | TK-L -> {#DELETE}  3>TPUPBGS TPUPGS TPUBGS
+   ++ |  T                TS  | T-TS -> {#CONTROL(J)}{^^}
+  +++ |  TK             L     | TK-L -> {#DELETE}  5>TPUPBGS TPUPGS TPUBGS
+   ++ |  T                TS  | T-TS -> {#CONTROL(J)}{^^}
++++++ |        A   U  P   T D | AUPTD -> update
+   ++ |   KP   A *            | KPA* -> {^}{-|}
+  +++ |    PW  AO    R      D | PWAORD -> board
+  +++ |  T                TS  | T-TS -> {#CONTROL(J)}{^^}
++++++ | S K W  A  EU R     S  | SKWAEURS -> squares
+  +++ |              R B G S  | -RBGS -> {,}
+ ++++ |      H A      PBL     | HAPBL -> handle
+    + |   KP   A *            | KPA* -> {^}{-|}
+   ++ |    P H  O   F         | PHOF -> move
++++++ |              R B G S  | -RBGS -> {,}
++++++ | S K W  A  EU R        | SKWAEUR -> square
++++++ |   KP   A *            | KPA* -> {^}{-|}
+   ++ |  T P H     U  P L     | TPHUPL -> number
++++++ |  T                TS  | T-TS -> {#CONTROL(J)}{^^}
++++++ |       R    U RPB      | RURPB -> return
+  +++ |  T P       U   B G S  | TPUBGS -> function
+ ++++ |  T     A *     B      | TA*B -> {#TAB}{^^}
++++++ |#   P                  | 3 -> /
+  +++ |  T     A *     B      | TA*B -> {#TAB}{^^}
++++++ |  TK             L     | TK-L -> {#DELETE}
+  +++ |  T                TS  | T-TS -> {#CONTROL(J)}{^^}
++++++ |  TK             L     | TK-L -> {#DELETE}
+  +++ |  T                TS  | T-TS -> {#CONTROL(J)}{^^}
++++++ |  T P                  | TP -> if
++++++ |  T     A *     B      | TA*B -> {#TAB}{^^}
++++++ | S K W  A  EU R     S  | SKWAEURS -> squares
++++++ |    PW R        B G S  | PWR-BGS -> {^[]^}
+  +++ |  T     A *     B      | TA*B -> {#TAB}{^^}
++++++ | S K W  A  EU R        | SKWAEUR -> square
++++++ |   KP   A *            | KPA* -> {^}{-|}
+  +++ |  T P H     U  P L     | TPHUPL -> number
++++++ |  T                TS  | T-TS -> {#CONTROL(J)}{^^}
+  +++ |  T                TS  | T-TS -> {#CONTROL(J)}{^^}
++++++ |       R    U RPB      | RURPB -> return
++++++ | ST P H   *  F P L T   | STPH*FPLT -> {;}
+ ++++ |  T                TS  | T-TS -> {#CONTROL(J)}{^^}
+ ++++ |  TK             L     | TK-L -> {#DELETE}
++++++ | S        *   R        | S*R -> {#ESCAPE Z PERIOD}
++++++ | S K W R O*            | SKWRO* -> {^o^}
+    + |       R      R        | R-R -> {^~|\n^}{MODE:RESET}
++++++ |   K     O     PB  TS  | KOPBTS -> const
++++++ |  T     A *     B      | TA*B -> {#TAB}{^^}
++++++ |  T P H    E      GT   | TPHEGT -> next
+    + |   KP   A *            | KPA* -> {^}{-|}
+  +++ | S K W  A  EU R     S  | SKWAEURS -> squares
+ ++++ |  T                TS  | T-TS -> {#CONTROL(J)}{^^}
++++++ | S K W  A  EU R     S  | SKWAEURS -> squares
++++++ |    P          P       | P-P -> {^.^}
++++++ | S    HRAO EU       S  | SHRAOEUS -> slice
+ ++++ |  T     A *     B      | TA*B -> {#TAB}{^^}
++++++ |  TK             L     | TK-L -> {#DELETE}  3>SHRAOEUS
++++++ |  T                TS  | T-TS -> {#CONTROL(J)}{^^}
++++++ |  T                TS  | T-TS -> {#CONTROL(J)}{^^}
++++++ | S        *  F         | S*F -> {:COMMAND:SHELL:bash -ci 'osascript $STENO_DICTIONARIES/src/command/actions/save.scpt'}{^^}
++++++ | S K W R O*            | SKWRO* -> {^o^}
++++++ |  T P H    E      GT   | TPHEGT -> next
+ ++++ |   KP   A *            | KPA* -> {^}{-|}
+  +++ | S K W  A  EU R     S  | SKWAEURS -> squares
++++++ |    PW R        B G S  | PWR-BGS -> {^[]^}
++++++ |  T     A *     B      | TA*B -> {#TAB}{^^}
++++++ | S K W  A  EU R        | SKWAEUR -> square
++++++ |   KP   A *            | KPA* -> {^}{-|}
+   ++ |  T P H     U  P L     | TPHUPL -> number
++++++ |  T                TS  | T-TS -> {#CONTROL(J)}{^^}
++++++ | S             P       | S-P -> {^ ^}
+    + |   K W  A        L     | KWAL -> equal
+  +++ |  T     A *     B      | TA*B -> {#TAB}{^^}
++++++ | ST    R   EU  PB G    | STREUPBG -> string
+ ++++ |  T     A *     B      | TA*B -> {#TAB}{^^}
++++++ |#S                     | 1 -> /
++++++ |   KP     *    P       | KP*P -> {&X}
+ ++++ |  T                TS  | T-TS -> {#CONTROL(J)}{^^}
+  +++ |  T                TS  | T-TS -> {#CONTROL(J)}{^^}
+  +++ | ST P H   *  F P L T   | STPH*FPLT -> {;}
++++++ |       R      R        | R-R -> {^~|\n^}{MODE:RESET}
++++++ |      H A      PBL     | HAPBL -> handle
+   ++ |   KP   A *            | KPA* -> {^}{-|}
+   ++ |    P H  O   F         | PHOF -> move
+  +++ |  T     A *     B      | TA*B -> {#TAB}{^^}
++++++ |  T P H    E      GT   | TPHEGT -> next
+   ++ |   KP   A *            | KPA* -> {^}{-|}
+ ++++ | S K W  A  EU R     S  | SKWAEURS -> squares
++++++ |  T                TS  | T-TS -> {#CONTROL(J)}{^^}
++++++ | S        *  F         | S*F -> {:COMMAND:SHELL:bash -ci 'osascript $STENO_DICTIONARIES/src/command/actions/save.scpt'}{^^}
++++++ | ST P H   *     B      | STPH*B -> {:COMMAND:SHELL:bash -ci 'osascript $STENO_DICTIONARIES/src/command/actions/page-up.scpt'}  4>SKWAEURS SKWRAEURS SKWAEUR/-S
++++++ | ST P H         B      | STPH-B -> {#UP}{^^}
+      | ST P H         B      | STPH-B -> {#UP}{^^}
+  +++ | S     R  *    P       | SR*P -> {&V}
+    + | S     R  *    P       | SR*P -> {&V}
++++++ |  T P                 Z| TP-Z -> {:COMMAND:SHELL:bash -ci 'osascript $STENO_DICTIONARIES/src/command/actions/fuzzy-find.scpt'}{^^}
+  +++ | S K W  A  EU R        | SKWAEUR -> square
+ ++++ |       R      R        | R-R -> {^~|\n^}{MODE:RESET}
++++++ |#                      | # -> {^~|\n^}{MODE:RESET}
+    + |#   P                  | 3 -> /
++++++ | ST P H         B      | STPH-B -> {#UP}{^^}
+    + | ST P H         B      | STPH-B -> {#UP}{^^}
+   ++ |     W    *            | W* -> {>}{&w}
+      |     W    *            | W* -> {>}{&w}
+      |     W    *            | W* -> {>}{&w}
+      |     W    *            | W* -> {>}{&w}
+      |     W    *            | W* -> {>}{&w}
+  +++ | ST P H   *            | STPH* -> {#LEFT}{^^}
+    + |          *EU          | *EU -> {>}{&i}
+    + |              R B G S  | -RBGS -> {,}
+  +++ |      H A      PBL     | HAPBL -> handle
+ ++++ |   KP   A *            | KPA* -> {^}{-|}
+ ++++ |   K  HR   EU   B G    | KHREUBG -> click
+  +++ |  T                TS  | T-TS -> {#CONTROL(J)}{^^}
++++++ | S        *  F         | S*F -> {:COMMAND:SHELL:bash -ci 'osascript $STENO_DICTIONARIES/src/command/actions/save.scpt'}{^^}
+ ++++ |# T                    | 2 -> /
+    + | ST P H       R        | STPH-R -> {#DOWN}{^^}
+  +++ |          *EU          | *EU -> {>}{&i}
+    + | S             P       | S-P -> {^ ^}
++++++ |    P  R O*    P       | PRO*P -> /
+ ++++ |          *            | * -> *
+    + |    P  R O     P       | PROP -> prop
+   ++ |  T     A *     B      | TA*B -> {#TAB}{^^}
++++++ |         O     PB      | OPB -> on
+ ++++ |   KP   A *            | KPA* -> {^}{-|}
+   ++ |   K  HR   EU   B G    | KHREUBG -> click
++++++ | S        *  F         | S*F -> {:COMMAND:SHELL:bash -ci 'osascript $STENO_DICTIONARIES/src/command/actions/save.scpt'}{^^}
++++++ |  T           RP L     | T-RPL -> {:COMMAND:SHELL:bash -ci 'osascript $STENO_DICTIONARIES/src/command/application/activate-application.scpt iTerm'}  3>KHREUBG
++++++ | S K             L     | SK-L -> {#CONTROL(Z)}  4>KHREUBG
++++++ |  TKPW    *EU      TS  | TKPW*EUTS -> {^git status --short}
+ ++++ |       R      R        | R-R -> {^~|\n^}{MODE:RESET}
++++++ |  TKPW     EU  P L T D | TKPWEUPLTD -> {^git commit --all --message=""^}{#LEFT}{-|}
++++++ |        A            D | AD -> add
+  +++ | S K W  A  EU R        | SKWAEUR -> square
++++++ | S    HR   E    B G S  | SHREBGS -> selection
++++++ |       R      R        | R-R -> {^~|\n^}{MODE:RESET}
++++++ |  T P     *       G    | TP*G -> {^fg^}{#RETURN}
++++++ |  T P                 Z| TP-Z -> {:COMMAND:SHELL:bash -ci 'osascript $STENO_DICTIONARIES/src/command/actions/fuzzy-find.scpt'}{^^}
+  +++ |  TKPW  A  EU  P L     | TKPWAEUPL -> game
+   ++ |       R      R        | R-R -> {^~|\n^}{MODE:RESET}
++++++ |#       A              | 5 -> /
+    + | ST P H         B      | STPH-B -> {#UP}{^^}
++++++ | S K W R O*            | SKWRO* -> {^o^}
++++++ |   K    AO  U       S  | KAOUS -> cues
+ ++++ |          *            | * -> *
++++++ |        AO  U       S  | AOUS -> use
+ ++++ | ST     A  EU      T   | STAEUT -> state
+   ++ |  T     A *     B      | TA*B -> {#TAB}{^^}
++++++ |       R    U RPB  T   | RURPBT -> /
+   ++ |   KP   A *            | KPA* -> {^}{-|}
+  +++ |          *            | * -> *
++++++ |   K        U RPB  T   | KURPBT -> current
++++++ |   KP   A *            | KPA* -> {^}{-|}
+   ++ |    P H  O   F         | PHOF -> move
+ ++++ |  T                TS  | T-TS -> {#CONTROL(J)}{^^}
+  +++ |  T                TS  | T-TS -> {#CONTROL(J)}{^^}
++++++ |#        O             | 0 -> /
++++++ |  T                TS  | T-TS -> {#CONTROL(J)}{^^}
++++++ | S        *  F         | S*F -> {:COMMAND:SHELL:bash -ci 'osascript $STENO_DICTIONARIES/src/command/actions/save.scpt'}{^^}
++++++ | ST P H       R        | STPH-R -> {#DOWN}{^^}
+ ++++ | ST P H   *            | STPH* -> {#LEFT}{^^}
++++++ |          *EU          | *EU -> {>}{&i}
+  +++ |              R B G S  | -RBGS -> {,}
++++++ |   K        U  PB  T   | KUPBT -> country
+ ++++ |          *            | * -> *
+ ++++ |   K        U RPB  T   | KURPBT -> current
+   ++ |   KP   A *            | KPA* -> {^}{-|}
+   ++ |    P H  O   F         | PHOF -> move
+   ++ |              R B G S  | -RBGS -> {,}
+ ++++ | S         E       T   | SET -> set
+    + |   KP   A *            | KPA* -> {^}{-|}
++++++ |   K        U RPB  T   | KURPBT -> current
+  +++ |   KP   A *            | KPA* -> {^}{-|}
+   ++ |    P H  O   F         | PHOF -> move
++++++ | S K           P       | SK-P -> {#ESCAPE}{MODE:RESET}
++++++ |#                  T   | -9 -> /
+   ++ | ST P H       R        | STPH-R -> {#DOWN}{^^}
+ ++++ | ST P H   *            | STPH* -> {#LEFT}{^^}
+      | ST P H   *            | STPH* -> {#LEFT}{^^}
+   ++ |          *EU          | *EU -> {>}{&i}
+    + |              R B G S  | -RBGS -> {,}
++++++ |   K        U RPB  T   | KURPBT -> current
+ ++++ |   KP   A *            | KPA* -> {^}{-|}
+    + |    P H  O   F         | PHOF -> move
+   ++ |              R B G S  | -RBGS -> {,}
+   ++ | S         E       T   | SET -> set
+    + |   KP   A *            | KPA* -> {^}{-|}
++++++ |   K        U RPB  T   | KURPBT -> current
++++++ |   KP   A *            | KPA* -> {^}{-|}
+   ++ |    P H  O   F         | PHOF -> move
++++++ | S        *  F         | S*F -> {:COMMAND:SHELL:bash -ci 'osascript $STENO_DICTIONARIES/src/command/actions/save.scpt'}{^^}
++++++ | ST P H       R        | STPH-R -> {#DOWN}{^^}
+    + | ST P H       R        | STPH-R -> {#DOWN}{^^}
++++++ | S K W R O*            | SKWRO* -> {^o^}
++++++ | S         E       T   | SET -> set
+    + |   KP   A *            | KPA* -> {^}{-|}
++++++ |   K        U RPB  T   | KURPBT -> current
+   ++ |   KP   A *            | KPA* -> {^}{-|}
+    + |    P H  O   F         | PHOF -> move
++++++ |    P HR       PB   S  | PHR-PBS -> Parkinson's
+ ++++ |          *            | * -> *
+   ++ |    P  R       PB   S  | PR-PBS -> {^()^}
+   ++ |  T     A *     B      | TA*B -> {#TAB}{^^}
++++++ |   K        U RPB  T   | KURPBT -> current
+    + |   KP   A *            | KPA* -> {^}{-|}
+ ++++ |    P H  O   F         | PHOF -> move
++++++ |    P HR    U       S  | PHRUS -> plus
+   ++ |  T     A *     B      | TA*B -> {#TAB}{^^}
+   ++ |#S                     | 1 -> /
+ ++++ |  T                TS  | T-TS -> {#CONTROL(J)}{^^}
+  +++ |  T                TS  | T-TS -> {#CONTROL(J)}{^^}
+ ++++ | ST P H   *  F P L T   | STPH*FPLT -> {;}
+  +++ | S        *  F         | S*F -> {:COMMAND:SHELL:bash -ci 'osascript $STENO_DICTIONARIES/src/command/actions/save.scpt'}{^^}
++++++ |#S  P                  | 13 -> /
+    + | ST P H         B      | STPH-B -> {#UP}{^^}
++++++ | S K W R O*            | SKWRO* -> {^o^}
++++++ |   K     O     PB  TS  | KOPBTS -> const
+ ++++ |  T     A *     B      | TA*B -> {#TAB}{^^}
++++++ |   K            B G S  | K-BGS -> {MODE:RESET}{MODE:CAMEL}
+ ++++ |   KP     *            | KP* -> {>}{&x}
+    + | S                     | S -> is
+  +++ |  T P H    E      GT   | TPHEGT -> next
+ ++++ |       R        B G S  | R-BGS -> {MODE:RESET}
+ ++++ |  T                TS  | T-TS -> {#CONTROL(J)}{^^}
++++++ |   K        U  PB  T   | KUPBT -> country
+ ++++ |          *            | * -> *
++++++ |   K        U RPB  T   | KURPBT -> current
+   ++ |   KP   A *            | KPA* -> {^}{-|}
+    + |    P H  O   F         | PHOF -> move
++++++ |    P H  O           D | PHOD -> mod
+  +++ |  T     A *     B      | TA*B -> {#TAB}{^^}
++++++ |# T                    | 2 -> /
++++++ |  T                TS  | T-TS -> {#CONTROL(J)}{^^}
+ ++++ |  T                TS  | T-TS -> {#CONTROL(J)}{^^}
++++++ |  T                TS  | T-TS -> {#CONTROL(J)}{^^}
++++++ | S        *  F         | S*F -> {:COMMAND:SHELL:bash -ci 'osascript $STENO_DICTIONARIES/src/command/actions/save.scpt'}{^^}
++++++ |#       A              | 5 -> /
+    + | ST P H       R        | STPH-R -> {#DOWN}{^^}
+  +++ |     W    *            | W* -> {>}{&w}
+    + |     W    *            | W* -> {>}{&w}
+    + |     W    *            | W* -> {>}{&w}
+    + |     W    *            | W* -> {>}{&w}
+   ++ | ST P H   *            | STPH* -> {#LEFT}{^^}
+   ++ |          *EU          | *EU -> {>}{&i}
+    + | S             P       | S-P -> {^ ^}
+  +++ |    P  R O     P       | PROP -> prop
+  +++ |  T     A *     B      | TA*B -> {#TAB}{^^}
++++++ |   K            B G S  | K-BGS -> {MODE:RESET}{MODE:CAMEL}
+   ++ |   KP     *            | KP* -> {>}{&x}
+   ++ | S                     | S -> is
++++++ |  T P H    E       T   | TPHET -> net
++++++ |          *            | * -> *
+  +++ |  T P H    E      GT   | TPHEGT -> next
++++++ | S        *  F         | S*F -> {:COMMAND:SHELL:bash -ci 'osascript $STENO_DICTIONARIES/src/command/actions/save.scpt'}{^^}
++++++ |       R        B G S  | R-BGS -> {MODE:RESET}  3>TPHEGT TPHELGT TPHEFGT 234EG9 TPH*EBGS
++++++ | S    HRAO*EU  PB      | SHRAO*EUPB -> {:COMMAND:SHELL:bash -ci 'osascript $STENO_DICTIONARIES/src/command/text/select-editable-line.scpt'}  4>TPHEGT TPHELGT TPHEFGT 234EG9 TPH*EBGS
+  +++ |  T     A *     B      | TA*B -> {#TAB}{^^}
++++++ |  T P    O    RP L T   | TPORPLT -> format
+  +++ |  T     A *     B      | TA*B -> {#TAB}{^^}
++++++ | S        *  F         | S*F -> {:COMMAND:SHELL:bash -ci 'osascript $STENO_DICTIONARIES/src/command/actions/save.scpt'}{^^}
++++++ |  T P                 Z| TP-Z -> {:COMMAND:SHELL:bash -ci 'osascript $STENO_DICTIONARIES/src/command/actions/fuzzy-find.scpt'}{^^}
+  +++ |    PW  AO    R      D | PWAORD -> board
+   ++ |       R      R        | R-R -> {^~|\n^}{MODE:RESET}
++++++ |#S                   D | 1-D -> 11
+    + | ST P H         B      | STPH-B -> {#UP}{^^}
+   ++ |     W    *            | W* -> {>}{&w}
+      |     W    *            | W* -> {>}{&w}
+      |     W    *            | W* -> {>}{&w}
+      |     W    *            | W* -> {>}{&w}
+      |     W    *            | W* -> {>}{&w}
+      |     W    *            | W* -> {>}{&w}
+   ++ |     W    *            | W* -> {>}{&w}
+   ++ | ST P H   *            | STPH* -> {#LEFT}{^^}
+   ++ |          *EU          | *EU -> {>}{&i}
+    + |              R B G S  | -RBGS -> {,}
++++++ |   K            B G S  | K-BGS -> {MODE:RESET}{^ ^}{MODE:CAMEL}
++++++ |   KP     *            | KP* -> {>}{&x}
+    + | S                     | S -> is
+  +++ |  T P H    E      GT   | TPHEGT -> next
+  +++ |       R        B G S  | R-BGS -> {MODE:RESET}
++++++ | S K           P       | SK-P -> {#ESCAPE}{MODE:RESET}
++++++ |# T                    | 2 -> /
+    + | ST P H       R        | STPH-R -> {#DOWN}{^^}
+   ++ |     W    *            | W* -> {>}{&w}
+   ++ |     W    *            | W* -> {>}{&w}
+  +++ |          *EU          | *EU -> {>}{&i}
+    + |              R B G S  | -RBGS -> {,}
++++++ |   K            B G S  | K-BGS -> {MODE:RESET}{^ ^}{MODE:CAMEL}
++++++ |   KP                  | KP -> examine
+    + | S                     | S -> is
+   ++ |          *            | * -> *
+      |          *            | * -> *
+   ++ |   KP     *            | KP* -> {>}{&x}
+    + | S                     | S -> is
+ ++++ |  T P H    E      GT   | TPHEGT -> next
++++++ |       R        B G S  | R-BGS -> {MODE:RESET}
++++++ | S K           P       | SK-P -> {#ESCAPE}{MODE:RESET}
++++++ |#S               L     | 1-8 -> /
+    + | ST P H       R        | STPH-R -> {#DOWN}{^^}
+ ++++ |     W    *            | W* -> {>}{&w}
+      |     W    *            | W* -> {>}{&w}
+      |     W    *            | W* -> {>}{&w}
+  +++ | ST P H         B      | STPH-B -> {#UP}{^^}
+   ++ |     W    *            | W* -> {>}{&w}
+      |     W    *            | W* -> {>}{&w}
+    + |     W    *            | W* -> {>}{&w}
+      |     W    *            | W* -> {>}{&w}
+    + |     W    *            | W* -> {>}{&w}
+    + |     W    *            | W* -> {>}{&w}
+   ++ |          *EU          | *EU -> {>}{&i}
++++++ |   KP     *            | KP* -> {>}{&x}
+  +++ |   KP   A *            | KPA* -> {^}{-|}
+   ++ | S                     | S -> is
+   ++ |   KP   A *            | KPA* -> {^}{-|}
+  +++ |  T P H    E      GT   | TPHEGT -> next
+   ++ |              R B G S  | -RBGS -> {,}
+    + | S             P       | S-P -> {^ ^}
+ ++++ | S        *  F         | S*F -> {:COMMAND:SHELL:bash -ci 'osascript $STENO_DICTIONARIES/src/command/actions/save.scpt'}{^^}
++++++ | S        *   R        | S*R -> {#ESCAPE Z PERIOD}
++++++ |#              P       | -7 -> /
+    + | ST P H       R        | STPH-R -> {#DOWN}{^^}
+   ++ | S     R  *    P       | SR*P -> {&V}
+    + | S     R  *    P       | SR*P -> {&V}
++++++ | ST P H           G    | STPH-G -> {#RIGHT}{^^}
+      | ST P H           G    | STPH-G -> {#RIGHT}{^^}
+      | ST P H           G    | STPH-G -> {#RIGHT}{^^}
+      | ST P H           G    | STPH-G -> {#RIGHT}{^^}
++++++ | S     R  *            | SR* -> {>}{&v}
++++++ | S K      *            | SK* -> {>}{&e}
+      | S K      *            | SK* -> {>}{&e}
+      | S K      *            | SK* -> {>}{&e}
+      | S K      *            | SK* -> {>}{&e}
+      | S K      *            | SK* -> {>}{&e}
+   ++ | S K      *            | SK* -> {>}{&e}
+   ++ | S K      *            | SK* -> {>}{&e}
+   ++ | S K      *            | SK* -> {>}{&e}
++++++ |  T     A *     B      | TA*B -> {#TAB}{^^}
++++++ |  T P                  | TP -> if
+ ++++ |  T     A *     B      | TA*B -> {#TAB}{^^}
++++++ |   KP     *            | KP* -> {>}{&x}
+   ++ |   KP   A *            | KPA* -> {^}{-|}
+   ++ | S                     | S -> is
+    + |   KP   A *            | KPA* -> {^}{-|}
+ ++++ |  T P H    E      GT   | TPHEGT -> next
++++++ |  T                TS  | T-TS -> {#CONTROL(J)}{^^}
++++++ | S K           P       | SK-P -> {#ESCAPE}{MODE:RESET}
+ ++++ |   K W R  *            | KWR* -> {>}{&y}
+      |   K W R  *            | KWR* -> {>}{&y}
++++++ |          *EU          | *EU -> {>}{&i}
+    + |  T                TS  | T-TS -> {#CONTROL(J)}{^^}
++++++ |  T                TS  | T-TS -> {#CONTROL(J)}{^^}
+   ++ |    P     *            | P* -> {>}{&p}
++++++ | S K           P       | SK-P -> {#ESCAPE}{MODE:RESET}
+   ++ |    P     *            | P* -> {>}{&p}
+   ++ | ST P H         B      | STPH-B -> {#UP}{^^}
+    + |  TK      *            | TK* -> {>}{&d}
+      |  TK      *            | TK* -> {>}{&d}
++++++ |   K  H  O*E       T   | KHO*ET -> {#C I SHIFT(QUOTEDBL)}
+ ++++ |         O*    P       | O*P -> {&O}
++++++ | S        *  F         | S*F -> {:COMMAND:SHELL:bash -ci 'osascript $STENO_DICTIONARIES/src/command/actions/save.scpt'}{^^}
++++++ | ST P H       R        | STPH-R -> {#DOWN}{^^}
+    + | S K W R O*            | SKWRO* -> {^o^}
++++++ | S        *  F         | S*F -> {:COMMAND:SHELL:bash -ci 'osascript $STENO_DICTIONARIES/src/command/actions/save.scpt'}{^^}
++++++ |  T           RP L     | T-RPL -> {:COMMAND:SHELL:bash -ci 'osascript $STENO_DICTIONARIES/src/command/application/activate-application.scpt iTerm'}  3>KWRO STPO SKWRO 4>O*/SP-S
++++++ | ST P H   *     B      | STPH*B -> {:COMMAND:SHELL:bash -ci 'osascript $STENO_DICTIONARIES/src/command/actions/page-up.scpt'}  4>KWRO STPO SKWRO 5>O*/SP-S
++++++ |#ST                    | 12 -> /
+    + | ST P H         B      | STPH-B -> {#UP}{^^}
++++++ | S K W R O*            | SKWRO* -> {^o^}
+  +++ | S             P       | S-P -> {^ ^}
+      | S             P       | S-P -> {^ ^}
++++++ |   KP    O E   PB  T   | KPOEPBT -> component
+  +++ |  T     A *     B      | TA*B -> {#TAB}{^^}
+ ++++ |#S                     | 1 -> /
+    + |  T     A *     B      | TA*B -> {#TAB}{^^}
++++++ |   KP   A *            | KPA* -> {^}{-|}
++++++ | ST     A *EU      TS  | STA*EUTS -> status
++++++ |  T                TS  | T-TS -> {#CONTROL(J)}{^^}
++++++ |  T                TS  | T-TS -> {#CONTROL(J)}{^^}
+   ++ |  T     A *     B      | TA*B -> {#TAB}{^^}
++++++ |   KP     *            | KP* -> {>}{&x}
+   ++ |   KP   A *            | KPA* -> {^}{-|}
+   ++ | S                     | S -> is
+   ++ |   KP   A *            | KPA* -> {^}{-|}
+  +++ |  T P H    E      GT   | TPHEGT -> next
+ ++++ |  T                TS  | T-TS -> {#CONTROL(J)}{^^}
+  +++ |  T                TS  | T-TS -> {#CONTROL(J)}{^^}
++++++ |  T                TS  | T-TS -> {#CONTROL(J)}{^^}
++++++ |  T                TS  | T-TS -> {#CONTROL(J)}{^^}
+  +++ |  TK             L     | TK-L -> {#DELETE}  6>TPHEGT TPHELGT TPHEFGT 234EG9 TPH*EBGS
+   ++ |  T                TS  | T-TS -> {#CONTROL(J)}{^^}
++++++ | S        *  F         | S*F -> {:COMMAND:SHELL:bash -ci 'osascript $STENO_DICTIONARIES/src/command/actions/save.scpt'}{^^}
++++++ |  TKPW    *            | TKPW* -> {>}{&g}
+    + |  TKPW    *            | TKPW* -> {>}{&g}  >TKPW-PBLG
+ ++++ | S K W R O*            | SKWRO* -> {^o^}
++++++ |    P  R O*   R    T   | PRO*RT -> import
+  +++ |  T     A *     B      | TA*B -> {#TAB}{^^}
++++++ |  T                TS  | T-TS -> {#CONTROL(J)}{^^}
+   ++ |   KP   A *            | KPA* -> {^}{-|}
++++++ | ST     A *EU      TS  | STA*EUTS -> status
+ ++++ |  T                TS  | T-TS -> {#CONTROL(J)}{^^}
+   ++ |  TK             L     | TK-L -> {#DELETE}  3>ST*TS STA*LTS STA*EUTS STA*TS ST-TS STAEUT/SKWRUS STAEU/TUS STAEUT/US STAT/US STAEUT/TUS STA/TUS STAT/TUS
++++++ | S        *  F         | S*F -> {:COMMAND:SHELL:bash -ci 'osascript $STENO_DICTIONARIES/src/command/actions/save.scpt'}{^^}
++++++ |  T P H     UF   L     | TPHUFL -> {#ESCAPE SHIFT(COLON)}{^edit ^}
++++++ | S            R B G    | S-RBG -> src
+  +++ |         O EU          | OEU -> {^/^}
+    + |   KP   A *            | KPA* -> {^}{-|}
++++++ | ST     A  EU      TS  | STAEUTS -> states
+   ++ |          *            | * -> *
+    + | ST     A *EU      TS  | STA*EUTS -> status
+  +++ |    P          P       | P-P -> {^.^}
+   ++ | S K W R            S  | SKWR-S -> *{^.^}js
+    + |       R      R        | R-R -> {^~|\n^}{MODE:RESET}
+ ++++ |          *EU          | *EU -> {>}{&i}
++++++ |  TK             L  S  | TK-LS -> {^^}
++++++ |   KP    O E   PB  T   | KPOEPBT -> component
+ ++++ |  T     A *     B      | TA*B -> {#TAB}{^^}
++++++ |# T                    | 2 -> /
+  +++ |  T     A *     B      | TA*B -> {#TAB}{^^}
++++++ |  T                TS  | T-TS -> {#CONTROL(J)}{^^}
+ ++++ |  TK             L     | TK-L -> {#DELETE}
+   ++ |  T                TS  | T-TS -> {#CONTROL(J)}{^^}
+   ++ |  T                TS  | T-TS -> {#CONTROL(J)}{^^}
++++++ |  T                TS  | T-TS -> {#CONTROL(J)}{^^}
++++++ |  T     A *     B      | TA*B -> {#TAB}{^^}
++++++ |   KP     *            | KP* -> {>}{&x}
++++++ |   KP   A *            | KPA* -> {^}{-|}
+   ++ | S                     | S -> is
+    + |   KP   A *            | KPA* -> {^}{-|}
+  +++ |  T P      E      GT   | TPEGT -> fete {^ing}
+  +++ |          *            | * -> *
++++++ |  T P H    E      GT   | TPHEGT -> next
+  +++ |  T                TS  | T-TS -> {#CONTROL(J)}{^^}
+ ++++ |  T                TS  | T-TS -> {#CONTROL(J)}{^^}
++++++ |  TK      *EUF         | TK*EUF -> div
++++++ |    P          P       | P-P -> {^.^}
++++++ | ST     A *EU      TS  | STA*EUTS -> status
++++++ |  T     A *     B      | TA*B -> {#TAB}{^^}
++++++ |#S                     | 1 -> /
+   ++ |  T     A *     B      | TA*B -> {#TAB}{^^}
++++++ |  T                TS  | T-TS -> {#CONTROL(J)}{^^}
+   ++ |  T                TS  | T-TS -> {#CONTROL(J)}{^^}
++++++ |       R   E  RPB    D | RERPBD -> render
+  +++ |  T     A *     B      | TA*B -> {#TAB}{^^}
++++++ | ST     A *EU      TS  | STA*EUTS -> status
++++++ | S        *  F         | S*F -> {:COMMAND:SHELL:bash -ci 'osascript $STENO_DICTIONARIES/src/command/actions/save.scpt'}{^^}
++++++ |#   P                  | 3 -> /
+    + | ST P H         B      | STPH-B -> {#UP}{^^}
+  +++ | S K W R O*            | SKWRO* -> {^o^}
++++++ |   K     O     PB  TS  | KOPBTS -> const
+ ++++ |  T     A *     B      | TA*B -> {#TAB}{^^}
++++++ | ST     A *EU      TS  | STA*EUTS -> status
+ ++++ |  T                TS  | T-TS -> {#CONTROL(J)}{^^}
++++++ | ST    R   EU  PB G    | STREUPBG -> string
+  +++ |  T     A *     B      | TA*B -> {#TAB}{^^}
++++++ |# T                    | 2 -> /
++++++ |   KP   A *            | KPA* -> {^}{-|}
+  +++ |  T P H    E      GT   | TPHEGT -> next
++++++ |    P HRA  EU R        | PHRAEUR -> player
+  +++ |   K  HR       PB      | KHR-PB -> {^:^}
+   ++ | S             P       | S-P -> {^ ^}
++++++ |  T P H    E  RP L T   | TPHERPLT -> interpolate
+  +++ |  T     A *     B      | TA*B -> {#TAB}{^^}
++++++ |   KP     *            | KP* -> {>}{&x}
+    + |   KP   A *            | KPA* -> {^}{-|}
+ ++++ | S                     | S -> is
+  +++ |   KP   A *            | KPA* -> {^}{-|}
+  +++ |  T P H    E      GT   | TPHEGT -> next
+ ++++ |          *            | * -> *
+      |          *            | * -> *
+   ++ |    PW       F P       | PW-FP -> {#BACKSPACE}  3>T-PLZ T*PLZ KP*/SP-S
++++++ |    P      E  RPB      | PERPB -> person
+  +++ |          *            | * -> *
+   ++ |  T        E  RPB      | TERPB -> tern
+ ++++ |          *            | * -> *
+   ++ |  TK             L  S  | TK-LS -> {^^}  3>TK-LS
+  +++ |  T        E  RPB      | TERPB -> tern
+   ++ |       R   EU          | REU -> *ternary
+    + |  T     A *     B      | TA*B -> {#TAB}{^^}
++++++ |  TK             L     | TK-L -> {#DELETE}  3>TERPB/AER TERPB/REU
+   ++ |  T                TS  | T-TS -> {#CONTROL(J)}{^^}
++++++ |   KP     *            | KP* -> {>}{&x}
+    + |   KP   A *            | KPA* -> {^}{-|}
+   ++ | S                     | S -> is
+   ++ |   KP   A *            | KPA* -> {^}{-|}
+  +++ |  T P H    E      GT   | TPHEGT -> next
+  +++ |  T                TS  | T-TS -> {#CONTROL(J)}{^^}
++++++ | ST    R   EU  PB G    | STREUPBG -> string
+   ++ |  T     A *     B      | TA*B -> {#TAB}{^^}
+  +++ |#S                     | 1 -> /
++++++ |   KP     *    P       | KP*P -> {&X}
+  +++ |  T                TS  | T-TS -> {#CONTROL(J)}{^^}
+  +++ |  T                TS  | T-TS -> {#CONTROL(J)}{^^}
+   ++ |  T                TS  | T-TS -> {#CONTROL(J)}{^^}
++++++ | ST    R   EU  PB G    | STREUPBG -> string
+  +++ |  T     A *     B      | TA*B -> {#TAB}{^^}
+ ++++ |#S                     | 1 -> /
++++++ |         O*    P       | O*P -> {&O}
++++++ | S        *  F         | S*F -> {:COMMAND:SHELL:bash -ci 'osascript $STENO_DICTIONARIES/src/command/actions/save.scpt'}{^^}
+   ++ | S K W R O*            | SKWRO* -> {^o^}
+ ++++ | S        *  F         | S*F -> {:COMMAND:SHELL:bash -ci 'osascript $STENO_DICTIONARIES/src/command/actions/save.scpt'}{^^}
++++++ | S  P HR           T   | SPHR-T -> {:COMMAND:SHELL:bash -ci 'osascript $STENO_DICTIONARIES/src/command/actions/split-horizontal.scpt'}  3>KWRO STPO SKWRO
++++++ |  T P                 Z| TP-Z -> {:COMMAND:SHELL:bash -ci 'osascript $STENO_DICTIONARIES/src/command/actions/fuzzy-find.scpt'}{^^}
+  +++ | ST P H         B      | STPH-B -> {#UP}{^^}
+    + |       R      R        | R-R -> {^~|\n^}{MODE:RESET}
++++++ | S K W R O*            | SKWRO* -> {^o^}
+    + |       R      R        | R-R -> {^~|\n^}{MODE:RESET}
++++++ |   K  HRA           S  | KHRAS -> class
+   ++ |  T     A *     B      | TA*B -> {#TAB}{^^}
++++++ | ST     A *EU      TS  | STA*EUTS -> status
+  +++ |  T                TS  | T-TS -> {#CONTROL(J)}{^^}
++++++ |    P H A     RPB      | PHARPB -> margin
++++++ |    PW   O*    P L T   | PWO*PLT -> bottom
+  +++ |  T     A *     B      | TA*B -> {#TAB}{^^}
+ ++++ |#S                     | 1 -> /
+   ++ |  T     A *     B      | TA*B -> {#TAB}{^^}
+ ++++ |#S       O             | 10 -> /
+  +++ |  T                TS  | T-TS -> {#CONTROL(J)}{^^}
+    + |#S                     | 1 -> /
+    + |  T                TS  | T-TS -> {#CONTROL(J)}{^^}
+   ++ |  T                TS  | T-TS -> {#CONTROL(J)}{^^}
+ ++++ | S        *  F         | S*F -> {:COMMAND:SHELL:bash -ci 'osascript $STENO_DICTIONARIES/src/command/actions/save.scpt'}{^^}
++++++ |   K   R       P L     | KR-PL -> {:COMMAND:SHELL:bash -ci 'osascript $STENO_DICTIONARIES/src/command/application/activate-application.scpt "Google Chrome"'}
++++++ |       R  *E  R B      | R*ERB -> {:COMMAND:SHELL:bash -ci 'osascript $STENO_DICTIONARIES/src/command/actions/refresh.scpt'}{^^}
++++++ |  T           RP L     | T-RPL -> {:COMMAND:SHELL:bash -ci 'osascript $STENO_DICTIONARIES/src/command/application/activate-application.scpt iTerm'}
++++++ |   K W    *EU          | KW*EU -> {:COMMAND:SHELL:bash -ci 'osascript $STENO_DICTIONARIES/src/command/actions/quit.scpt'}
+   ++ | S K             L     | SK-L -> {#CONTROL(Z)}
++++++ |  TKPW    *EU      TS  | TKPW*EUTS -> {^git status --short}
+ ++++ |       R      R        | R-R -> {^~|\n^}{MODE:RESET}
++++++ |  TKPW    *EU      T D | TKPW*EUTD -> {^git add .}
+  +++ |       R      R        | R-R -> {^~|\n^}{MODE:RESET}
++++++ |  TKPW     EU  P L T   | TKPWEUPLT -> {^git commit --message=""^}{#LEFT}{-|}
++++++ |        A            D | AD -> add
+  +++ |  T         U RPB      | TURPB -> turn
++++++ |  T     A  EU     G    | TAEUG -> taking
+  +++ |       R      R        | R-R -> {^~|\n^}{MODE:RESET}
+ ++++ |  T P     *       G    | TP*G -> {^fg^}{#RETURN}
++++++ |  T P H     UF   L     | TPHUFL -> {#ESCAPE SHIFT(COLON)}{^edit ^}
++++++ | S            R B G    | S-RBG -> src
+  +++ |         O EU          | OEU -> {^/^}
++++++ |       RAO  U    L  S  | RAOULS -> rules
++++++ |    P          P       | P-P -> {^.^}
+  +++ | S K W R            S  | SKWR-S -> *{^.^}js
++++++ |       R      R        | R-R -> {^~|\n^}{MODE:RESET}
++++++ |          *EU          | *EU -> {>}{&i}
++++++ |   K     O     PB  TS  | KOPBTS -> const
++++++ |    PW    *  F P       | PW*FP -> {>}{&i}{^~|^}const
+   ++ |  T     A *     B      | TA*B -> {#TAB}{^^}
++++++ |  TK             L     | TK-L -> {#DELETE}
+  +++ |  T                TS  | T-TS -> {#CONTROL(J)}{^^}
++++++ | S K   R        B G S  | SKR-BGS -> {MODE:RESET}{MODE:CAPS}{MODE:SET_SPACE:_}
++++++ |     W     EU  PB      | WEUPB -> win
+    + |                  G    | -G -> *winning
++++++ |    P             G S  | P-GS -> prognosis {^s}
+    + |                    S  | -S -> {^s}
+ ++++ |          *            | * -> *
+      |          *            | * -> *
+  +++ |    P    O        G S  | POGS -> position
+ ++++ |                    S  | -S -> *positions
++++++ |       R        B G S  | R-BGS -> {MODE:RESET}
+  +++ |  T                TS  | T-TS -> {#CONTROL(J)}{^^}
++++++ |    PW R  *         S  | PWR*S -> \}
++++++ |    PW       F P       | PW-FP -> {#BACKSPACE}
++++++ |    PW    *EU       S  | PW*EUS -> bis
+  +++ |          *            | * -> *
+    + |      HR  *EU       S  | HR*EUS -> list
+ ++++ |    PW    *  F P       | PW*FP -> {#BACKSPACE}{^~|^}list
+  +++ |  T     A *     B      | TA*B -> {#TAB}{^^}
+ ++++ |       R      R        | R-R -> {^~|\n^}{MODE:RESET}
+   ++ |       R      R        | R-R -> {^~|\n^}{MODE:RESET}
+   ++ | S K           P       | SK-P -> {#ESCAPE}{MODE:RESET}
+   ++ | ST P H         B      | STPH-B -> {#UP}{^^}
+   ++ |          *EU          | *EU -> {>}{&i}
+ ++++ | S             P       | S-P -> {^ ^}
+      | S             P       | S-P -> {^ ^}
++++++ |      HR  *EU       S  | HR*EUS -> list
+  +++ |  T     A *     B      | TA*B -> {#TAB}{^^}
++++++ |#        O             | 0 -> /
+    + |              R B G S  | -RBGS -> {,}
+   ++ |#S                     | 1 -> /
+   ++ |              R B G S  | -RBGS -> {,}
+   ++ |# T                    | 2 -> /
++++++ | S        *  F         | S*F -> {:COMMAND:SHELL:bash -ci 'osascript $STENO_DICTIONARIES/src/command/actions/save.scpt'}{^^}
++++++ |  T           RP L     | T-RPL -> {:COMMAND:SHELL:bash -ci 'osascript $STENO_DICTIONARIES/src/command/application/activate-application.scpt iTerm'}
+ ++++ |  TK      *            | TK* -> {>}{&d}
+      |  TK      *            | TK* -> {>}{&d}
+  +++ | S K W R O*            | SKWRO* -> {^o^}
++++++ |    PW       F P       | PW-FP -> {#BACKSPACE}  2>KWRO STPO SKWRO
+   ++ | S K           P       | SK-P -> {#ESCAPE}{MODE:RESET}
+   ++ | ST P H         B      | STPH-B -> {#UP}{^^}
+    + | S K W R O*            | SKWRO* -> {^o^}
++++++ |   K        U RPB      | KURPB -> curtain
+    + |                  G    | -G -> {^ing}
+   ++ |          *            | * -> *
+    + |          *            | * -> *
+  +++ |     W      U  PB G    | WUPBG -> one {^ing}
+  +++ |          *            | * -> *
+    + |     W     EU  PB G    | WEUPBG -> wing  3>OE/-G
+  +++ |          *            | * -> *
+    + |     W     EU  PB      | WEUPB -> win
+    + |                  G    | -G -> *winning  >W-PBG WAO*EPBG W-G
++++++ |    P    O      B G S  | POBGS -> pox
+  +++ |          *            | * -> *
+   ++ |    P    O        G S Z| POGSZ -> position {^s}
+  +++ |  T     A *     B      | TA*B -> {#TAB}{^^}
++++++ | S        *  F         | S*F -> {:COMMAND:SHELL:bash -ci 'osascript $STENO_DICTIONARIES/src/command/actions/save.scpt'}{^^}
++++++ | ST P H       R        | STPH-R -> {#DOWN}{^^}
+ ++++ | S K W R O*            | SKWRO* -> {^o^}
+   ++ |       R      R        | R-R -> {^~|\n^}{MODE:RESET}
++++++ |  T P       U   B G S  | TPUBGS -> function
++++++ |  T     A *     B      | TA*B -> {#TAB}{^^}
++++++ |  T                TS  | T-TS -> {#CONTROL(J)}{^^}
+  +++ |  TK             L     | TK-L -> {#DELETE}  4>TPUPBGS TPUPGS TPUBGS
+   ++ |  T                TS  | T-TS -> {#CONTROL(J)}{^^}
+   ++ |  TK             L     | TK-L -> {#DELETE}  6>TPUPBGS TPUPGS TPUBGS
+    + |  T                TS  | T-TS -> {#CONTROL(J)}{^^}
++++++ | S    HRA  EU      T   | SHRAEUT -> slate
+ ++++ |          *            | * -> *
++++++ |   K  HRA  EU      T   | KHRAEUT -> calculate
++++++ |   KP   A *            | KPA* -> {^}{-|}
+   ++ |   K       EU RPB      | KEURPB -> /
+ ++++ |          *            | * -> *
+ ++++ |     W     EU RPB      | WEURPB -> winner
+ ++++ |  T                TS  | T-TS -> {#CONTROL(J)}{^^}
++++++ | S K W  A  EU R     S  | SKWAEURS -> squares
++++++ |  T                TS  | T-TS -> {#CONTROL(J)}{^^}
++++++ |  T P    O    R        | TPOR -> for
++++++ |  T     A *     B      | TA*B -> {#TAB}{^^}
++++++ |  T                TS  | T-TS -> {#CONTROL(J)}{^^}
+  +++ |  T                TS  | T-TS -> {#CONTROL(J)}{^^}
+   ++ |  T                TS  | T-TS -> {#CONTROL(J)}{^^}
+  +++ |  T                TS  | T-TS -> {#CONTROL(J)}{^^}
++++++ | S K   R          G S  | SKR-GS -> /
+ ++++ |          *            | * -> *
++++++ | S K   R        B G S  | SKR-BGS -> {MODE:RESET}{MODE:CAPS}{MODE:SET_SPACE:_}
++++++ |     W     EU  PB      | WEUPB -> win
+  +++ |          *            | * -> *
+    + |     W     EU  PB      | WEUPB -> win
+    + |                  G    | -G -> *winning
++++++ |    P    O        G S Z| POGSZ -> position {^s}
++++++ |       R        B G S  | R-BGS -> {MODE:RESET}
+  +++ |    P          P       | P-P -> {^.^}  2>PO*EUP
++++++ |      HR   E   PB G    | HREPBG -> length
++++++ |  T                TS  | T-TS -> {#CONTROL(J)}{^^}
++++++ |  T                TS  | T-TS -> {#CONTROL(J)}{^^}
++++++ |   K     O     PB  TS  | KOPBTS -> const
++++++ |  T     A *     B      | TA*B -> {#TAB}{^^}
++++++ |    PW R  *     B G S  | PWR*BGS -> {^[]^}{#LEFT}
++++++ |        A *            | A* -> {>}{&a}
+   ++ |              R B G S  | -RBGS -> {,}
+  +++ |    PW    *            | PW* -> {>}{&b}
+  +++ |              R B G S  | -RBGS -> {,}
++++++ |   K   R  *            | KR* -> {>}{&c}
+  +++ |  T                TS  | T-TS -> {#CONTROL(J)}{^^}
++++++ | S K   R        B G S  | SKR-BGS -> {MODE:RESET}{MODE:CAPS}{MODE:SET_SPACE:_}
++++++ |     W     EU  PB      | WEUPB -> win
+    + |                  G    | -G -> *winning
++++++ |    P             G S Z| P-GSZ -> /
+   ++ |          *            | * -> *
+  +++ |    P    O        G S Z| POGSZ -> position {^s}
++++++ |       R      R B G S  | R-RBGS -> {#CONTROL(BACKSPACE)}{^/dr}{#RETURN}
++++++ |    PW       F P       | PW-FP -> {#BACKSPACE}
+    + |    PW       F P       | PW-FP -> {#BACKSPACE}
+      |    PW       F P       | PW-FP -> {#BACKSPACE}
+    + |    PW       F P       | PW-FP -> {#BACKSPACE}
+      |    PW       F P       | PW-FP -> {#BACKSPACE}
+      |    PW       F P       | PW-FP -> {#BACKSPACE}
++++++ | S        *    P       | S*P -> {&S}
+  +++ |          *            | * -> *
+ ++++ |       R        B G S  | R-BGS -> {MODE:RESET}
+  +++ | S        *    P       | S*P -> {&S}
+  +++ |          *            | * -> *
+  +++ |  TK             L  S  | TK-LS -> {^^}
+    + | S        *    P       | S*P -> {&S}
++++++ |    PW R        B G S  | PWR-BGS -> {^[]^}
+  +++ | ST P H   *            | STPH* -> {#LEFT}{^^}
+  +++ | S K W    *            | SKW* -> {>}{&i}
+ ++++ | ST P H           G    | STPH-G -> {#RIGHT}{^^}
+      | ST P H           G    | STPH-G -> {#RIGHT}{^^}
+  +++ |       R      R        | R-R -> {^~|\n^}{MODE:RESET}
++++++ |   K     O     PB  TS  | KOPBTS -> const
+  +++ |  T     A *     B      | TA*B -> {#TAB}{^^}
++++++ |    P HRA  EU R        | PHRAEUR -> player
+ ++++ |  T                TS  | T-TS -> {#CONTROL(J)}{^^}
++++++ | S K W  A  EU R     S  | SKWAEURS -> squares
++++++ |    PW R        B G S  | PWR-BGS -> {^[]^}
++++++ |  T     A *     B      | TA*B -> {#TAB}{^^}
+  +++ |#       A              | 5 -> /
+  +++ |          *            | * -> *
+ ++++ |        A *            | A* -> {>}{&a}
+ ++++ |  T                TS  | T-TS -> {#CONTROL(J)}{^^}
+ ++++ |  T                TS  | T-TS -> {#CONTROL(J)}{^^}
+ ++++ |       R      R        | R-R -> {^~|\n^}{MODE:RESET}
++++++ |  T P                  | TP -> if
++++++ |  T     A *     B      | TA*B -> {#TAB}{^^}
++++++ |    P HRA  EU R        | PHRAEUR -> player
++++++ | S KP                  | SKP -> and
+   ++ |  T     A *     B      | TA*B -> {#TAB}{^^}
++++++ |    P HRA  EU R        | PHRAEUR -> player
++++++ |   K W  A        L  S  | KWALS -> equals
+  +++ |  T     A *     B      | TA*B -> {#TAB}{^^}
+ ++++ |  T                TS  | T-TS -> {#CONTROL(J)}{^^}
++++++ | S K W RA  EU R        | SKWRAEUR -> /
+  +++ |          *            | * -> *
+  +++ | S K W  A  EU R     S  | SKWAEURS -> squares
++++++ |    PW R       PB   S  | PWR-PBS -> /
+  +++ |          *            | * -> *
+   ++ |    PW R       PB   S  | PWR-PBS -> /
+  +++ |          *            | * -> *
++++++ |    PW R        B G S  | PWR-BGS -> {^[]^}
+   ++ |  T     A *     B      | TA*B -> {#TAB}{^^}
++++++ |    PW    *            | PW* -> {>}{&b}
+  +++ |  T                TS  | T-TS -> {#CONTROL(J)}{^^}
+   ++ | S             P       | S-P -> {^ ^}
+   ++ | S KP                  | SKP -> and
++++++ |  T     A *     B      | TA*B -> {#TAB}{^^}
++++++ |    P HRA  EU R        | PHRAEUR -> player
++++++ |   K W  A        L  S  | KWALS -> equals
+ ++++ |  T     A *     B      | TA*B -> {#TAB}{^^}
+ ++++ |  T                TS  | T-TS -> {#CONTROL(J)}{^^}
++++++ | S K W  A  EU R     S  | SKWAEURS -> squares
++++++ |    PW R        B G S  | PWR-BGS -> {^[]^}
+   ++ |  T     A *     B      | TA*B -> {#TAB}{^^}
+  +++ |   K   R  *            | KR* -> {>}{&c}
+   ++ |  T                TS  | T-TS -> {#CONTROL(J)}{^^}
+   ++ |  T                TS  | T-TS -> {#CONTROL(J)}{^^}
++++++ |       R    U RPB      | RURPB -> return
++++++ |    P HRA  EU R        | PHRAEUR -> player
++++++ | ST P H   *  F P L T   | STPH*FPLT -> {;}
++++++ |  T                TS  | T-TS -> {#CONTROL(J)}{^^}
+  +++ |  TK             L     | TK-L -> {#DELETE}
++++++ | ST P H       R        | STPH-R -> {#DOWN}{^^}
+  +++ | S K W R O*            | SKWRO* -> {^o^}
+ ++++ |    PW       F P       | PW-FP -> {#BACKSPACE}  2>KWRO STPO SKWRO 3>O*/SP-S
+   ++ |       R      R        | R-R -> {^~|\n^}{MODE:RESET}
+   ++ |       R      R        | R-R -> {^~|\n^}{MODE:RESET}
++++++ |       R    U RPB      | RURPB -> return
+ ++++ |  T P H     U    L     | TPHUL -> null
++++++ | ST P H   *  F P L T   | STPH*FPLT -> {;}
+  +++ | S        *  F         | S*F -> {:COMMAND:SHELL:bash -ci 'osascript $STENO_DICTIONARIES/src/command/actions/save.scpt'}{^^}
++++++ |  T P                 Z| TP-Z -> {:COMMAND:SHELL:bash -ci 'osascript $STENO_DICTIONARIES/src/command/actions/fuzzy-find.scpt'}{^^}
+ ++++ |  TKPW  A  EU    L     | TKPWAEUL -> Gail
+  +++ |          *            | * -> *
+    + |  TKPW  A  EU  P L     | TKPWAEUPL -> game
++++++ |       R      R        | R-R -> {^~|\n^}{MODE:RESET}
++++++ |       R  *E  R B      | R*ERB -> {:COMMAND:SHELL:bash -ci 'osascript $STENO_DICTIONARIES/src/command/actions/refresh.scpt'}{^^}
++++++ |#S       O             | 10 -> /
+    + | ST P H         B      | STPH-B -> {#UP}{^^}
++++++ | ST P H       R        | STPH-R -> {#DOWN}{^^}
+ ++++ | S K W R O*            | SKWRO* -> {^o^}
++++++ |   K     O     PB  TS  | KOPBTS -> const
++++++ |  T     A *     B      | TA*B -> {#TAB}{^^}
++++++ |     W     EU RPB      | WEURPB -> winner
++++++ |  T                TS  | T-TS -> {#CONTROL(J)}{^^}
++++++ |   K  HRA  EU      T   | KHRAEUT -> calculate
+  +++ |   KP   A *            | KPA* -> {^}{-|}
+   ++ |     W     EU RPB      | WEURPB -> winner
+ ++++ |    P  R       PB      | PR-PB -> {^(^}
+ ++++ | S K W RA  EU R     S  | SKWRAEURS -> squares
++++++ |    P  R  *    PB      | PR*PB -> {^)^}
++++++ | S        *  F         | S*F -> {:COMMAND:SHELL:bash -ci 'osascript $STENO_DICTIONARIES/src/command/actions/save.scpt'}{^^}
++++++ |#              P       | -7 -> /
+    + | ST P H         B      | STPH-B -> {#UP}{^^}
+ ++++ | ST P H       R        | STPH-R -> {#DOWN}{^^}
+   ++ | S K W R O*            | SKWRO* -> {^o^}
++++++ |    P  R O*   R    T   | PRO*RT -> import
+   ++ |  T     A *     B      | TA*B -> {#TAB}{^^}
++++++ |  T                TS  | T-TS -> {#CONTROL(J)}{^^}
++++++ |   K  HRA  EU      T   | KHRAEUT -> calculate
+  +++ |   KP   A *            | KPA* -> {^}{-|}
+  +++ |     W     EU RPB      | WEURPB -> winner
+ ++++ |  T                TS  | T-TS -> {#CONTROL(J)}{^^}
+   ++ |  TK             L     | TK-L -> {#DELETE}  3>WEURPB WAOERPB WEUPB/TPHER WEUPB/ER WEUPB/*ER
+   ++ |  T                TS  | T-TS -> {#CONTROL(J)}{^^}
+   ++ |  T                TS  | T-TS -> {#CONTROL(J)}{^^}
+   ++ |    P          P       | P-P -> {^.^}  2>PO*EUP
+   ++ |         O EU          | OEU -> {^/^}
+ ++++ |       RAO  U    L  S  | RAOULS -> rules
++++++ | S        *  F         | S*F -> {:COMMAND:SHELL:bash -ci 'osascript $STENO_DICTIONARIES/src/command/actions/save.scpt'}{^^}
++++++ |#S    H                | 14 -> /
+    + | ST P H       R        | STPH-R -> {#DOWN}{^^}
+  +++ | S K W R O*            | SKWRO* -> {^o^}
+ ++++ | S             P       | S-P -> {^ ^}
+      | S             P       | S-P -> {^ ^}
+      | S             P       | S-P -> {^ ^}
+      | S             P       | S-P -> {^ ^}
++++++ |    P  R O     P       | PROP -> prop
+ ++++ |  T     A *     B      | TA*B -> {#TAB}{^^}
++++++ |     W     EU RPB      | WEURPB -> winner
++++++ | S        *  F         | S*F -> {:COMMAND:SHELL:bash -ci 'osascript $STENO_DICTIONARIES/src/command/actions/save.scpt'}{^^}
++++++ |  T P                 Z| TP-Z -> {:COMMAND:SHELL:bash -ci 'osascript $STENO_DICTIONARIES/src/command/actions/fuzzy-find.scpt'}{^^}
+ ++++ |    PW  AO    R      D | PWAORD -> board
+  +++ |       R      R        | R-R -> {^~|\n^}{MODE:RESET}
++++++ | ST P H       R        | STPH-R -> {#DOWN}{^^}
+    + | ST P H       R        | STPH-R -> {#DOWN}{^^}
+  +++ |     W    *            | W* -> {>}{&w}
+      |     W    *            | W* -> {>}{&w}
+      |     W    *            | W* -> {>}{&w}
+      |     W    *            | W* -> {>}{&w}
+      |     W    *            | W* -> {>}{&w}
+      |     W    *            | W* -> {>}{&w}
+      |     W    *            | W* -> {>}{&w}
+      |     W    *            | W* -> {>}{&w}
+      |     W    *            | W* -> {>}{&w}
+  +++ | ST P H   *            | STPH* -> {#LEFT}{^^}
+  +++ |          *EU          | *EU -> {>}{&i}
+    + |              R B G S  | -RBGS -> {,}
++++++ |     W     EU RPB      | WEURPB -> winner
++++++ | S        *  F         | S*F -> {:COMMAND:SHELL:bash -ci 'osascript $STENO_DICTIONARIES/src/command/actions/save.scpt'}{^^}
++++++ | ST P H       R        | STPH-R -> {#DOWN}{^^}
+    + | ST P H       R        | STPH-R -> {#DOWN}{^^}
++++++ |     W    *            | W* -> {>}{&w}
+    + |     W    *            | W* -> {>}{&w}
++++++ |    PW    *            | PW* -> {>}{&b}
+      |    PW    *            | PW* -> {>}{&b}
+      |    PW    *            | PW* -> {>}{&b}
+      |    PW    *            | PW* -> {>}{&b}
+      |    PW    *            | PW* -> {>}{&b}
+      |    PW    *            | PW* -> {>}{&b}
+      |    PW    *            | PW* -> {>}{&b}
+      |    PW    *            | PW* -> {>}{&b}
+      |    PW    *            | PW* -> {>}{&b}
+      |    PW    *            | PW* -> {>}{&b}
+ ++++ |          *EU          | *EU -> {>}{&i}
+    + |    PW       F P       | PW-FP -> {#BACKSPACE}
+    + |       R      R        | R-R -> {^~|\n^}{MODE:RESET}
+   ++ | S K           P       | SK-P -> {#ESCAPE}{MODE:RESET}
+    + |     W    *            | W* -> {>}{&w}
+      |     W    *            | W* -> {>}{&w}
+      |     W    *            | W* -> {>}{&w}
+      |     W    *            | W* -> {>}{&w}
+      |     W    *            | W* -> {>}{&w}
+      |     W    *            | W* -> {>}{&w}
+      |     W    *            | W* -> {>}{&w}
+      |     W    *            | W* -> {>}{&w}
+      |     W    *            | W* -> {>}{&w}
+    + |     W    *            | W* -> {>}{&w}
+      |     W    *            | W* -> {>}{&w}
+      |     W    *            | W* -> {>}{&w}
+  +++ |          *EU          | *EU -> {>}{&i}
+    + |              R B G S  | -RBGS -> {,}
++++++ |     W     EU RPB      | WEURPB -> winner
++++++ | S        *  F         | S*F -> {:COMMAND:SHELL:bash -ci 'osascript $STENO_DICTIONARIES/src/command/actions/save.scpt'}{^^}
++++++ |#S                 T   | 1-9 -> /
+   ++ | ST P H       R        | STPH-R -> {#DOWN}{^^}
+ ++++ | S        *   R        | S*R -> {#ESCAPE Z PERIOD}  2>1-9D
++++++ |     W    *            | W* -> {>}{&w}
+      |     W    *            | W* -> {>}{&w}
+      |     W    *            | W* -> {>}{&w}
+      |     W    *            | W* -> {>}{&w}
+      |     W    *            | W* -> {>}{&w}
+      |     W    *            | W* -> {>}{&w}
+      |     W    *            | W* -> {>}{&w}
+      |     W    *            | W* -> {>}{&w}
+  +++ |     W    *            | W* -> {>}{&w}
+   ++ |          *EU          | *EU -> {>}{&i}
+  +++ |     W     EU RPB      | WEURPB -> winner
++++++ |    PW    *  F P       | PW*FP -> {>}{&i}{^~|^}winner
+    + |              R B G S  | -RBGS -> {,}
+    + | S             P       | S-P -> {^ ^}
+  +++ | S        *  F         | S*F -> {:COMMAND:SHELL:bash -ci 'osascript $STENO_DICTIONARIES/src/command/actions/save.scpt'}{^^}
++++++ |# T                    | 2 -> /
+    + | ST P H       R        | STPH-R -> {#DOWN}{^^}
+ ++++ |    PW    *            | PW* -> {>}{&b}
+    + |    PW    *            | PW* -> {>}{&b}
+      |    PW    *            | PW* -> {>}{&b}
+      |    PW    *            | PW* -> {>}{&b}
+ ++++ |          *EU          | *EU -> {>}{&i}
++++++ |     W     EU RPB      | WEURPB -> winner
++++++ |    PW    *  F P       | PW*FP -> {>}{&i}{^~|^}winner
+   ++ |   K     O    R        | KOR -> core
+ ++++ |          *            | * -> *
+    + |         O    R        | OR -> or
+   ++ |  T     A *     B      | TA*B -> {#TAB}{^^}
+      | S        *  F         | S*F -> {:COMMAND:SHELL:bash -ci 'osascript $STENO_DICTIONARIES/src/command/actions/save.scpt'}{^^}
++++++ | ST P H   *     B      | STPH*B -> {:COMMAND:SHELL:bash -ci 'osascript $STENO_DICTIONARIES/src/command/actions/page-up.scpt'}  4>OR ORB
++++++ | ST P H         B      | STPH-B -> {#UP}{^^}
+      | ST P H         B      | STPH-B -> {#UP}{^^}
++++++ |     W    *            | W* -> {>}{&w}
+    + |     W    *            | W* -> {>}{&w}
+      |     W    *            | W* -> {>}{&w}
+      |     W    *            | W* -> {>}{&w}
+   ++ |     W    *            | W* -> {>}{&w}
+ ++++ | ST P H   *            | STPH* -> {#LEFT}{^^}
+    + |          *EU          | *EU -> {>}{&i}
+    + | S             P       | S-P -> {^ ^}
+ ++++ |    P  R O     P       | PROP -> prop
+   ++ |  T     A *     B      | TA*B -> {#TAB}{^^}
++++++ |     W     EU RPB      | WEURPB -> winner
++++++ | S        *  F         | S*F -> {:COMMAND:SHELL:bash -ci 'osascript $STENO_DICTIONARIES/src/command/actions/save.scpt'}{^^}
++++++ |  T P                 Z| TP-Z -> {:COMMAND:SHELL:bash -ci 'osascript $STENO_DICTIONARIES/src/command/actions/fuzzy-find.scpt'}{^^}
++++++ | ST     A *EU      TS  | STA*EUTS -> status
+  +++ |       R      R        | R-R -> {^~|\n^}{MODE:RESET}
++++++ |# T                    | 2 -> /
+    + | ST P H         B      | STPH-B -> {#UP}{^^}
+    + |     W    *            | W* -> {>}{&w}
+      |     W    *            | W* -> {>}{&w}
+      |     W    *            | W* -> {>}{&w}
+      |     W    *            | W* -> {>}{&w}
+      |     W    *            | W* -> {>}{&w}
+   ++ | ST P H   *            | STPH* -> {#LEFT}{^^}
+   ++ |          *EU          | *EU -> {>}{&i}
+    + |              R B G S  | -RBGS -> {,}
+   ++ | S             P       | S-P -> {^ ^}
+ ++++ |     W     EU RPB      | WEURPB -> winner
++++++ | S        *  F         | S*F -> {:COMMAND:SHELL:bash -ci 'osascript $STENO_DICTIONARIES/src/command/actions/save.scpt'}{^^}
++++++ | S K W R O*            | SKWRO* -> {^o^}
++++++ |      HR  *E       T   | HR*ET -> {^let}
++++++ | ST     A *EU      T   | STA*EUT -> State
+ ++++ |          *            | * -> *
++++++ | ST     A *EU      TS  | STA*EUTS -> status
++++++ |          *            | * -> *
+    + |  T     A *     B      | TA*B -> {#TAB}{^^}
+ ++++ |  TK             L     | TK-L -> {#DELETE}  3>HR*ET *LT
+   ++ |  T                TS  | T-TS -> {#CONTROL(J)}{^^}
++++++ | ST     A *EU      TS  | STA*EUTS -> status
++++++ |  T                TS  | T-TS -> {#CONTROL(J)}{^^}
++++++ |  TK             L     | TK-L -> {#DELETE}  3>ST*TS STA*LTS STA*EUTS STA*TS ST-TS STAEUT/SKWRUS STAEU/TUS STAEUT/US STAT/US STAEUT/TUS STA/TUS STAT/TUS
+ ++++ |  T                TS  | T-TS -> {#CONTROL(J)}{^^}
++++++ |       R      R        | R-R -> {^~|\n^}{MODE:RESET}
+    + |       R      R        | R-R -> {^~|\n^}{MODE:RESET}
++++++ |  T P                  | TP -> if
++++++ |  T     A *     B      | TA*B -> {#TAB}{^^}
++++++ |     W     EU RPB      | WEURPB -> winner
++++++ |  T                TS  | T-TS -> {#CONTROL(J)}{^^}
++++++ | ST     A *EU      TS  | STA*EUTS -> status
++++++ |   K W  A        L     | KWAL -> equal
+  +++ |  T     A *     B      | TA*B -> {#TAB}{^^}
++++++ | ST    R   EU  PB G    | STREUPBG -> string
+  +++ |  T     A *     B      | TA*B -> {#TAB}{^^}
++++++ |# T                    | 2 -> /
++++++ |   KP   A *            | KPA* -> {^}{-|}
+   ++ |     W     EU RPB      | WEURPB -> winner
++++++ |   K  HR       PB      | KHR-PB -> {^:^}
+    + | S             P       | S-P -> {^ ^}
++++++ |  T P H    E  RP L T   | TPHERPLT -> interpolate
+ ++++ |  T     A *     B      | TA*B -> {#TAB}{^^}
++++++ |   K       EU RPB      | KEURPB -> /
+ ++++ |          *            | * -> *
+    + |     W     EU RPB      | WEURPB -> winner
++++++ |  T                TS  | T-TS -> {#CONTROL(J)}{^^}
+   ++ |  T                TS  | T-TS -> {#CONTROL(J)}{^^}
+ ++++ |  T                TS  | T-TS -> {#CONTROL(J)}{^^}
+ ++++ | ST P H   *  F P L T   | STPH*FPLT -> {;}
+ ++++ | S        *  F         | S*F -> {:COMMAND:SHELL:bash -ci 'osascript $STENO_DICTIONARIES/src/command/actions/save.scpt'}{^^}
++++++ | ST P H       R        | STPH-R -> {#DOWN}{^^}
+      | ST P H       R        | STPH-R -> {#DOWN}{^^}
+   ++ |  TK      *            | TK* -> {>}{&d}
+      |  TK      *            | TK* -> {>}{&d}
+    + | ST P H       R        | STPH-R -> {#DOWN}{^^}
+ ++++ |  TK      *            | TK* -> {>}{&d}
+      |  TK      *            | TK* -> {>}{&d}
+    + | ST P H         B      | STPH-B -> {#UP}{^^}
+      | ST P H         B      | STPH-B -> {#UP}{^^}
+  +++ |    P     *            | P* -> {>}{&p}
++++++ |    PW    *            | PW* -> {>}{&b}
+    + |     W    *            | W* -> {>}{&w}
++++++ |  TK      *            | TK* -> {>}{&d}
+    + |     W    *            | W* -> {>}{&w}
+  +++ |          *EU          | *EU -> {>}{&i}
+      | S             P       | S-P -> {^ ^}
+      | S             P       | S-P -> {^ ^}
+ ++++ | S        *  F         | S*F -> {:COMMAND:SHELL:bash -ci 'osascript $STENO_DICTIONARIES/src/command/actions/save.scpt'}{^^}
++++++ |  T           RP L     | T-RPL -> {:COMMAND:SHELL:bash -ci 'osascript $STENO_DICTIONARIES/src/command/application/activate-application.scpt iTerm'}
+   ++ | S K             L     | SK-L -> {#CONTROL(Z)}
++++++ |  TKPW    *EU      TS  | TKPW*EUTS -> {^git status --short}
++++++ |       R      R        | R-R -> {^~|\n^}{MODE:RESET}
++++++ |  TKPW    *EU      T D | TKPW*EUTD -> {^git add .}
+  +++ |       R      R        | R-R -> {^~|\n^}{MODE:RESET}
++++++ |  TKPW     EU  P L T   | TKPWEUPLT -> {^git commit --message=""^}{#LEFT}{-|}
++++++ |        A            D | AD -> add
++++++ |     W     EU RPB      | WEURPB -> winner
++++++ |   K  HRA  EU     G S  | KHRAEUGS -> calculation
+ ++++ |       R      R        | R-R -> {^~|\n^}{MODE:RESET}
++++++ |  T P     *       G    | TP*G -> {^fg^}{#RETURN}
++++++ |  T P                 Z| TP-Z -> {:COMMAND:SHELL:bash -ci 'osascript $STENO_DICTIONARIES/src/command/actions/fuzzy-find.scpt'}{^^}
+  +++ |  TKPW  A  EU  P L     | TKPWAEUPL -> game
+   ++ |       R      R        | R-R -> {^~|\n^}{MODE:RESET}
++++++ |# T                    | 2 -> /
+    + | ST P H         B      | STPH-B -> {#UP}{^^}
++++++ |#S       O             | 10 -> /
+    + | ST P H         B      | STPH-B -> {#UP}{^^}
++++++ |     W    *            | W* -> {>}{&w}
++++++ |     W    *            | W* -> {>}{&w}
+      |     W    *            | W* -> {>}{&w}
++++++ |   K   R  *            | KR* -> {>}{&c}
+    + |     W    *            | W* -> {>}{&w}
++++++ |      H  O EUFR    T   | HOEUFRT -> history
++++++ |    PW    *  F P       | PW*FP -> {>}{&w}{^~|^}history
+  +++ | S K           P       | SK-P -> {#ESCAPE}{MODE:RESET}
+  +++ |     W    *            | W* -> {>}{&w}
+   ++ | ST P H           G    | STPH-G -> {#RIGHT}{^^}
+      | ST P H           G    | STPH-G -> {#RIGHT}{^^}
+      | ST P H           G    | STPH-G -> {#RIGHT}{^^}
+   ++ |   K   R  *            | KR* -> {>}{&c}
+    + |     W    *            | W* -> {>}{&w}
+   ++ |   KP   A *            | KPA* -> {^}{-|}
+ ++++ |      H  O EUFR    T   | HOEUFRT -> history
++++++ | S K           P       | SK-P -> {#ESCAPE}{MODE:RESET}
+  +++ |     W    *            | W* -> {>}{&w}
+      |     W    *            | W* -> {>}{&w}
+      |     W    *            | W* -> {>}{&w}
+      |     W    *            | W* -> {>}{&w}
++++++ | S     R  *            | SR* -> {>}{&v}
+   ++ | S K      *            | SK* -> {>}{&e}
+      | S K      *            | SK* -> {>}{&e}
+    + | S K      *            | SK* -> {>}{&e}
+    + | S K      *            | SK* -> {>}{&e}
+    + | S K      *            | SK* -> {>}{&e}
+    + | S K      *            | SK* -> {>}{&e}
+    + | S K      *            | SK* -> {>}{&e}
+  +++ | S K      *            | SK* -> {>}{&e}
+  +++ | ST P H   *            | STPH* -> {#LEFT}{^^}
+    + | ST P H   *            | STPH* -> {#LEFT}{^^}
+ ++++ |  T     A *     B      | TA*B -> {#TAB}{^^}
+ ++++ |      HR  *EU       S  | HR*EUS -> list
+   ++ |  T     A *     B      | TA*B -> {#TAB}{^^}
++++++ |  TK             L     | TK-L -> {#DELETE}  3>HR*EUS HR*EUFS
++++++ | S        *  F         | S*F -> {:COMMAND:SHELL:bash -ci 'osascript $STENO_DICTIONARIES/src/command/actions/save.scpt'}{^^}
++++++ | ST P H       R        | STPH-R -> {#DOWN}{^^}
++++++ | ST P H       R        | STPH-R -> {#DOWN}{^^}
+   ++ | S K W R O*            | SKWRO* -> {^o^}
++++++ |   K     O     PB  T   | KOPBT -> couldn't
+ ++++ |          *            | * -> *
++++++ |   K     O     PB  TS  | KOPBTS -> const
+  +++ |  T     A *     B      | TA*B -> {#TAB}{^^}
++++++ |   K        U RPB  T   | KURPBT -> current
+  +++ |   KP   A *            | KPA* -> {^}{-|}
+  +++ | S K W  A  EU R     S  | SKWAEURS -> squares
++++++ |  T                TS  | T-TS -> {#CONTROL(J)}{^^}
++++++ |      H  O EUFR    T   | HOEUFRT -> history
++++++ |    PW R        B G S  | PWR-BGS -> {^[]^}
+  +++ |  T     A *     B      | TA*B -> {#TAB}{^^}
++++++ |   K        U RPB  T   | KURPBT -> current
+    + |   KP   A *            | KPA* -> {^}{-|}
+    + |    P H  O   F         | PHOF -> move
++++++ |  T                TS  | T-TS -> {#CONTROL(J)}{^^}
++++++ | S        *  F         | S*F -> {:COMMAND:SHELL:bash -ci 'osascript $STENO_DICTIONARIES/src/command/actions/save.scpt'}{^^}
++++++ | ST P H       R        | STPH-R -> {#DOWN}{^^}
+ ++++ |     W    *            | W* -> {>}{&w}
+      |     W    *            | W* -> {>}{&w}
+  +++ | ST P H         B      | STPH-B -> {#UP}{^^}
+   ++ |     W    *            | W* -> {>}{&w}
+      |     W    *            | W* -> {>}{&w}
+      |     W    *            | W* -> {>}{&w}
+      |     W    *            | W* -> {>}{&w}
++++++ |   K   R  *            | KR* -> {>}{&c}
+    + |     W    *            | W* -> {>}{&w}
++++++ |     W      U  PB  T   | WUPBT -> wasn't
+ ++++ |          *            | * -> *
++++++ |  TK             L  S  | TK-LS -> {^^}
+ ++++ |   K        U  PB  T   | KUPBT -> country
+   ++ |   KP   A *            | KPA* -> {^}{-|}
+   ++ |          *            | * -> *
++++++ |   K        U RPB  T   | KURPBT -> current
+   ++ |   KP   A *            | KPA* -> {^}{-|}
+  +++ | S K W  A  EU R     S  | SKWAEURS -> squares
++++++ |  T                TS  | T-TS -> {#CONTROL(J)}{^^}
+ ++++ |    PW       F P       | PW-FP -> {#BACKSPACE}  3>SKWAEURS SKWRAEURS SKWAEUR/-S
+      |    PW       F P       | PW-FP -> {#BACKSPACE}  4>SKWAEURS SKWRAEURS SKWAEUR/-S
++++++ | S        *  F         | S*F -> {:COMMAND:SHELL:bash -ci 'osascript $STENO_DICTIONARIES/src/command/actions/save.scpt'}{^^}
++++++ | ST P H       R        | STPH-R -> {#DOWN}{^^}
++++++ | ST P H   *            | STPH* -> {#LEFT}{^^}
+    + | ST P H   *            | STPH* -> {#LEFT}{^^}
+      | ST P H   *            | STPH* -> {#LEFT}{^^}
+      | ST P H   *            | STPH* -> {#LEFT}{^^}
+   ++ |          *EU          | *EU -> {>}{&i}
+    + |    PW       F P       | PW-FP -> {#BACKSPACE}
+    + |    PW       F P       | PW-FP -> {#BACKSPACE}
+      |    PW       F P       | PW-FP -> {#BACKSPACE}
+      |    PW       F P       | PW-FP -> {#BACKSPACE}
+      |    PW       F P       | PW-FP -> {#BACKSPACE}
+      |    PW       F P       | PW-FP -> {#BACKSPACE}
+      |    PW       F P       | PW-FP -> {#BACKSPACE}
+   ++ |   KP   A *            | KPA* -> {^}{-|}
+ ++++ |      H  O EUFR    T   | HOEUFRT -> history
++++++ | S K           P       | SK-P -> {#ESCAPE}{MODE:RESET}
++++++ |    PW    *            | PW* -> {>}{&b}
++++++ |    PW    *            | PW* -> {>}{&b}
+      |    PW    *            | PW* -> {>}{&b}
+  +++ |          *EU          | *EU -> {>}{&i}
+    + |    PW       F P       | PW-FP -> {#BACKSPACE}
+    + |       R     FR        | R-FR -> are ever
++++++ |          *            | * -> *
+ ++++ |       R      R        | R-R -> {^~|\n^}{MODE:RESET}
+  +++ | S K           P       | SK-P -> {#ESCAPE}{MODE:RESET}
+   ++ |     W    *            | W* -> {>}{&w}
+      |     W    *            | W* -> {>}{&w}
+   ++ |     W    *            | W* -> {>}{&w}
+   ++ |          *EU          | *EU -> {>}{&i}
++++++ |      H  O EUFR    T   | HOEUFRT -> history
++++++ |    PW    *  F P       | PW*FP -> {>}{&i}{^~|^}history
+   ++ |              R B G S  | -RBGS -> {,}
+    + | S             P       | S-P -> {^ ^}
++++++ | S K           P       | SK-P -> {#ESCAPE}{MODE:RESET}
++++++ |#S    H                | 14 -> /
+   ++ | ST P H       R        | STPH-R -> {#DOWN}{^^}
++++++ | S        *   R        | S*R -> {#ESCAPE Z PERIOD}  2>14*
++++++ |     W    *            | W* -> {>}{&w}
+      |     W    *            | W* -> {>}{&w}
+      |     W    *            | W* -> {>}{&w}
+  +++ |          *EU          | *EU -> {>}{&i}
+ ++++ |      H  O EUFR    T   | HOEUFRT -> history
++++++ |    PW    *  F P       | PW*FP -> {>}{&i}{^~|^}history
+    + |              R B G S  | -RBGS -> {,}
+   ++ | S             P       | S-P -> {^ ^}
+ ++++ | S K           P       | SK-P -> {#ESCAPE}{MODE:RESET}
++++++ | ST P H           G    | STPH-G -> {#RIGHT}{^^}
+      | ST P H           G    | STPH-G -> {#RIGHT}{^^}
+      | ST P H           G    | STPH-G -> {#RIGHT}{^^}
+      | ST P H           G    | STPH-G -> {#RIGHT}{^^}
+      | ST P H           G    | STPH-G -> {#RIGHT}{^^}
+ ++++ | ST P H   *            | STPH* -> {#LEFT}{^^}
+   ++ |   K   R  *            | KR* -> {>}{&c}
+    + |     W    *            | W* -> {>}{&w}
+   ++ |   KP   A *            | KPA* -> {^}{-|}
+  +++ |      H  O EUFR    T   | HOEUFRT -> history
++++++ | S        *  F         | S*F -> {:COMMAND:SHELL:bash -ci 'osascript $STENO_DICTIONARIES/src/command/actions/save.scpt'}{^^}
++++++ | ST P H       R        | STPH-R -> {#DOWN}{^^}
+    + | ST P H       R        | STPH-R -> {#DOWN}{^^}
+  +++ |     W    *            | W* -> {>}{&w}
+    + |     W    *            | W* -> {>}{&w}
+  +++ | ST P H         B      | STPH-B -> {#UP}{^^}
+    + | ST P H   *            | STPH* -> {#LEFT}{^^}
+      | ST P H   *            | STPH* -> {#LEFT}{^^}
+      | ST P H   *            | STPH* -> {#LEFT}{^^}
+   ++ | ST P H   *            | STPH* -> {#LEFT}{^^}
+   ++ |          *EU          | *EU -> {>}{&i}
+    + |    PW       F P       | PW-FP -> {#BACKSPACE}
+      |    PW       F P       | PW-FP -> {#BACKSPACE}
+      |    PW       F P       | PW-FP -> {#BACKSPACE}
+      |    PW       F P       | PW-FP -> {#BACKSPACE}
+      |    PW       F P       | PW-FP -> {#BACKSPACE}
+      |    PW       F P       | PW-FP -> {#BACKSPACE}
+      |    PW       F P       | PW-FP -> {#BACKSPACE}
+   ++ |   KP   A *            | KPA* -> {^}{-|}
+ ++++ |      H  O EUFR    T   | HOEUFRT -> history
++++++ | S K           P       | SK-P -> {#ESCAPE}{MODE:RESET}
+   ++ | ST P H           G    | STPH-G -> {#RIGHT}{^^}
+    + | ST P H           G    | STPH-G -> {#RIGHT}{^^}
+      | ST P H           G    | STPH-G -> {#RIGHT}{^^}
+      | ST P H           G    | STPH-G -> {#RIGHT}{^^}
+      | ST P H           G    | STPH-G -> {#RIGHT}{^^}
+      | ST P H           G    | STPH-G -> {#RIGHT}{^^}
+      | ST P H           G    | STPH-G -> {#RIGHT}{^^}
+      | ST P H           G    | STPH-G -> {#RIGHT}{^^}
+      | ST P H           G    | STPH-G -> {#RIGHT}{^^}
+      | ST P H           G    | STPH-G -> {#RIGHT}{^^}
+      | ST P H           G    | STPH-G -> {#RIGHT}{^^}
+      | ST P H           G    | STPH-G -> {#RIGHT}{^^}
+      | ST P H           G    | STPH-G -> {#RIGHT}{^^}
+  +++ |          *EU          | *EU -> {>}{&i}
+    + |    PW       F P       | PW-FP -> {#BACKSPACE}
+      |    PW       F P       | PW-FP -> {#BACKSPACE}
+      |    PW       F P       | PW-FP -> {#BACKSPACE}
+      |    PW       F P       | PW-FP -> {#BACKSPACE}
+      |    PW       F P       | PW-FP -> {#BACKSPACE}
+      |    PW       F P       | PW-FP -> {#BACKSPACE}
+      |    PW       F P       | PW-FP -> {#BACKSPACE}
+  +++ |   KP   A *            | KPA* -> {^}{-|}
+ ++++ |      H  O EUFR    T   | HOEUFRT -> history
++++++ | S        *  F         | S*F -> {:COMMAND:SHELL:bash -ci 'osascript $STENO_DICTIONARIES/src/command/actions/save.scpt'}{^^}
++++++ | ST P H         B      | STPH-B -> {#UP}{^^}
+   ++ | S K W R O*            | SKWRO* -> {^o^}
++++++ |   K     O     PB  TS  | KOPBTS -> const
+  +++ |  T     A *     B      | TA*B -> {#TAB}{^^}
++++++ |  T P H    E      GT   | TPHEGT -> next
+    + |   KP   A *            | KPA* -> {^}{-|}
++++++ |      H    EUFR    T   | HEUFRT -> history
++++++ |  T                TS  | T-TS -> {#CONTROL(J)}{^^}
++++++ |      HR  *EU       S  | HR*EUS -> list
+ ++++ |          *            | * -> *
+   ++ |      H   *EU       S  | H*EUS -> hiss
+   ++ |          *            | * -> *
++++++ |      H    EUFR    T   | HEUFRT -> history
+ ++++ |    P          P       | P-P -> {^.^}
++++++ | S    HRAO EU       S  | SHRAOEUS -> slice
++++++ |  T     A *     B      | TA*B -> {#TAB}{^^}
++++++ |  T                TS  | T-TS -> {#CONTROL(J)}{^^}
+ ++++ |#        O             | 0 -> /
+ ++++ |  T                TS  | T-TS -> {#CONTROL(J)}{^^}
++++++ |  T                TS  | T-TS -> {#CONTROL(J)}{^^}
++++++ |   K        U RPB  T   | KURPBT -> current
+   ++ |   KP   A *            | KPA* -> {^}{-|}
+    + |    P H  O   F         | PHOF -> move
++++++ |    P HR    U       S  | PHRUS -> plus
+  +++ |  T     A *     B      | TA*B -> {#TAB}{^^}
+  +++ |#S                     | 1 -> /
+ ++++ |  T                TS  | T-TS -> {#CONTROL(J)}{^^}
++++++ | S        *  F         | S*F -> {:COMMAND:SHELL:bash -ci 'osascript $STENO_DICTIONARIES/src/command/actions/save.scpt'}{^^}
++++++ | S     R  *            | SR* -> {>}{&v}
+  +++ |    PW    *            | PW* -> {>}{&b}
+      |    PW    *            | PW* -> {>}{&b}
+      |    PW    *            | PW* -> {>}{&b}
+      |    PW    *            | PW* -> {>}{&b}
+      |    PW    *            | PW* -> {>}{&b}
+      |    PW    *            | PW* -> {>}{&b}
+    + |    PW    *            | PW* -> {>}{&b}
+    + |    PW    *            | PW* -> {>}{&b}
+   ++ |    PW    *            | PW* -> {>}{&b}
++++++ |  T     A *     B      | TA*B -> {#TAB}{^^}
++++++ |      HR  *EU       S  | HR*EUS -> list
+  +++ |  T     A *     B      | TA*B -> {#TAB}{^^}
++++++ |  T                TS  | T-TS -> {#CONTROL(J)}{^^}
+  +++ |  T                TS  | T-TS -> {#CONTROL(J)}{^^}
+  +++ |              R B G S  | -RBGS -> {,}
+    + | S             P       | S-P -> {^ ^}
++++++ |  T P H    E      GT   | TPHEGT -> next
+   ++ |   KP   A *            | KPA* -> {^}{-|}
+  +++ | S K W  A  EU R     S  | SKWAEURS -> squares
++++++ | S        *  F         | S*F -> {:COMMAND:SHELL:bash -ci 'osascript $STENO_DICTIONARIES/src/command/actions/save.scpt'}{^^}
++++++ | ST P H       R        | STPH-R -> {#DOWN}{^^}
++++++ | ST P H       R        | STPH-R -> {#DOWN}{^^}
++++++ | ST P H   *            | STPH* -> {#LEFT}{^^}
+   ++ |          *EU          | *EU -> {>}{&i}
+  +++ |    PW       F P       | PW-FP -> {#BACKSPACE}
+      |    PW       F P       | PW-FP -> {#BACKSPACE}
+    + |    PW       F P       | PW-FP -> {#BACKSPACE}
+      |    PW       F P       | PW-FP -> {#BACKSPACE}
+      |    PW       F P       | PW-FP -> {#BACKSPACE}
+      |    PW       F P       | PW-FP -> {#BACKSPACE}
+      |    PW       F P       | PW-FP -> {#BACKSPACE}
+      |    PW       F P       | PW-FP -> {#BACKSPACE}
+    + |    PW       F P       | PW-FP -> {#BACKSPACE}
+      |    PW       F P       | PW-FP -> {#BACKSPACE}
+      |    PW       F P       | PW-FP -> {#BACKSPACE}
+      |    PW       F P       | PW-FP -> {#BACKSPACE}
+      |    PW       F P       | PW-FP -> {#BACKSPACE}
+      |    PW       F P       | PW-FP -> {#BACKSPACE}
+      |    PW       F P       | PW-FP -> {#BACKSPACE}
++++++ |  T P H    E      GT   | TPHEGT -> next
++++++ |    PW    *  F P       | PW*FP -> {#BACKSPACE}{^~|^}next
+   ++ |   KP   A *            | KPA* -> {^}{-|}
++++++ |      H  O*EUF     T   | HO*EUFT -> /
+  +++ |          *            | * -> *
+ ++++ |      H  O EUFR    T   | HOEUFRT -> history
++++++ |    P          P       | P-P -> {^.^}
+  +++ |      HR   E   PB G    | HREPBG -> length
++++++ |  T P H AO*EU  PB   S  | TPHAO*EUPBS -> {^inine} {^s}
+  +++ |          *            | * -> *
+  +++ |    P H AO*EU  PB   S  | PHAO*EUPBS -> minus
+ ++++ |  T     A *     B      | TA*B -> {#TAB}{^^}
+   ++ |#S                     | 1 -> /
++++++ | S        *  F         | S*F -> {:COMMAND:SHELL:bash -ci 'osascript $STENO_DICTIONARIES/src/command/actions/save.scpt'}{^^}
++++++ | ST P H   *     B      | STPH*B -> {:COMMAND:SHELL:bash -ci 'osascript $STENO_DICTIONARIES/src/command/actions/page-up.scpt'}
++++++ | ST P H       R        | STPH-R -> {#DOWN}{^^}
+    + | ST P H       R        | STPH-R -> {#DOWN}{^^}
+  +++ |     W    *            | W* -> {>}{&w}
+      |     W    *            | W* -> {>}{&w}
+      |     W    *            | W* -> {>}{&w}
++++++ |   K   R  *            | KR* -> {>}{&c}
+   ++ |     W    *            | W* -> {>}{&w}
++++++ |  TK             L  S  | TK-LS -> {^^}
++++++ |     W      U  PB  T   | WUPBT -> wasn't
+  +++ |          *            | * -> *
+ ++++ |   K        U RPB  T   | KURPBT -> current
+   ++ |   KP   A *            | KPA* -> {^}{-|}
+   ++ | S K W  A  EU R     S  | SKWAEURS -> squares
++++++ | S        *  F         | S*F -> {:COMMAND:SHELL:bash -ci 'osascript $STENO_DICTIONARIES/src/command/actions/save.scpt'}{^^}
++++++ |  T           RP L     | T-RPL -> {:COMMAND:SHELL:bash -ci 'osascript $STENO_DICTIONARIES/src/command/application/activate-application.scpt iTerm'}  3>SKWAEURS SKWRAEURS SKWAEUR/-S
++++++ | ST P H       R        | STPH-R -> {#DOWN}{^^}
+    + | ST P H       R        | STPH-R -> {#DOWN}{^^}
+      | ST P H       R        | STPH-R -> {#DOWN}{^^}
+      | ST P H       R        | STPH-R -> {#DOWN}{^^}
+      | ST P H       R        | STPH-R -> {#DOWN}{^^}
+   ++ | ST P H         B      | STPH-B -> {#UP}{^^}
+   ++ | S K W R O*            | SKWRO* -> {^o^}
+ ++++ | S             P       | S-P -> {^ ^}
+      | S             P       | S-P -> {^ ^}
++++++ |   KP    O E   PB  T   | KPOEPBT -> component
+  +++ |  T     A *     B      | TA*B -> {#TAB}{^^}
+ ++++ |#S                     | 1 -> /
+   ++ |  T     A *     B      | TA*B -> {#TAB}{^^}
++++++ |   KP   A *            | KPA* -> {^}{-|}
+ ++++ |      H  O EUFR    T   | HOEUFRT -> history
++++++ |  T                TS  | T-TS -> {#CONTROL(J)}{^^}
+  +++ |  T                TS  | T-TS -> {#CONTROL(J)}{^^}
+  +++ |  T     A *     B      | TA*B -> {#TAB}{^^}
++++++ |      H  O EUFR    T   | HOEUFRT -> history
++++++ |  T                TS  | T-TS -> {#CONTROL(J)}{^^}
+ ++++ |  T                TS  | T-TS -> {#CONTROL(J)}{^^}
+ ++++ |  T                TS  | T-TS -> {#CONTROL(J)}{^^}
++++++ | S             P       | S-P -> {^ ^}
++++++ | S         E       T   | SET -> set
+    + |   KP   A *            | KPA* -> {^}{-|}
++++++ |   K        U RPB  T   | KURPBT -> current
+ ++++ |   KP   A *            | KPA* -> {^}{-|}
+   ++ |    P H  O   F         | PHOF -> move
++++++ |   K W           L     | KW-L -> =
++++++ |    PW    *  F P       | PW*FP -> move{^~|^}=
+ ++++ |  T P  R  *     B G S  | TPR*BGS -> {^\{\}^}{#LEFT}
++++++ | S         E       T   | SET -> set
+   ++ |   KP   A *            | KPA* -> {^}{-|}
+ ++++ |   K        U RPB  T   | KURPBT -> current
+    + |   KP   A *            | KPA* -> {^}{-|}
+   ++ |    P H  O   F         | PHOF -> move
++++++ | S        *  F         | S*F -> {:COMMAND:SHELL:bash -ci 'osascript $STENO_DICTIONARIES/src/command/actions/save.scpt'}{^^}
++++++ | ST P H           G    | STPH-G -> {#RIGHT}{^^}
+      | ST P H           G    | STPH-G -> {#RIGHT}{^^}
++++++ | ST P H       R        | STPH-R -> {#DOWN}{^^}
+  +++ |  TK      *            | TK* -> {>}{&d}
+      |  TK      *            | TK* -> {>}{&d}
+   ++ |  TK      *            | TK* -> {>}{&d}
+      |  TK      *            | TK* -> {>}{&d}
+   ++ | ST P H         B      | STPH-B -> {#UP}{^^}
+    + |        A *    P       | A*P -> {&A}
+   ++ | ST P H   *            | STPH* -> {#LEFT}{^^}
+  +++ | S             P       | S-P -> {^ ^}
+ ++++ |         O EU   B      | OEUB -> {^\^}
++++++ |          *            | * -> *
+   ++ |         O EU   B      | OEUB -> {^\^}
+   ++ |          *            | * -> *
+  +++ |         O E    B      | OEB -> observe
+   ++ |          *            | * -> *
+  +++ |         O EU          | OEU -> {^/^}
++++++ | S        *  F         | S*F -> {:COMMAND:SHELL:bash -ci 'osascript $STENO_DICTIONARIES/src/command/actions/save.scpt'}{^^}
++++++ | S    HRAO*EU  PB      | SHRAO*EUPB -> {:COMMAND:SHELL:bash -ci 'osascript $STENO_DICTIONARIES/src/command/text/select-editable-line.scpt'}
++++++ |  T     A *     B      | TA*B -> {#TAB}{^^}
++++++ |  T P    O    RP L T   | TPORPLT -> format
+  +++ |  T     A *     B      | TA*B -> {#TAB}{^^}
++++++ | S        *  F         | S*F -> {:COMMAND:SHELL:bash -ci 'osascript $STENO_DICTIONARIES/src/command/actions/save.scpt'}{^^}
++++++ |# T   H                | 24 -> /
+    + | ST P H         B      | STPH-B -> {#UP}{^^}
+ ++++ | ST P H       R        | STPH-R -> {#DOWN}{^^}
+    + | S K W R O*            | SKWRO* -> {^o^}
++++++ |    P  R O*   R    T   | PRO*RT -> import
+  +++ |  T     A *     B      | TA*B -> {#TAB}{^^}
++++++ |  T                TS  | T-TS -> {#CONTROL(J)}{^^}
++++++ |      H  O EUFR    T   | HOEUFRT -> history
+  +++ |  T                TS  | T-TS -> {#CONTROL(J)}{^^}
++++++ |  T       *        TS  | T*TS -> {#CONTROL(K)}{^^}
++++++ |  T       *        TS  | T*TS -> {#CONTROL(K)}{^^}
++++++ |  T       *        TS  | T*TS -> {#CONTROL(K)}{^^}
++++++ |  TK      *            | TK* -> {>}{&d}
+      |  TK      *            | TK* -> {>}{&d}
+ ++++ | S K           P       | SK-P -> {#ESCAPE}{MODE:RESET}
+   ++ |  TK      *            | TK* -> {>}{&d}
+      |  TK      *            | TK* -> {>}{&d}
+   ++ | ST P H         B      | STPH-B -> {#UP}{^^}
+    + | S K W R O*            | SKWRO* -> {^o^}
++++++ |    P  R O*   R    T   | PRO*RT -> import
+  +++ |  T     A *     B      | TA*B -> {#TAB}{^^}
+ ++++ |  T                TS  | T-TS -> {#CONTROL(J)}{^^}
+   ++ |   KP   A *            | KPA* -> {^}{-|}
+  +++ |      H  O EUFR    T   | HOEUFRT -> history
+  +++ |  T                TS  | T-TS -> {#CONTROL(J)}{^^}
+   ++ |  TK             L     | TK-L -> {#DELETE}  3>HEUFRT HOEUFRT H-FT/REU HEUF/REU H*EUFT/REU HEUFT/R HEUFT/REU HUFT/REU HEUS/TREU HEUS/TOEUR HEUFT/HREU HEUS/TOER H*EUS/REU H*EUF/REU HEUFT/RU HEUFPT/REU
+    + |  T                TS  | T-TS -> {#CONTROL(J)}{^^}
++++++ | S        *  F         | S*F -> {:COMMAND:SHELL:bash -ci 'osascript $STENO_DICTIONARIES/src/command/actions/save.scpt'}{^^}
++++++ |  T P H     UF   L     | TPHUFL -> {#ESCAPE SHIFT(COLON)}{^edit ^}
++++++ | S            R B G    | S-RBG -> src
+  +++ |   KP   A *            | KPA* -> {^}{-|}
+ ++++ |         O EU          | OEU -> {^/^}
++++++ |      H  O EUFR    T   | HOEUFRT -> history
+  +++ |          *            | * -> *
+    + |   KP   A *            | KPA* -> {^}{-|}
+  +++ |      H  O EUFR    T   | HOEUFRT -> history
+  +++ |    P          P       | P-P -> {^.^}
+   ++ | S K W R            S  | SKWR-S -> *{^.^}js
+   ++ |       R      R        | R-R -> {^~|\n^}{MODE:RESET}
++++++ |          *EU          | *EU -> {>}{&i}
++++++ |   KP    O E   PB  T   | KPOEPBT -> component
++++++ |    PW    *  F P       | PW*FP -> {>}{&i}{^~|^}component
+  +++ |  T     A *     B      | TA*B -> {#TAB}{^^}
++++++ |# T                    | 2 -> /
+   ++ |  T     A *   R B      | TA*RB -> {#TAB}{^^}
++++++ |  T                TS  | T-TS -> {#CONTROL(J)}{^^}
+   ++ |  TK             L     | TK-L -> {#DELETE}
+    + |  T                TS  | T-TS -> {#CONTROL(J)}{^^}
+    + |  T                TS  | T-TS -> {#CONTROL(J)}{^^}
++++++ |  T                TS  | T-TS -> {#CONTROL(J)}{^^}
+   ++ |  T     A *     B      | TA*B -> {#TAB}{^^}
++++++ |      H  O EUFR    T   | HOEUFRT -> history
+ ++++ |              R B G S  | -RBGS -> {,}
++++++ | S         E       T   | SET -> set
+    + |   KP   A *            | KPA* -> {^}{-|}
+ ++++ |   K        U RPB  T   | KURPBT -> current
+    + |   KP   A *            | KPA* -> {^}{-|}
+   ++ |    P H  O   F         | PHOF -> move
+  +++ |  T                TS  | T-TS -> {#CONTROL(J)}{^^}
+   ++ |  T                TS  | T-TS -> {#CONTROL(J)}{^^}
++++++ |  TK      *EUF         | TK*EUF -> div
+   ++ |    P          P       | P-P -> {^.^}
++++++ |  TKPW  A  EU  P L     | TKPWAEUPL -> game
+   ++ |      H        PB      | H-PB -> {^-^}
++++++ |      H  O EUFR    T   | HOEUFRT -> history
+ ++++ |  T     A *     B      | TA*B -> {#TAB}{^^}
++++++ |#S                     | 1 -> /
+   ++ |  T     A *     B      | TA*B -> {#TAB}{^^}
++++++ |  T                TS  | T-TS -> {#CONTROL(J)}{^^}
++++++ |  T                TS  | T-TS -> {#CONTROL(J)}{^^}
++++++ |         O    R      D | ORD -> order
+    + |                     D | -D -> *ordered
++++++ |      HR  *EU       S  | HR*EUS -> list
+   ++ |  T     A *     B      | TA*B -> {#TAB}{^^}
++++++ |  T     A *     B      | TA*B -> {#TAB}{^^}
++++++ |#S                     | 1 -> /
+    + |  T     A *     B      | TA*B -> {#TAB}{^^}
++++++ |  TK             L     | TK-L -> {#DELETE}
+  +++ |  T                TS  | T-TS -> {#CONTROL(J)}{^^}
+  +++ |  T                TS  | T-TS -> {#CONTROL(J)}{^^}
++++++ |     W     E  RPB    D | WERPBD -> western {^ed}
+ ++++ |          *            | * -> *
+  +++ |       R   E  RPB    D | RERPBD -> render
++++++ |  T     A *     B      | TA*B -> {#TAB}{^^}
++++++ |      H  O EUFR    T   | HOEUFRT -> history
+ ++++ |    P          P       | P-P -> {^.^}
+  +++ |    P H A      P       | PHAP -> map
++++++ |  T     A *     B      | TA*B -> {#TAB}{^^}
+ ++++ |  TK             L     | TK-L -> {#DELETE}  3>PHAP
+  +++ |  T                TS  | T-TS -> {#CONTROL(J)}{^^}
++++++ |  T                TS  | T-TS -> {#CONTROL(J)}{^^}
++++++ |  T                TS  | T-TS -> {#CONTROL(J)}{^^}
++++++ |       R    U  PB    D | RUPBD -> {^_^}
++++++ |    P H  O   F         | PHOF -> move
++++++ |              R B G S  | -RBGS -> {,}
++++++ |    P H  O   F         | PHOF -> move
+ ++++ |   KP   A *            | KPA* -> {^}{-|}
+ ++++ | S  PW     E    B G S  | SPWEBGS -> index
++++++ |  T                TS  | T-TS -> {#CONTROL(J)}{^^}
+ ++++ |  TK             L     | TK-L -> {#DELETE}  3>SPWEBGS TKEUPBGS TKPEUPBGS EUPB/EBGS EUPB/TKEBGS
+  +++ |    PW       F P       | PW-FP -> {#BACKSPACE}  4>SPWEBGS TKEUPBGS TKPEUPBGS EUPB/EBGS EUPB/TKEBGS
+    + |       R      R        | R-R -> {^~|\n^}{MODE:RESET}
+ ++++ |    PW       F P       | PW-FP -> {#BACKSPACE}
+      |    PW       F P       | PW-FP -> {#BACKSPACE}
+      |    PW       F P       | PW-FP -> {#BACKSPACE}
+      |    PW       F P       | PW-FP -> {#BACKSPACE}
+  +++ |   K           P       | K-P -> company
+   ++ | S K W R O*    P       | SKWRO*P -> {#SHIFT(O)}{^^}
+ ++++ |    PW       F P       | PW-FP -> {#BACKSPACE}  3>KPAEPB K-P KOFRP/TPH*EU
+      |    PW       F P       | PW-FP -> {#BACKSPACE}  4>KPAEPB K-P KOFRP/TPH*EU KOPL/PA/TPH*EU
+      |    PW       F P       | PW-FP -> {#BACKSPACE}  5>KPAEPB K-P KOFRP/TPH*EU KOPL/PA/TPH*EU
+      |    PW       F P       | PW-FP -> {#BACKSPACE}  6>KPAEPB K-P KOFRP/TPH*EU KOPL/PA/TPH*EU
+      |    PW       F P       | PW-FP -> {#BACKSPACE}  7>KPAEPB K-P KOFRP/TPH*EU KOPL/PA/TPH*EU
+      |    PW       F P       | PW-FP -> {#BACKSPACE}  8>KPAEPB K-P KOFRP/TPH*EU KOPL/PA/TPH*EU
+    + |    PW       F P       | PW-FP -> {#BACKSPACE}  9>KPAEPB K-P KOFRP/TPH*EU KOPL/PA/TPH*EU
+      |    PW       F P       | PW-FP -> {#BACKSPACE}  10>KPAEPB K-P KOFRP/TPH*EU KOPL/PA/TPH*EU
+   ++ | S K           P       | SK-P -> {#ESCAPE}{MODE:RESET}
+   ++ | S K W R O*    P       | SKWRO*P -> {#SHIFT(O)}{^^}
++++++ |   KP    O E   PB  T   | KPOEPBT -> component
+ ++++ |  T     A *     B      | TA*B -> {#TAB}{^^}
++++++ |#S                     | 1 -> /
+   ++ |  T     A *     B      | TA*B -> {#TAB}{^^}
++++++ |   KP   A *            | KPA* -> {^}{-|}
++++++ |      H  O EUFR    T   | HOEUFRT -> history
+  +++ |          *            | * -> *
+ ++++ |      H  O EU R  L     | HOEURL -> historical
++++++ |   KP   A *            | KPA* -> {^}{-|}
+   ++ |    P H  O   F         | PHOF -> move
+  +++ |  T                TS  | T-TS -> {#CONTROL(J)}{^^}
++++++ |  T                TS  | T-TS -> {#CONTROL(J)}{^^}
++++++ |  T     A *     B      | TA*B -> {#TAB}{^^}
++++++ |    P H  O   F         | PHOF -> move
+ ++++ |   KP   A *            | KPA* -> {^}{-|}
++++++ | S  PW     E    B G S  | SPWEBGS -> index
++++++ |  T                TS  | T-TS -> {#CONTROL(J)}{^^}
+  +++ |  T                TS  | T-TS -> {#CONTROL(J)}{^^}
++++++ |  T                TS  | T-TS -> {#CONTROL(J)}{^^}
++++++ | S             P       | S-P -> {^ ^}
++++++ |    P  R O     P       | PROP -> prop
+  +++ |  T     A *     B      | TA*B -> {#TAB}{^^}
++++++ |      H A      PBL     | HAPBL -> handle
+   ++ |   KP   A *            | KPA* -> {^}{-|}
+ ++++ |   K  HR   EU   B G    | KHREUBG -> click
+ ++++ |  T                TS  | T-TS -> {#CONTROL(J)}{^^}
+ ++++ |  T                TS  | T-TS -> {#CONTROL(J)}{^^}
++++++ |  T P       U   B G S  | TPUBGS -> function
+ ++++ |  T     A *     B      | TA*B -> {#TAB}{^^}
++++++ |  T                TS  | T-TS -> {#CONTROL(J)}{^^}
+   ++ |  TK             L     | TK-L -> {#DELETE}  4>TPUPBGS TPUPGS TPUBGS
+  +++ |  T                TS  | T-TS -> {#CONTROL(J)}{^^}
++++++ |    PW       F P       | PW-FP -> {#BACKSPACE}  6>TPUPBGS TPUPGS TPUBGS
++++++ |   KP   A *            | KPA* -> {^}{-|}
++++++ |  TK             L  S  | TK-LS -> {^^}  2>TK-LS
+   ++ | S         E       T   | SET -> set
+   ++ |   KP   A *            | KPA* -> {^}{-|}
++++++ |   K        U RPB  T   | KURPBT -> current
+    + |   KP   A *            | KPA* -> {^}{-|}
+    + |    P H  O   F         | PHOF -> move
++++++ |    P  R       PB   S  | PR-PBS -> {^()^}
++++++ | ST P H   *            | STPH* -> {#LEFT}{^^}
++++++ |    P H  O   F         | PHOF -> move
+   ++ |   KP   A *            | KPA* -> {^}{-|}
++++++ | S  PW     E    B G S  | SPWEBGS -> index
+  +++ | S K           P       | SK-P -> {#ESCAPE}{MODE:RESET}
++++++ | S    HRAO*EU  PB      | SHRAO*EUPB -> {:COMMAND:SHELL:bash -ci 'osascript $STENO_DICTIONARIES/src/command/text/select-editable-line.scpt'}
++++++ |  T     A *     B      | TA*B -> {#TAB}{^^}
++++++ |  T P      E  RP L T   | TPERPLT -> ferment
+ ++++ |          *            | * -> *
+ ++++ |  T P    O    RP L T   | TPORPLT -> format
+  +++ |  T     A *     B      | TA*B -> {#TAB}{^^}
++++++ | ST P H   *            | STPH* -> {#LEFT}{^^}
+   ++ |         O EU          | OEU -> {^/^}
+   ++ | S K           P       | SK-P -> {#ESCAPE}{MODE:RESET}
+    + | ST P H       R        | STPH-R -> {#DOWN}{^^}
+    + |  TK      *            | TK* -> {>}{&d}
+      |  TK      *            | TK* -> {>}{&d}
+      |  TK      *            | TK* -> {>}{&d}
+      |  TK      *            | TK* -> {>}{&d}
++++++ | S        *  F         | S*F -> {:COMMAND:SHELL:bash -ci 'osascript $STENO_DICTIONARIES/src/command/actions/save.scpt'}{^^}
++++++ |  TKPW    *            | TKPW* -> {>}{&g}
+      |  TKPW    *            | TKPW* -> {>}{&g}
+   ++ | S K W R O*    P       | SKWRO*P -> {#SHIFT(O)}{^^}
++++++ |    P  R O*   R    T   | PRO*RT -> import
+  +++ |  T     A *     B      | TA*B -> {#TAB}{^^}
++++++ |  T                TS  | T-TS -> {#CONTROL(J)}{^^}
+   ++ |   KP   A *            | KPA* -> {^}{-|}
+ ++++ |      H    EU R  L     | HEURL -> /
+  +++ |          *            | * -> *
+ ++++ |      H  O EU R  L     | HOEURL -> historical
+ ++++ |  TK    A *            | TKA* -> did a
+  +++ |          *            | * -> *
+    + |   KP   A *            | KPA* -> {^}{-|}
+   ++ |    P H  O   F         | PHOF -> move
+   ++ |  T                TS  | T-TS -> {#CONTROL(J)}{^^}
+   ++ |  TK             L     | TK-L -> {#DELETE}  3>PHO*F PHAO*UF PHOF
+ ++++ |  T                TS  | T-TS -> {#CONTROL(J)}{^^}
+    + |  T                TS  | T-TS -> {#CONTROL(J)}{^^}
+   ++ |  T                TS  | T-TS -> {#CONTROL(J)}{^^}
+  +++ |       R      R        | R-R -> {^~|\n^}{MODE:RESET}
+ ++++ | S        *  F         | S*F -> {:COMMAND:SHELL:bash -ci 'osascript $STENO_DICTIONARIES/src/command/actions/save.scpt'}{^^}
++++++ |  T P H     UF   L     | TPHUFL -> {#ESCAPE SHIFT(COLON)}{^edit ^}
++++++ | S            R B G    | S-RBG -> src
+   ++ |         O EU          | OEU -> {^/^}
+    + |   KP   A *            | KPA* -> {^}{-|}
+ ++++ |      H  O EU R  L     | HOEURL -> historical
+  +++ |   KP   A *            | KPA* -> {^}{-|}
+    + |    P H  O   F         | PHOF -> move
+ ++++ |    P          P       | P-P -> {^.^}
+  +++ | S K W R            S  | SKWR-S -> *{^.^}js
+    + |       R      R        | R-R -> {^~|\n^}{MODE:RESET}
+ ++++ |          *EU          | *EU -> {>}{&i}
++++++ |       R  *E  R B      | R*ERB -> {:COMMAND:SHELL:bash -ci 'osascript $STENO_DICTIONARIES/src/command/actions/refresh.scpt'}{^^}
++++++ |          *EU          | *EU -> {>}{&i}
++++++ |   KP    O E   PB  T   | KPOEPBT -> component
++++++ |    PW    *  F P       | PW*FP -> {>}{&i}{^~|^}component
+  +++ |  T     A *     B      | TA*B -> {#TAB}{^^}
+  +++ |# T                    | 2 -> /
+    + |  T     A *     B      | TA*B -> {#TAB}{^^}
++++++ |  T                TS  | T-TS -> {#CONTROL(J)}{^^}
+   ++ |  TK             L     | TK-L -> {#DELETE}
+   ++ |  T                TS  | T-TS -> {#CONTROL(J)}{^^}
++++++ |  T                TS  | T-TS -> {#CONTROL(J)}{^^}
+ ++++ |  T                TS  | T-TS -> {#CONTROL(J)}{^^}
+  +++ |  T     A *     B      | TA*B -> {#TAB}{^^}
++++++ |    P H  O   F         | PHOF -> move
+  +++ |   KP   A *            | KPA* -> {^}{-|}
+ ++++ | S  PW     E    B G S  | SPWEBGS -> index
+   ++ |              R B G S  | -RBGS -> {,}
++++++ |      H A      PBL     | HAPBL -> handle
+    + |   KP   A *            | KPA* -> {^}{-|}
+  +++ |   K  HR   EU   B G    | KHREUBG -> click
+   ++ |  T                TS  | T-TS -> {#CONTROL(J)}{^^}
+  +++ |  T                TS  | T-TS -> {#CONTROL(J)}{^^}
++++++ |      HR  *EU       S  | HR*EUS -> list
++++++ |        AO*EU  P L     | AO*EUPL -> {^ime}
+  +++ |          *            | * -> *
+   ++ |        AO EU  P L T   | AOEUPLT -> item
+  +++ |  T     A *     B      | TA*B -> {#TAB}{^^}
++++++ |  T     A *     B      | TA*B -> {#TAB}{^^}
++++++ |#S                     | 1 -> /
+    + |  T     A *     B      | TA*B -> {#TAB}{^^}
++++++ |  TK             L     | TK-L -> {#DELETE}
+ ++++ | S             P       | S-P -> {^ ^}
++++++ |   K    AO E           | KAOE -> key
+  +++ |          *            | * -> *
+  +++ |    P  R O     P       | PROP -> prop
+   ++ |  T     A *     B      | TA*B -> {#TAB}{^^}
++++++ |   K    AO E           | KAOE -> key
++++++ |  T                TS  | T-TS -> {#CONTROL(J)}{^^}
+ ++++ |  T                TS  | T-TS -> {#CONTROL(J)}{^^}
++++++ |    P H  O   F         | PHOF -> move
+   ++ |   KP   A *            | KPA* -> {^}{-|}
++++++ | S  PW     E    B G S  | SPWEBGS -> index
++++++ |  T                TS  | T-TS -> {#CONTROL(J)}{^^}
+   ++ |  T                TS  | T-TS -> {#CONTROL(J)}{^^}
+  +++ |  T                TS  | T-TS -> {#CONTROL(J)}{^^}
++++++ |    PW    *    PB      | PW*PB -> button
++++++ |  T     A *     B      | TA*B -> {#TAB}{^^}
++++++ |#S                     | 1 -> /
+   ++ |  T     A *     B      | TA*B -> {#TAB}{^^}
++++++ |  TK             L     | TK-L -> {#DELETE}
++++++ | S             P       | S-P -> {^ ^}
++++++ |    P  R O     P       | PROP -> prop
++++++ |  T     A *     B      | TA*B -> {#TAB}{^^}
++++++ |         O     PB      | OPB -> on
+   ++ |   KP   A *            | KPA* -> {^}{-|}
+  +++ |   K  HR   EU   B G    | KHREUBG -> click
++++++ |  T                TS  | T-TS -> {#CONTROL(J)}{^^}
+  +++ |  T                TS  | T-TS -> {#CONTROL(J)}{^^}
+ ++++ |  T                TS  | T-TS -> {#CONTROL(J)}{^^}
+  +++ |  T                TS  | T-TS -> {#CONTROL(J)}{^^}
+ ++++ |  T                TS  | T-TS -> {#CONTROL(J)}{^^}
++++++ |       R   E  RPB    D | RERPBD -> render
+  +++ |  T     A *     B      | TA*B -> {#TAB}{^^}
++++++ |  TK   R   EU  P  G S  | TKREUPGS -> description
++++++ | S        *  F         | S*F -> {:COMMAND:SHELL:bash -ci 'osascript $STENO_DICTIONARIES/src/command/actions/save.scpt'}{^^}
++++++ |#     H                | 4 -> /
+    + | ST P H         B      | STPH-B -> {#UP}{^^}
+ ++++ | S K W R O*            | SKWRO* -> {^o^}
++++++ |      HR  *EU       S  | HR*EUS -> list
+  +++ |          *            | * -> *
++++++ |      HR  *E       T   | HR*ET -> {^let}
+  +++ |  T     A *     B      | TA*B -> {#TAB}{^^}
++++++ |  TK             L     | TK-L -> {#DELETE}  3>HR*ET *LT
+   ++ |  T                TS  | T-TS -> {#CONTROL(J)}{^^}
++++++ |  TK   R   EU  P  G S  | TKREUPGS -> description
++++++ |  T     A *     B      | TA*B -> {#TAB}{^^}
++++++ |    PW       F P       | PW-FP -> {#BACKSPACE}  3>TKREUPGS SKREUPLGS SKREUPG STREUPGS STKREUPGS SKREUPGS TKE/SKREUPGS TKE/STREUPGS
+ ++++ |  T                TS  | T-TS -> {#CONTROL(J)}{^^}
++++++ |  TK             L     | TK-L -> {#DELETE}  5>TKREUPGS SKREUPLGS SKREUPG STREUPGS STKREUPGS SKREUPGS TKE/SKREUPGS TKE/STREUPGS
++++++ |  T                TS  | T-TS -> {#CONTROL(J)}{^^}
++++++ |       R      R        | R-R -> {^~|\n^}{MODE:RESET}
+      |       R      R        | R-R -> {^~|\n^}{MODE:RESET}
+   ++ | ST P H         B      | STPH-B -> {#UP}{^^}
+   ++ |       R      R        | R-R -> {^~|\n^}{MODE:RESET}
++++++ |  T P                  | TP -> if
+   ++ |  T     A *     B      | TA*B -> {#TAB}{^^}
++++++ |    P H  O   F         | PHOF -> move
+   ++ |   KP   A *            | KPA* -> {^}{-|}
+ ++++ | S  PW     E    B G S  | SPWEBGS -> index
++++++ |    P H       RPB      | PH-RPB -> more than
+ ++++ |  T     A *     B      | TA*B -> {#TAB}{^^}
+  +++ |#        O             | 0 -> /
+  +++ |  T                TS  | T-TS -> {#CONTROL(J)}{^^}
++++++ |  TK   R   EU  P  G S  | TKREUPGS -> description
+ ++++ |   K W           L     | KW-L -> =
+   ++ |  T     A *     B      | TA*B -> {#TAB}{^^}
++++++ | ST    R   EU  PB G    | STREUPBG -> string
+  +++ |  T     A *     B      | TA*B -> {#TAB}{^^}
++++++ |# T                    | 2 -> /
++++++ |   KP   A *            | KPA* -> {^}{-|}
++++++ |  TKPW   O*E       T   | TKPWO*ET -> go to
++++++ |    P H  O   F         | PHOF -> move
++++++ |      H A  E  R B      | HAERB -> #{^}
++++++ |  T P H    E  RP L T   | TPHERPLT -> interpolate
+  +++ |  T     A *     B      | TA*B -> {#TAB}{^^}
++++++ |    P H  O   F         | PHOF -> move
+   ++ |   KP   A *            | KPA* -> {^}{-|}
++++++ | S KPW     E    B G S  | SKPWEBGS -> /
+ ++++ |          *            | * -> *
+ ++++ | S  PW     E    B G S  | SPWEBGS -> index
+    + | S KPW                 | SKPW -> and with
+ ++++ |          *            | * -> *
++++++ |  T                TS  | T-TS -> {#CONTROL(J)}{^^}
+   ++ |  T                TS  | T-TS -> {#CONTROL(J)}{^^}
+   ++ |  T                TS  | T-TS -> {#CONTROL(J)}{^^}
+ ++++ | ST P H   *  F P L T   | STPH*FPLT -> {;}
+ ++++ |  T                TS  | T-TS -> {#CONTROL(J)}{^^}
++++++ |  T                TS  | T-TS -> {#CONTROL(J)}{^^}
++++++ |  TK   R   EU  P  G S  | TKREUPGS -> description
++++++ |   K W  A        L     | KWAL -> equal
+  +++ |  T     A *     B      | TA*B -> {#TAB}{^^}
++++++ | ST     A  EU  PB G    | STAEUPBG -> staining
+ ++++ |          *            | * -> *
+   ++ | ST    R   EU  PB G    | STREUPBG -> string
+ ++++ |  T     A *     B      | TA*B -> {#TAB}{^^}
+ ++++ |#S                     | 1 -> /
++++++ |   KP   A *            | KPA* -> {^}{-|}
+ ++++ |  TKPW   O*E       T   | TKPWO*ET -> go to
++++++ |  TKPW  A  EU  P L     | TKPWAEUPL -> game
++++++ | ST     A     R    T   | START -> start
++++++ |  T                TS  | T-TS -> {#CONTROL(J)}{^^}
+  +++ |  T                TS  | T-TS -> {#CONTROL(J)}{^^}
+ ++++ | ST P H   *  F P L T   | STPH*FPLT -> {;}
++++++ | S        *  F         | S*F -> {:COMMAND:SHELL:bash -ci 'osascript $STENO_DICTIONARIES/src/command/actions/save.scpt'}{^^}
++++++ |  T           RP L     | T-RPL -> {:COMMAND:SHELL:bash -ci 'osascript $STENO_DICTIONARIES/src/command/application/activate-application.scpt iTerm'}
+  +++ |       R  *   R        | R*R -> {#SHIFT(RETURN)}{^^}
++++++ |       R  *E  R B      | R*ERB -> {:COMMAND:SHELL:bash -ci 'osascript $STENO_DICTIONARIES/src/command/actions/refresh.scpt'}{^^}
++++++ | S  P HR           T   | SPHR-T -> {:COMMAND:SHELL:bash -ci 'osascript $STENO_DICTIONARIES/src/command/actions/split-horizontal.scpt'}
++++++ |  T P                 Z| TP-Z -> {:COMMAND:SHELL:bash -ci 'osascript $STENO_DICTIONARIES/src/command/actions/fuzzy-find.scpt'}{^^}
++++++ | ST P H         B      | STPH-B -> {#UP}{^^}
+    + |       R      R        | R-R -> {^~|\n^}{MODE:RESET}
++++++ | ST P H       R        | STPH-R -> {#DOWN}{^^}
+      | ST P H       R        | STPH-R -> {#DOWN}{^^}
+  +++ | S K W R O*            | SKWRO* -> {^o^}
+    + |       R      R        | R-R -> {^~|\n^}{MODE:RESET}
++++++ |   K  HRA           S  | KHRAS -> class
+  +++ |  T     A *     B      | TA*B -> {#TAB}{^^}
++++++ |  TKPW  A  EU  P L     | TKPWAEUPL -> game
+    + |      H        PB      | H-PB -> {^-^}
++++++ |      H  O EUFR    T   | HOEUFRT -> history
++++++ |  T                TS  | T-TS -> {#CONTROL(J)}{^^}
++++++ |      H A     RPB      | HARPB -> /
+  +++ |          *            | * -> *
+   ++ |    P H A     RPB      | PHARPB -> margin
++++++ |      HR   E F     T   | HREFT -> left
+   ++ |  T     A *     B      | TA*B -> {#TAB}{^^}
++++++ |#S                     | 1 -> /
+  +++ |  T     A *     B      | TA*B -> {#TAB}{^^}
+ ++++ |# T      O             | 20 -> /
+  +++ |  T                TS  | T-TS -> {#CONTROL(J)}{^^}
+   ++ |#S                     | 1 -> /
+  +++ |  T                TS  | T-TS -> {#CONTROL(J)}{^^}
+   ++ |  T                TS  | T-TS -> {#CONTROL(J)}{^^}
++++++ | S        *  F         | S*F -> {:COMMAND:SHELL:bash -ci 'osascript $STENO_DICTIONARIES/src/command/actions/save.scpt'}{^^}
++++++ |  T           RP L     | T-RPL -> {:COMMAND:SHELL:bash -ci 'osascript $STENO_DICTIONARIES/src/command/application/activate-application.scpt iTerm'}
++++++ |   K W    *EU          | KW*EU -> {:COMMAND:SHELL:bash -ci 'osascript $STENO_DICTIONARIES/src/command/actions/quit.scpt'}
++++++ | S K             L     | SK-L -> {#CONTROL(Z)}
++++++ |  TKPW    *EU      TS  | TKPW*EUTS -> {^git status --short}
+ ++++ |       R      R        | R-R -> {^~|\n^}{MODE:RESET}
++++++ |  TKPW    *EU      T D | TKPW*EUTD -> {^git add .}
++++++ |       R      R        | R-R -> {^~|\n^}{MODE:RESET}
++++++ |  TKPW     EU  P L T   | TKPWEUPLT -> {^git commit --message=""^}{#LEFT}{-|}
++++++ |        A            D | AD -> add
++++++ |      H  O EUFR    T   | HOEUFRT -> history
+ ++++ |       R      R        | R-R -> {^~|\n^}{MODE:RESET}
